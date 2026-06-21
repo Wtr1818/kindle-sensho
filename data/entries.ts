@@ -1,8 +1,11 @@
+export type Platform = "Kindle" | "Audible";
+
 export type Entry = {
   slug: string;
   title: string;
   author: string;
   asin: string;
+  platform: Platform;
   contentType: "本" | "ドキュメンタリー";
   genre: string;
   coverUrl: string;
@@ -20,7 +23,10 @@ export type Entry = {
 
 const AFFILIATE_TAG = "yomimado91-22";
 
-export function affiliateUrl(asin: string): string {
+export function affiliateUrl(asin: string, platform: Platform = "Kindle"): string {
+  if (platform === "Audible") {
+    return `https://www.audible.co.jp/pd/${asin}?tag=${AFFILIATE_TAG}`;
+  }
   return `https://www.amazon.co.jp/dp/${asin}/?tag=${AFFILIATE_TAG}`;
 }
 
@@ -30,6 +36,7 @@ export const entries: Entry[] = [
     title: "イノベーションのジレンマ 増補改訂版",
     author: "クレイトン・クリステンセン",
     asin: "B009ILGWS6",
+    platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
     coverUrl: "https://covers.openlibrary.org/b/isbn/0875845851-L.jpg",
@@ -51,6 +58,7 @@ export const entries: Entry[] = [
     title: "一九八四年",
     author: "ジョージ・オーウェル（高橋和久 訳）",
     asin: "B009DEMC8W",
+    platform: "Kindle",
     contentType: "本",
     genre: "古典",
     coverUrl: "https://covers.openlibrary.org/b/isbn/0451524934-L.jpg",
