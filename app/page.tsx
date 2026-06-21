@@ -55,7 +55,7 @@ export default function Home() {
           本日の推薦
         </h2>
         <p className="mb-6 text-xs text-zinc-400">
-          表示している割引はAmazon Kindleストアでのセール価格です。価格・在庫はAmazonの商品ページでご確認ください。
+          現在セール対象であることのみを表示しています。価格・在庫はAmazonの商品ページでご確認ください。
         </p>
         <div className="space-y-6">
           {activeEntries.map((entry) => (
@@ -77,7 +77,7 @@ export default function Home() {
                     {entry.contentType} ・ {entry.genre}
                   </span>
                   <span className="rounded-md bg-red-50 px-2 py-0.5 text-xs font-medium text-red-700">
-                    Amazon Kindleストアで{entry.discountPercent}%OFF
+                    セール対象：{entry.saleName}
                   </span>
                 </div>
                 <p className="font-serif text-sm italic text-zinc-700">
@@ -108,24 +108,14 @@ export default function Home() {
                   <span className="rounded-md bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600">
                     {entry.recommenderTag}
                   </span>
-                  <div className="flex items-center gap-3">
-                    <div className="text-sm">
-                      <span className="text-zinc-400 line-through">
-                        ¥{entry.regularPrice.toLocaleString()}
-                      </span>{" "}
-                      <span className="font-semibold text-zinc-900">
-                        ¥{entry.salePrice.toLocaleString()}
-                      </span>
-                    </div>
-                    <a
-                      href={affiliateUrl(entry.asin)}
-                      target="_blank"
-                      rel="noopener noreferrer sponsored"
-                      className="rounded-md bg-zinc-900 px-3 py-1.5 text-xs font-medium text-white hover:bg-zinc-700"
-                    >
-                      Amazonで見る
-                    </a>
-                  </div>
+                  <a
+                    href={affiliateUrl(entry.asin)}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="rounded-md bg-zinc-900 px-3 py-1.5 text-xs font-medium text-white hover:bg-zinc-700"
+                  >
+                    Amazonでセール価格を見る
+                  </a>
                 </div>
               </div>
             </article>

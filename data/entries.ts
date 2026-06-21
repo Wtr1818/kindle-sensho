@@ -12,9 +12,7 @@ export type Entry = {
   recommenderTag: string;
   sourceLabel: string;
   sourceUrl: string;
-  regularPrice: number;
-  salePrice: number;
-  discountPercent: number;
+  saleName: string;
   status: "active" | "archived";
   saleEndsLabel?: string;
   dateAdded: string;
@@ -43,11 +41,9 @@ export const entries: Entry[] = [
     sourceLabel:
       "Amazon幹部との合宿で必読書として扱われていることが複数のビジネスメディアで報じられている",
     sourceUrl: "https://www.businessinsider.jp/post-241878",
-    regularPrice: 2640,
-    salePrice: 1320,
-    discountPercent: 50,
+    saleName: "Kindle日替わりセール",
     status: "active",
-    saleEndsLabel: "本日23:59まで（Amazon Kindleストア調べ）",
+    saleEndsLabel: "本日23:59まで",
     dateAdded: "2026-06-21",
   },
   {
@@ -66,11 +62,9 @@ export const entries: Entry[] = [
     sourceLabel:
       "本人が好んで再読する作品として複数のメディア・ファンサイトで紹介されている",
     sourceUrl: "https://www.buzzfeed.com/kagrawal/books-rm-of-bts-has-read-or-recommended",
-    regularPrice: 990,
-    salePrice: 495,
-    discountPercent: 50,
+    saleName: "早川書房 夏の超大セール 第1弾",
     status: "active",
-    saleEndsLabel: "早川書房 夏の超大セール 第1弾・7月13日まで（価格は要確認）",
+    saleEndsLabel: "7月13日まで",
     dateAdded: "2026-06-21",
   },
 ];
