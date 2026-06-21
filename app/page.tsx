@@ -9,6 +9,7 @@ const recommenderTags = [
   "音楽アーティスト",
   "芸人・コメディアン",
   "料理人",
+  "スポーツ選手",
 ];
 
 export default function Home() {
