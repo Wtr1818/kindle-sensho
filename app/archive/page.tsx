@@ -52,22 +52,25 @@ export default function Archive() {
                     掲載日：{entry.dateAdded}
                   </span>
                 </div>
-                <h3 className="font-serif text-lg font-semibold text-zinc-900">
+                <p className="font-serif text-sm italic text-zinc-700">
+                  {entry.hook}
+                </p>
+                <h3 className="mt-1 font-serif text-lg font-semibold text-zinc-900">
                   {entry.title}
                 </h3>
                 <p className="text-sm text-zinc-500">{entry.author}</p>
                 <p className="mt-2 text-sm text-zinc-600">{entry.whyRead}</p>
                 <p className="mt-2 text-xs text-zinc-500">
-                  推薦：{entry.recommenderName} ／ 出典：
-                  <a
-                    href={entry.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="underline underline-offset-2 hover:text-zinc-700"
-                  >
-                    {entry.sourceLabel}
-                  </a>
+                  推薦：{entry.recommenderName}
                 </p>
+                <a
+                  href={entry.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="mt-2 inline-flex items-center gap-1 rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 hover:bg-emerald-100"
+                >
+                  ✓ 出典確認済み：{entry.sourceLabel}
+                </a>
                 <div className="mt-3 flex items-center justify-between">
                   <span className="rounded-md bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600">
                     {entry.recommenderTag}

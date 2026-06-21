@@ -6,6 +6,7 @@ export type Entry = {
   contentType: "本" | "ドキュメンタリー";
   genre: string;
   coverUrl: string;
+  hook: string;
   whyRead: string;
   recommenderName: string;
   recommenderTag: string;
@@ -34,6 +35,7 @@ export const entries: Entry[] = [
     contentType: "本",
     genre: "ビジネス・経済",
     coverUrl: "https://covers.openlibrary.org/b/isbn/0875845851-L.jpg",
+    hook: "Amazon幹部合宿の必読書に選ばれた経営理論",
     whyRead:
       "優良企業が新興企業に市場を奪われる構造を解明した一冊。Amazonの事業判断の土台になった理論として知られる。",
     recommenderName: "ジェフ・ベゾス（Amazon創業者）",
