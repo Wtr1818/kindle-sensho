@@ -50,4 +50,27 @@ export const entries: Entry[] = [
     saleEndsLabel: "本日23:59まで（Amazon Kindleストア調べ）",
     dateAdded: "2026-06-21",
   },
+  {
+    slug: "1984",
+    title: "一九八四年",
+    author: "ジョージ・オーウェル（高橋和久 訳）",
+    asin: "B009DEMC8W",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/isbn/0451524934-L.jpg",
+    hook: "BTSのRMが好んで再読する一冊",
+    whyRead:
+      "監視社会と思考統制を描いたディストピア小説の代表作。時代を超えて読み継がれる一冊として、自由とは何かを問い直させる。",
+    recommenderName: "RM（BTSリーダー、Kim Namjoon）",
+    recommenderTag: "音楽アーティスト（K-POP）",
+    sourceLabel:
+      "本人が好んで再読する作品として複数のメディア・ファンサイトで紹介されている",
+    sourceUrl: "https://www.buzzfeed.com/kagrawal/books-rm-of-bts-has-read-or-recommended",
+    regularPrice: 990,
+    salePrice: 495,
+    discountPercent: 50,
+    status: "active",
+    saleEndsLabel: "早川書房 夏の超大セール 第1弾・7月13日まで（価格は要確認）",
+    dateAdded: "2026-06-21",
+  },
 ];
