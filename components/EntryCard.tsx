@@ -34,13 +34,12 @@ export function EntryCard({
             <span className="text-xs text-[#000000]/40">
               掲載日：{entry.dateAdded}
             </span>
+          ) : entry.onSale && showSaleBadge ? (
+            <span className="bg-[#b5402b] px-2.5 py-1 text-xs font-medium text-white">
+              {entry.saleEndsLabel ?? "セール中"}
+            </span>
           ) : (
-            showSaleBadge &&
-            entry.saleEndsLabel && (
-              <span className="bg-[#b5402b] px-2.5 py-1 text-xs font-medium text-white">
-                {entry.saleEndsLabel}
-              </span>
-            )
+            <span className="text-xs text-[#000000]/30">セール対象外</span>
           )}
         </div>
         <p className="font-serif text-lg italic text-[#000000]/80">
@@ -70,7 +69,9 @@ export function EntryCard({
         <div className="mt-4 flex items-center justify-between">
           <span className="text-xs text-[#000000]/40">
             {entry.recommenderTag}
-            {!dateInsteadOfSale && ` ・ ${entry.saleName}`}
+            {!dateInsteadOfSale && entry.onSale && entry.saleName
+              ? ` ・ ${entry.saleName}`
+              : ""}
           </span>
           <a
             href={affiliateUrl(entry.asin, entry.platform)}
@@ -78,7 +79,7 @@ export function EntryCard({
             rel="noopener noreferrer sponsored"
             className="border border-[#000000] px-3.5 py-1.5 text-xs font-medium text-[#000000] hover:bg-[#000000] hover:text-[#ffffff]"
           >
-            {entry.platform}でセールを見る
+            {entry.onSale ? `${entry.platform}でセールを見る` : `${entry.platform}で見る`}
           </a>
         </div>
       </div>
