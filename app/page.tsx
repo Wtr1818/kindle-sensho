@@ -24,10 +24,10 @@ export default function Home() {
       <header className="border-b border-zinc-200 bg-white">
         <div className="mx-auto max-w-3xl px-6 py-10">
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
-            Kindleセール選書
+            Yomimado91
           </h1>
           <p className="mt-3 text-zinc-600">
-            Kindleでセール対象になっている本の中から、「なぜ読むべきか」「誰が推薦しているか」を添えて厳選してご紹介するキュレーションサイトです。
+            電子書籍でセール対象になっている本の中から、「なぜ読むべきか」「誰が推薦しているか」を添えて厳選してご紹介するキュレーションサイトです。
             セールが終わった後も読み継がれる「名著アーカイブ」を目指しています。
           </p>
         </div>
