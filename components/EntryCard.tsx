@@ -48,6 +48,9 @@ export function EntryCard({
         <p className="mt-3 text-sm leading-7 text-[#1c1a17]/70">
           {entry.whyRead}
         </p>
+        <p className="mt-3 border-l-2 border-[#1c1a17]/15 pl-3 text-sm leading-7 text-[#1c1a17]/70">
+          {entry.recommenderStory}
+        </p>
         <p className="mt-3 text-xs text-[#1c1a17]/50">
           推薦：{entry.recommenderName}
           <a
