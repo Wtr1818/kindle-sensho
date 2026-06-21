@@ -31,8 +31,8 @@ export function EntryList({
             onClick={() => setFilter(f.value)}
             className={
               filter === f.value
-                ? "border border-[#1c1a17] bg-[#1c1a17] px-3.5 py-1.5 text-xs font-medium text-[#faf8f4]"
-                : "border border-[#1c1a17]/20 px-3.5 py-1.5 text-xs font-medium text-[#1c1a17]/60 hover:border-[#1c1a17]/40"
+                ? "border border-[#000000] bg-[#000000] px-3.5 py-1.5 text-xs font-medium text-[#ffffff]"
+                : "border border-[#000000]/20 px-3.5 py-1.5 text-xs font-medium text-[#000000]/60 hover:border-[#000000]/40"
             }
           >
             {f.label}
@@ -40,11 +40,11 @@ export function EntryList({
         ))}
       </div>
       {filtered.length === 0 ? (
-        <p className="text-sm text-[#1c1a17]/50">
+        <p className="text-sm text-[#000000]/50">
           このプラットフォームの掲載はまだありません。
         </p>
       ) : (
-        <div className="divide-y divide-[#1c1a17]/10">
+        <div className="divide-y divide-[#000000]/10">
           {filtered.map((entry) => (
             <EntryCard
               key={entry.slug}

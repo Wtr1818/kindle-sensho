@@ -8,21 +8,21 @@ export default function Archive() {
   );
 
   return (
-    <div className="min-h-screen bg-[#faf8f4]">
-      <header className="border-b border-[#1c1a17]/10">
-        <div className="mx-auto max-w-3xl px-6 py-14">
+    <div className="min-h-screen bg-[#ffffff]">
+      <header className="border-b-2 border-[#000000]">
+        <div className="mx-auto max-w-3xl px-6 py-16">
           <div className="flex items-baseline justify-between">
-            <h1 className="font-serif text-3xl font-bold tracking-tight text-[#1c1a17]">
+            <h1 className="font-serif text-5xl font-bold tracking-tight text-[#000000]">
               名著アーカイブ
             </h1>
             <Link
               href="/"
-              className="text-sm text-[#1c1a17]/50 underline-offset-4 hover:text-[#1c1a17] hover:underline"
+              className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
             >
               本日の推薦へ
             </Link>
           </div>
-          <p className="mt-4 max-w-xl font-serif text-[15px] leading-8 text-[#1c1a17]/70">
+          <p className="mt-4 max-w-xl font-serif text-[15px] leading-8 text-[#000000]/70">
             セールが終了した後も、著名人の推薦・出典とともに蓄積していくアーカイブです。
           </p>
         </div>
