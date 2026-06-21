@@ -58,7 +58,19 @@ export default function Home() {
 
         <EntryList entries={activeEntries} />
 
-        <p className="mt-14 text-xs text-[#1c1a17]/40">
+        <div className="mt-14 border-t border-[#1c1a17]/10 pt-8">
+          <Link
+            href="/today-sale"
+            className="flex items-center justify-between border border-[#1c1a17]/15 px-5 py-4 text-sm hover:border-[#1c1a17]/40"
+          >
+            <span className="text-[#1c1a17]">
+              推薦の有無にかかわらず、本日のセール対象をすべて見る
+            </span>
+            <span className="text-[#1c1a17]/40">→</span>
+          </Link>
+        </div>
+
+        <p className="mt-8 text-xs text-[#1c1a17]/40">
           現在セール対象であることのみを表示しています。価格・在庫はAmazon／Audibleの商品ページでご確認ください。推薦リストのリサーチを進めながら、掲載数を増やしていきます。
         </p>
       </main>
