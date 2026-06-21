@@ -58,7 +58,7 @@ export const entries: Entry[] = [
     whyRead:
       "監視社会と思考統制を描いたディストピア小説の代表作。時代を超えて読み継がれる一冊として、自由とは何かを問い直させる。",
     recommenderName: "RM（BTSリーダー、Kim Namjoon）",
-    recommenderTag: "音楽アーティスト（K-POP）",
+    recommenderTag: "音楽アーティスト",
     sourceLabel:
       "本人が好んで再読する作品として複数のメディア・ファンサイトで紹介されている",
     sourceUrl: "https://www.buzzfeed.com/kagrawal/books-rm-of-bts-has-read-or-recommended",
