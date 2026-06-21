@@ -1,40 +1,6 @@
 import Image from "next/image";
-
-type Entry = {
-  title: string;
-  author: string;
-  contentType: "本" | "ドキュメンタリー";
-  genre: string;
-  coverUrl: string;
-  whyRead: string;
-  recommenderName: string;
-  recommenderTag: string;
-  sourceLabel: string;
-  regularPrice: number;
-  salePrice: number;
-  discountPercent: number;
-  saleEndsLabel: string;
-};
-
-const entries: Entry[] = [
-  {
-    title: "イノベーションのジレンマ",
-    author: "クレイトン・クリステンセン",
-    contentType: "本",
-    genre: "ビジネス・経済",
-    coverUrl: "https://covers.openlibrary.org/b/isbn/0875845851-L.jpg",
-    whyRead:
-      "優良企業が新興企業に市場を奪われる構造を解明した一冊。Amazonの事業判断の土台になった理論として知られる。",
-    recommenderName: "ジェフ・ベゾス（Amazon創業者）",
-    recommenderTag: "経営者・起業家",
-    sourceLabel:
-      "Amazon幹部との合宿で必読書として扱われていることが複数のビジネスメディアで報じられている",
-    regularPrice: 2640,
-    salePrice: 1320,
-    discountPercent: 50,
-    saleEndsLabel: "本日23:59まで",
-  },
-];
+import Link from "next/link";
+import { affiliateUrl, entries } from "@/data/entries";
 
 const recommenderTags = [
   "経営者・起業家",
@@ -46,15 +12,25 @@ const recommenderTags = [
 ];
 
 export default function Home() {
+  const activeEntries = entries.filter((entry) => entry.status === "active");
+
   return (
     <div className="min-h-screen bg-zinc-50">
       <header className="border-b border-zinc-200 bg-white">
         <div className="mx-auto max-w-3xl px-6 py-10">
-          <h1 className="font-serif text-2xl font-semibold tracking-tight text-zinc-900">
-            Yomimado91
-          </h1>
+          <div className="flex items-center justify-between">
+            <h1 className="font-serif text-2xl font-semibold tracking-tight text-zinc-900">
+              Yomimado91
+            </h1>
+            <Link
+              href="/archive"
+              className="text-sm text-zinc-500 underline-offset-2 hover:underline"
+            >
+              アーカイブを見る
+            </Link>
+          </div>
           <p className="mt-3 text-zinc-600">
-            電子書籍でセール対象になっている本・ドキュメンタリーの中から、実際に著名人が薦めた作品だけを出典付きでご紹介するキュレーションサイトです。
+            Amazon Kindleストアでセール対象になっている本・ドキュメンタリーの中から、実際に著名人が薦めた作品だけを出典付きでご紹介するキュレーションサイトです。
             セールが終わった後も読み継がれる「名著アーカイブ」を目指しています。
           </p>
         </div>
@@ -75,13 +51,16 @@ export default function Home() {
           ))}
         </div>
 
-        <h2 className="mb-6 text-sm font-semibold text-zinc-500">
+        <h2 className="mb-2 text-sm font-semibold text-zinc-500">
           本日の推薦
         </h2>
+        <p className="mb-6 text-xs text-zinc-400">
+          表示している割引はAmazon Kindleストアでのセール価格です。価格・在庫はAmazonの商品ページでご確認ください。
+        </p>
         <div className="space-y-6">
-          {entries.map((entry) => (
+          {activeEntries.map((entry) => (
             <article
-              key={entry.title}
+              key={entry.slug}
               className="flex gap-5 rounded-xl border border-zinc-200 bg-white p-5"
             >
               <Image
@@ -98,28 +77,51 @@ export default function Home() {
                     {entry.contentType} ・ {entry.genre}
                   </span>
                   <span className="rounded-md bg-red-50 px-2 py-0.5 text-xs font-medium text-red-700">
-                    {entry.discountPercent}%OFF ・ {entry.saleEndsLabel}
+                    Amazon Kindleストアで{entry.discountPercent}%OFF
                   </span>
                 </div>
                 <h3 className="font-serif text-lg font-semibold text-zinc-900">
                   {entry.title}
                 </h3>
                 <p className="text-sm text-zinc-500">{entry.author}</p>
+                {entry.saleEndsLabel && (
+                  <p className="mt-1 text-xs text-zinc-400">
+                    {entry.saleEndsLabel}
+                  </p>
+                )}
                 <p className="mt-2 text-sm text-zinc-600">{entry.whyRead}</p>
                 <p className="mt-2 text-xs text-zinc-500">
-                  推薦：{entry.recommenderName} ／ 出典：{entry.sourceLabel}
+                  推薦：{entry.recommenderName} ／ 出典：
+                  <a
+                    href={entry.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="underline underline-offset-2 hover:text-zinc-700"
+                  >
+                    {entry.sourceLabel}
+                  </a>
                 </p>
                 <div className="mt-3 flex items-center justify-between">
                   <span className="rounded-md bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600">
                     {entry.recommenderTag}
                   </span>
-                  <div className="text-sm">
-                    <span className="text-zinc-400 line-through">
-                      ¥{entry.regularPrice.toLocaleString()}
-                    </span>{" "}
-                    <span className="font-semibold text-zinc-900">
-                      ¥{entry.salePrice.toLocaleString()}
-                    </span>
+                  <div className="flex items-center gap-3">
+                    <div className="text-sm">
+                      <span className="text-zinc-400 line-through">
+                        ¥{entry.regularPrice.toLocaleString()}
+                      </span>{" "}
+                      <span className="font-semibold text-zinc-900">
+                        ¥{entry.salePrice.toLocaleString()}
+                      </span>
+                    </div>
+                    <a
+                      href={affiliateUrl(entry.asin)}
+                      target="_blank"
+                      rel="noopener noreferrer sponsored"
+                      className="rounded-md bg-zinc-900 px-3 py-1.5 text-xs font-medium text-white hover:bg-zinc-700"
+                    >
+                      Amazonで見る
+                    </a>
                   </div>
                 </div>
               </div>
