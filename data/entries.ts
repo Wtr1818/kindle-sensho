@@ -8,7 +8,7 @@ export type Entry = {
   platform: Platform;
   contentType: "本" | "ドキュメンタリー";
   genre: string;
-  coverUrl: string;
+  coverUrl?: string;
   hook: string;
   whyRead: string;
   recommenderStory: string;
@@ -40,7 +40,6 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
-    coverUrl: "https://covers.openlibrary.org/b/isbn/0451524934-L.jpg",
     hook: "BTSのRMが何度も読み返し、メンバーにも広がった一冊",
     whyRead:
       "監視社会と思考統制を描いたディストピア小説の代表作。時代を超えて読み継がれる一冊として、自由とは何かを問い直させる。",

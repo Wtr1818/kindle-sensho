@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Entry, affiliateUrl } from "@/data/entries";
+import { CoverPlaceholder } from "./CoverPlaceholder";
 
 export function EntryCard({
   entry,
@@ -12,14 +13,18 @@ export function EntryCard({
 }) {
   return (
     <article className="flex gap-8 py-10 first:pt-0">
-      <Image
-        src={entry.coverUrl}
-        alt={`${entry.title}の表紙`}
-        width={168}
-        height={252}
-        className="h-[252px] w-[168px] flex-none object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
-        unoptimized
-      />
+      {entry.coverUrl ? (
+        <Image
+          src={entry.coverUrl}
+          alt={`${entry.title}の表紙`}
+          width={168}
+          height={252}
+          className="h-[252px] w-[168px] flex-none object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
+          unoptimized
+        />
+      ) : (
+        <CoverPlaceholder title={entry.title} author={entry.author} />
+      )}
       <div className="flex-1">
         <div className="mb-3 flex items-center justify-between">
           <span className="text-xs text-[#000000]/40">

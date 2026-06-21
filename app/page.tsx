@@ -29,7 +29,10 @@ export default function Home() {
               アーカイブ
             </Link>
           </div>
-          <p className="mt-5 max-w-xl font-serif text-[15px] leading-8 text-[#000000]/70">
+          <p className="mt-3 font-serif text-lg italic text-[#000000]">
+            本を通して、世界を覗く窓。
+          </p>
+          <p className="mt-4 max-w-xl font-serif text-[15px] leading-8 text-[#000000]/70">
             Amazon KindleストアやAudibleでセール対象になっている本・ドキュメンタリーの中から、実際に著名人が薦めた作品だけを出典付きでご紹介します。セールが終わった後も読み継がれる「名著アーカイブ」を目指しています。
           </p>
         </div>
@@ -40,11 +43,11 @@ export default function Home() {
           <p className="mb-3 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
             RECOMMENDED BY
           </p>
-          <div className="flex flex-wrap gap-x-5 gap-y-2">
+          <div className="flex flex-wrap gap-3">
             {recommenderTags.map((tag) => (
               <span
                 key={tag}
-                className="text-sm text-[#000000]/60 hover:text-[#000000]"
+                className="rounded-full border border-[#000000] px-4 py-1.5 text-base font-medium text-[#000000] hover:bg-[#000000] hover:text-white"
               >
                 {tag}
               </span>
