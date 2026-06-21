@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { dailySaleList, dailySaleUpdatedAt } from "@/data/dailySaleList";
+import { SaleListView } from "@/components/SaleListView";
 
 export default function TodaySale() {
   return (
@@ -24,30 +25,7 @@ export default function TodaySale() {
       </header>
 
       <main className="mx-auto max-w-3xl px-6 py-14">
-        <ul className="divide-y divide-[#1c1a17]/10">
-          {dailySaleList.map((item) => (
-            <li key={item.title} className="flex items-baseline justify-between gap-4 py-4">
-              <div>
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="text-sm font-medium text-[#1c1a17] underline-offset-2 hover:underline"
-                >
-                  {item.title}
-                </a>
-                {item.author && (
-                  <span className="ml-2 text-xs text-[#1c1a17]/50">
-                    {item.author}
-                  </span>
-                )}
-              </div>
-              <span className="flex-none text-xs text-[#1c1a17]/40">
-                {item.saleName}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <SaleListView items={dailySaleList} />
         <p className="mt-10 text-xs text-[#1c1a17]/40">
           価格・在庫はAmazonの商品ページでご確認ください。
         </p>
