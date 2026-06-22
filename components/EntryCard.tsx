@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Entry, affiliateUrl } from "@/data/entries";
+import { splitRecommenderNames } from "@/data/recommenders";
 import { CoverPlaceholder } from "./CoverPlaceholder";
 
 export function EntryCard({
@@ -59,7 +60,18 @@ export function EntryCard({
           {entry.recommenderStory}
         </p>
         <p className="mt-3 text-xs text-[#000000]/50">
-          推薦：{entry.recommenderName}
+          推薦：
+          {splitRecommenderNames(entry.recommenderName).map((name, i) => (
+            <span key={name}>
+              {i > 0 && " ／ "}
+              <Link
+                href={`/recommender/${encodeURIComponent(name)}`}
+                className="underline-offset-2 hover:underline"
+              >
+                {name}
+              </Link>
+            </span>
+          ))}
           <a
             href={entry.sourceUrl}
             target="_blank"
