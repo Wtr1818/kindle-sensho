@@ -30,7 +30,13 @@ export function EntryCard({
       <div className="flex-1">
         <div className="mb-3 flex items-center justify-between">
           <span className="text-xs text-[#000000]/40">
-            {entry.platform} ・ {entry.contentType} ／ {entry.genre}
+            {entry.platform} ・ {entry.contentType} ／{" "}
+            <Link
+              href={`/genre/${encodeURIComponent(entry.genre)}`}
+              className="hover:underline"
+            >
+              {entry.genre}
+            </Link>
           </span>
           {dateInsteadOfSale ? (
             <span className="text-xs text-[#000000]/40">

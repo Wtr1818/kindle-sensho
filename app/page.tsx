@@ -47,6 +47,11 @@ export default function Home() {
         <p className="mt-8 text-xs text-[#000000]/40">
           価格・在庫はAmazon／Audibleの商品ページでご確認ください。推薦リストのリサーチを進めながら、掲載数を増やしていきます。
         </p>
+        <p className="mt-2 text-xs text-[#000000]/40">
+          <a href="/feed.xml" className="underline-offset-2 hover:underline">
+            RSSで更新を受け取る
+          </a>
+        </p>
       </main>
     </div>
   );

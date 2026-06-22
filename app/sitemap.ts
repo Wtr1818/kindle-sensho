@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { entries } from "@/data/entries";
 import { getRecommenderNames } from "@/data/recommenders";
+import { getGenreNames } from "@/data/genres";
 
 const BASE_URL = "https://yomimado91.com";
 
@@ -20,5 +21,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  return [...staticPages, ...bookPages, ...recommenderPages];
+  const genrePages = getGenreNames().map((genre) => ({
+    url: `${BASE_URL}/genre/${encodeURIComponent(genre)}`,
+    lastModified: new Date(),
+  }));
+
+  return [...staticPages, ...bookPages, ...recommenderPages, ...genrePages];
 }
