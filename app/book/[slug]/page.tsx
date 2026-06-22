@@ -12,14 +12,15 @@ function findEntry(slug: string) {
   return entries.find((entry) => entry.slug === slug);
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const entry = findEntry(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const entry = findEntry(slug);
   if (!entry) return {};
-  const title = `${entry.recommenderName}が薦める『${entry.title}』 | 読み窓91`;
+  const title = `${entry.recommenderName}が薦める『${entry.title}』`;
   const description = `${entry.hook}。${entry.whyRead}`;
   return {
     title,
@@ -37,12 +38,13 @@ export function generateMetadata({
   };
 }
 
-export default function BookPage({
+export default async function BookPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const entry = findEntry(params.slug);
+  const { slug } = await params;
+  const entry = findEntry(slug);
   if (!entry) notFound();
 
   const jsonLd = {

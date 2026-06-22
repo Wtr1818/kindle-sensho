@@ -11,12 +11,13 @@ export function generateStaticParams() {
   return getRecommenderNames().map((name) => ({ name }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { name: string };
-}): Metadata {
-  const name = decodeURIComponent(params.name);
+  params: Promise<{ name: string }>;
+}): Promise<Metadata> {
+  const { name: rawName } = await params;
+  const name = decodeURIComponent(rawName);
   const title = `${name}のおすすめ本まとめ`;
   const description = `${name}が実際に薦めた本を、出典付きでまとめました。`;
   return {
@@ -27,12 +28,13 @@ export function generateMetadata({
   };
 }
 
-export default function RecommenderPage({
+export default async function RecommenderPage({
   params,
 }: {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 }) {
-  const name = decodeURIComponent(params.name);
+  const { name: rawName } = await params;
+  const name = decodeURIComponent(rawName);
   const books = getEntriesByRecommender(name);
   if (books.length === 0) notFound();
 
