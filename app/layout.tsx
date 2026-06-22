@@ -19,9 +19,21 @@ const shipporiMincho = Shippori_Mincho({
 });
 
 export const metadata: Metadata = {
-  title: "Yomimado91",
+  metadataBase: new URL("https://yomimado91.com"),
+  title: {
+    default: "読み窓91 | 著名人が薦める本のキュレーション",
+    template: "%s | 読み窓91",
+  },
   description:
-    "電子書籍のセール本を「なぜ読むべきか」「誰が推薦しているか」とともに厳選してご紹介するキュレーションサイト",
+    "経営者、文学者、映画監督、音楽アーティスト、コメディアン、料理人、スポーツ選手……実際に著名人が薦めた本を出典付きでご紹介するキュレーションサイト。Kindleセール情報も。",
+  openGraph: {
+    siteName: "読み窓91",
+    type: "website",
+    locale: "ja_JP",
+  },
+  twitter: {
+    card: "summary",
+  },
 };
 
 export default function RootLayout({

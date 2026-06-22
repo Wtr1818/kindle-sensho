@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Entry, affiliateUrl } from "@/data/entries";
 import { CoverPlaceholder } from "./CoverPlaceholder";
 
@@ -46,7 +47,9 @@ export function EntryCard({
           {entry.hook}
         </p>
         <h3 className="mt-1 font-serif text-2xl font-bold leading-tight text-[#000000]">
-          {entry.title}
+          <Link href={`/book/${entry.slug}`} className="hover:underline">
+            {entry.title}
+          </Link>
         </h3>
         <p className="mt-0.5 text-sm text-[#000000]/50">{entry.author}</p>
         <p className="mt-3 text-sm leading-7 text-[#000000]/70">

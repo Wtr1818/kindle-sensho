@@ -1,0 +1,85 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { entries, affiliateUrl } from "@/data/entries";
+import { EntryCard } from "@/components/EntryCard";
+
+export function generateStaticParams() {
+  return entries.map((entry) => ({ slug: entry.slug }));
+}
+
+function findEntry(slug: string) {
+  return entries.find((entry) => entry.slug === slug);
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const entry = findEntry(params.slug);
+  if (!entry) return {};
+  const title = `${entry.recommenderName}が薦める『${entry.title}』 | 読み窓91`;
+  const description = `${entry.hook}。${entry.whyRead}`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+  };
+}
+
+export default function BookPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const entry = findEntry(params.slug);
+  if (!entry) notFound();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    name: entry.title,
+    author: { "@type": "Person", name: entry.author },
+    genre: entry.genre,
+    review: {
+      "@type": "Review",
+      author: { "@type": "Person", name: entry.recommenderName },
+      reviewBody: entry.recommenderStory,
+    },
+  };
+
+  return (
+    <div className="min-h-screen bg-[#ffffff]">
+      <header className="border-b-2 border-[#000000]">
+        <div className="mx-auto max-w-3xl px-6 py-10">
+          <Link
+            href="/"
+            className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
+          >
+            ← 読み窓91のライブラリへ
+          </Link>
+        </div>
+      </header>
+      <main className="mx-auto max-w-3xl px-6 py-10">
+        <EntryCard entry={entry} />
+        <p className="mt-8 text-xs text-[#000000]/40">
+          価格・在庫はAmazonの商品ページでご確認ください。
+        </p>
+      </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    </div>
+  );
+}
