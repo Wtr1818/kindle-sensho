@@ -246,4 +246,25 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-06-22",
   },
+  {
+    slug: "crying-in-h-mart",
+    title: "Crying in H Mart: A Memoir",
+    author: "Michelle Zauner（英語版）",
+    asin: "0525657746",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "エッセイ",
+    hook: "Dua Lipaが自身のブッククラブで選んだ、食と家族をめぐる回想録",
+    whyRead:
+      "インディーロックバンド「Japanese Breakfast」のフロントウーマンが、韓国系の母を亡くした経験と料理を通じて自分のルーツを見つめ直す回想録。NYTベストセラー1位を1年以上記録した話題作。",
+    recommenderStory:
+      "Dua Lipaは自身のメディア「Service95」が運営するブッククラブで本作を選書している。グリーフ（悲嘆）と食、アイデンティティを重ねた物語として紹介されている。",
+    recommenderName: "Dua Lipa（音楽アーティスト）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel: "Service95ブッククラブの選書として紹介",
+    sourceUrl: "https://tertulia.com/editorial-list/dua-lipa-complete-book-club-picks",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-06-22",
+  },
 ];
