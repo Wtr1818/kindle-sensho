@@ -10,7 +10,7 @@ export type SaleListItem = {
   saleEndsAt?: string;
 };
 
-export const dailySaleUpdatedAt = "2026-06-24";
+export const dailySaleUpdatedAt = "2026-06-27";
 
 export const dailySaleList: SaleListItem[] = [
   {
@@ -113,15 +113,6 @@ export const dailySaleList: SaleListItem[] = [
     saleEndsAt: "2026-07-13",
   },
   {
-    title: "塩狩峠",
-    author: "三浦綾子",
-    asin: "B009YES582",
-    link: "https://www.amazon.co.jp/dp/B009YES582/?tag=yomimado91-22",
-    saleName: "Kindleストア 期間限定キャンペーン",
-    genre: "小説",
-    saleEndsAt: "2026-07-13",
-  },
-  {
     title: "１Ｑ８４ BOOK1〈4月-6月〉前編",
     author: "村上春樹",
     asin: "B08N5RW6TC",
@@ -185,30 +176,39 @@ export const dailySaleList: SaleListItem[] = [
     saleEndsAt: "2026-07-13",
   },
   {
-    title: "キリンビール高知支店の奇跡 勝利の法則は現場で拾え！",
-    author: "田村潤",
-    asin: "B01EMXSZCK",
-    link: "https://www.amazon.co.jp/dp/B01EMXSZCK/?tag=yomimado91-22",
-    saleName: "Kindle日替わりセール",
+    title: "居場所。",
+    author: "大﨑洋",
+    asin: "B0BY1PZS6X",
+    link: "https://www.amazon.co.jp/dp/B0BY1PZS6X/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "自己啓発",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "ユダヤの商法(新装版)",
+    author: "藤田田",
+    asin: "B07QK8MD49",
+    link: "https://www.amazon.co.jp/dp/B07QK8MD49/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
     genre: "ビジネス・経済",
-    saleEndsAt: "2026-06-24",
+    saleEndsAt: "2026-07-13",
   },
   {
-    title: "小さな恋のものがたり 電子特別編集版 第1巻",
-    author: "みつはし ちかこ",
-    asin: "B00AQBZ90O",
-    link: "https://www.amazon.co.jp/dp/B00AQBZ90O/?tag=yomimado91-22",
-    saleName: "Kindle日替わりセール",
-    genre: "マンガ",
-    saleEndsAt: "2026-06-24",
+    title: "幻獣少年キマイラ",
+    author: "夢枕獏",
+    asin: "B00EPZCOSC",
+    link: "https://www.amazon.co.jp/dp/B00EPZCOSC/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "小説",
+    saleEndsAt: "2026-07-13",
   },
   {
-    title: "体が生まれ変わる「ケトン体」食事法",
-    author: "白澤卓二",
-    asin: "B015HAOHXS",
-    link: "https://www.amazon.co.jp/dp/B015HAOHXS/?tag=yomimado91-22",
-    saleName: "Kindle日替わりセール",
-    genre: "ノンフィクション",
-    saleEndsAt: "2026-06-24",
+    title: "色彩論 ゲーテ自然科学論集",
+    author: "ゲーテ",
+    asin: "B01FLMSCOW",
+    link: "https://www.amazon.co.jp/dp/B01FLMSCOW/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "古典",
+    saleEndsAt: "2026-07-13",
   },
 ];
