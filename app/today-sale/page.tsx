@@ -1,8 +1,33 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { dailySaleList, dailySaleUpdatedAt } from "@/data/dailySaleList";
 import { SaleListView } from "@/components/SaleListView";
 
+export const metadata: Metadata = {
+  title: "本日のKindleセール対象一覧",
+  description:
+    "本日Amazon Kindleストアでセール・割引対象になっている本をすべて掲載。日替わりセール・期間限定キャンペーンの対象タイトルを毎日更新しています。",
+  openGraph: {
+    title: "本日のKindleセール対象一覧 | 読み窓91",
+    description:
+      "本日Amazon Kindleストアでセール・割引対象になっている本をすべて掲載。毎日更新。",
+    type: "website",
+  },
+};
+
 export default function TodaySale() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "本日のKindleセール対象一覧",
+    itemListElement: dailySaleList.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: item.link,
+      name: item.title,
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-[#ffffff]">
       <header className="border-b-2 border-[#000000]">
@@ -30,6 +55,10 @@ export default function TodaySale() {
           価格・在庫はAmazonの商品ページでご確認ください。
         </p>
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </div>
   );
 }

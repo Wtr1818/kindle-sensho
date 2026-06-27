@@ -1,7 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { SaleListItem } from "@/data/dailySaleList";
+import { entries } from "@/data/entries";
 
 function formatEndsAt(saleEndsAt?: string): string {
   if (!saleEndsAt) return "終了日不明";
@@ -13,6 +15,12 @@ function daysUntil(saleEndsAt?: string): number {
   if (!saleEndsAt) return Infinity;
   const today = new Date(`${saleEndsAt}T00:00:00+09:00`);
   return Math.ceil((today.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
+}
+
+function findMatchingEntry(title: string) {
+  return entries.find(
+    (entry) => entry.status === "active" && entry.title === title,
+  );
 }
 
 export function SaleListView({ items }: { items: SaleListItem[] }) {
@@ -79,40 +87,54 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
       </div>
 
       <ul className="divide-y divide-[#000000]/10">
-        {filtered.map((item) => (
-          <li
-            key={item.title}
-            className="flex items-center justify-between gap-4 py-4"
-          >
-            <div>
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer sponsored"
-                className="text-sm font-medium text-[#000000] underline-offset-2 hover:underline"
-              >
-                {item.title}
-              </a>
-              {item.author && (
-                <span className="ml-2 text-xs text-[#000000]/50">
-                  {item.author}
-                </span>
-              )}
-              <div className="mt-1 flex items-center gap-2">
-                <span className="text-xs text-[#000000]/40">
-                  {item.genre}
-                </span>
-                <span className="text-xs text-[#000000]/40">・</span>
-                <span className="text-xs text-[#000000]/40">
-                  {item.saleName}
-                </span>
+        {filtered.map((item) => {
+          const matched = findMatchingEntry(item.title);
+          return (
+            <li
+              key={item.title}
+              className="flex items-center justify-between gap-4 py-4"
+            >
+              <div>
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="text-sm font-medium text-[#000000] underline-offset-2 hover:underline"
+                >
+                  {item.title}
+                </a>
+                {item.author && (
+                  <span className="ml-2 text-xs text-[#000000]/50">
+                    {item.author}
+                  </span>
+                )}
+                <div className="mt-1 flex items-center gap-2">
+                  <span className="text-xs text-[#000000]/40">
+                    {item.genre}
+                  </span>
+                  <span className="text-xs text-[#000000]/40">・</span>
+                  <span className="text-xs text-[#000000]/40">
+                    {item.saleName}
+                  </span>
+                  {matched && (
+                    <>
+                      <span className="text-xs text-[#000000]/40">・</span>
+                      <Link
+                        href={`/book/${matched.slug}`}
+                        className="text-xs font-medium text-[#b5402b] underline-offset-2 hover:underline"
+                      >
+                        {matched.recommenderName}が推薦
+                      </Link>
+                    </>
+                  )}
+                </div>
               </div>
-            </div>
-            <span className="flex-none bg-[#b5402b]/10 px-2 py-1 text-xs font-medium text-[#b5402b]">
-              {formatEndsAt(item.saleEndsAt)}
-            </span>
-          </li>
-        ))}
+              <span className="flex-none bg-[#b5402b]/10 px-2 py-1 text-xs font-medium text-[#b5402b]">
+                {formatEndsAt(item.saleEndsAt)}
+              </span>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

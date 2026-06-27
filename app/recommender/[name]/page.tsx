@@ -38,6 +38,18 @@ export default async function RecommenderPage({
   const books = getEntriesByRecommender(name);
   if (books.length === 0) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${name}のおすすめ本`,
+    itemListElement: books.map((book, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://yomimado91.com/book/${book.slug}`,
+      name: book.title,
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-[#ffffff]">
       <header className="border-b-2 border-[#000000]">
@@ -63,6 +75,10 @@ export default async function RecommenderPage({
           ))}
         </div>
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </div>
   );
 }

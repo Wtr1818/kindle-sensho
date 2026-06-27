@@ -5,6 +5,15 @@ import { LibraryView } from "@/components/LibraryView";
 export default function Home() {
   const activeEntries = entries.filter((entry) => entry.status === "active");
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "読み窓91",
+    url: "https://yomimado91.com",
+    description:
+      "経営者、文学者、映画監督、音楽アーティスト、コメディアン、料理人、スポーツ選手らが実際に薦めた本を出典付きで紹介するキュレーションサイト",
+  };
+
   return (
     <div className="min-h-screen bg-[#ffffff]">
       <header className="border-b-2 border-[#000000]">
@@ -53,6 +62,10 @@ export default function Home() {
           </a>
         </p>
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </div>
   );
 }
