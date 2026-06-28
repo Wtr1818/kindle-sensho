@@ -20,6 +20,9 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: {
+      canonical: `https://yomimado91.com/genre/${encodeURIComponent(genre)}`,
+    },
     openGraph: { title, description, type: "article" },
     twitter: { card: "summary", title, description },
   };

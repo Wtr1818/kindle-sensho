@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "本日のKindleセール対象一覧",
   description:
     "本日Amazon Kindleストアでセール・割引対象になっている本をすべて掲載。日替わりセール・期間限定キャンペーンの対象タイトルを毎日更新しています。",
+  alternates: {
+    canonical: "/today-sale",
+  },
   openGraph: {
     title: "本日のKindleセール対象一覧 | 読み窓91",
     description:

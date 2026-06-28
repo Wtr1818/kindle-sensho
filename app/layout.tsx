@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     google: "mzDW1XI5MoyqTVF8d9oclsAdjFtXwb5qdhpn02Mzw7Y",
   },
   alternates: {
+    canonical: "/",
     types: {
       "application/rss+xml": "/feed.xml",
     },

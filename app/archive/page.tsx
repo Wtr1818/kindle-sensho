@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "名著アーカイブ",
   description:
     "著名人が薦めた本を、セール終了後も出典付きで蓄積していくアーカイブページです。",
+  alternates: {
+    canonical: "/archive",
+  },
 };
 
 export default function Archive() {

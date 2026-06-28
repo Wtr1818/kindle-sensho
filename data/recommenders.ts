@@ -25,3 +25,7 @@ export function getEntriesByRecommender(name: string): Entry[] {
       splitRecommenderNames(entry.recommenderName).includes(name),
   );
 }
+
+export function shortName(name: string): string {
+  return name.replace(/\s*[（(][^）)]*[）)]\s*$/, "").trim();
+}
