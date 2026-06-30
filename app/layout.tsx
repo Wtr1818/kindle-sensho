@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Shippori_Mincho } from "next/font/google";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-PHQXK6MG98";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +60,18 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${shipporiMincho.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <div className="flex-1">{children}</div>
         <Footer />
       </body>
