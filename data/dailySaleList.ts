@@ -10,7 +10,7 @@ export type SaleListItem = {
   saleEndsAt?: string;
 };
 
-export const dailySaleUpdatedAt = "2026-06-27";
+export const dailySaleUpdatedAt = "2026-07-01";
 
 export const dailySaleList: SaleListItem[] = [
   {
