@@ -10,7 +10,7 @@ export type SaleListItem = {
   saleEndsAt?: string;
 };
 
-export const dailySaleUpdatedAt = "2026-07-01";
+export const dailySaleUpdatedAt = "2026-07-02";
 
 export const dailySaleList: SaleListItem[] = [
   {
@@ -209,6 +209,69 @@ export const dailySaleList: SaleListItem[] = [
     link: "https://www.amazon.co.jp/dp/B01FLMSCOW/?tag=yomimado91-22",
     saleName: "Kindleストア 期間限定キャンペーン",
     genre: "古典",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "グレート・ギャツビー（新潮文庫）",
+    author: "F・スコット・フィッツジェラルド",
+    asin: "B00CM2DABA",
+    link: "https://www.amazon.co.jp/dp/B00CM2DABA/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "小説",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "海辺のカフカ（上）（新潮文庫）",
+    author: "村上春樹",
+    asin: "B08N5RQV7V",
+    link: "https://www.amazon.co.jp/dp/B08N5RQV7V/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "小説",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "人を動かす 改訂文庫版",
+    author: "D・カーネギー",
+    asin: "B0CDKYTLV1",
+    link: "https://www.amazon.co.jp/dp/B0CDKYTLV1/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "自己啓発",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "WHYから始めよ！ インスパイア型リーダーはここが違う",
+    author: "サイモン・シネック",
+    asin: "B0BGXG5G1Q",
+    link: "https://www.amazon.co.jp/dp/B0BGXG5G1Q/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "ビジネス・経済",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "アルケミスト 夢を旅した少年 (角川文庫)",
+    author: "パウロ・コエーリョ",
+    asin: "B00DE5YZZO",
+    link: "https://www.amazon.co.jp/dp/B00DE5YZZO/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "小説",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "地下室の手記（新潮文庫）",
+    author: "ドストエフスキー",
+    asin: "B01E6HG97U",
+    link: "https://www.amazon.co.jp/dp/B01E6HG97U/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "古典",
+    saleEndsAt: "2026-07-13",
+  },
+  {
+    title: "KOBE BRYANT THE MAMBA MENTALITY HOW I PLAY",
+    author: "コービー・ブライアント",
+    asin: "B07QKXZT37",
+    link: "https://www.amazon.co.jp/dp/B07QKXZT37/?tag=yomimado91-22",
+    saleName: "Kindleストア 期間限定キャンペーン",
+    genre: "ノンフィクション",
     saleEndsAt: "2026-07-13",
   },
 ];
