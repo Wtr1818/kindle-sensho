@@ -1374,9 +1374,7 @@ export const entries: Entry[] = [
     sourceLabel: "テレビ朝日「アメトーーク！読書芸人」(2017年)で「15年ぶりに泣いた」と発言",
     sourceUrl: "https://www.bookbang.jp/article/542108",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 期間限定キャンペーン",
-    saleEndsLabel: "7月23日まで",
+    onSale: false,
     dateAdded: "2026-07-15",
   },
   {
@@ -1422,9 +1420,7 @@ export const entries: Entry[] = [
     sourceLabel: "インタビューで自身のお気に入りの本として紹介",
     sourceUrl: "https://www.tatlerasia.com/lifestyle/entertainment/kpop-idols-books",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 期間限定キャンペーン",
-    saleEndsLabel: "7月23日まで",
+    onSale: false,
     dateAdded: "2026-07-15",
   },
   {
@@ -1447,9 +1443,7 @@ export const entries: Entry[] = [
     sourceLabel: "「作家の読書道」第180回インタビューで、最初に読んだ小説として紹介",
     sourceUrl: "https://www.webdoku.jp/rensai/sakka/michi180_sumino/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 期間限定キャンペーン",
-    saleEndsLabel: "7月23日まで",
+    onSale: false,
     dateAdded: "2026-07-15",
   },
   {
