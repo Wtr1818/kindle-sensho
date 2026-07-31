@@ -168,9 +168,9 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
-    hook: "BTSのMVとアルバムのコンセプトに影響を与えた青春文学",
+    hook: "BTSの代表曲「Blood, Sweat & Tears」の歌詞に、そのまま引用された一冊",
     whyRead:
-      "自我の確立と成長の苦悩を描いたヘッセの代表作。少年から大人になる過程の痛みと発見を、繊細な筆致で描き出す一冊。",
+      "MVの冒頭にはこの作品の一節がそのまま引用され、続くアルバム『WINGS』の世界観そのものにも影響を与えたと、RM自身が明かしている。少年から大人になる過程の痛みと発見を、ヘッセが繊細な筆致で描き出す自我確立の青春文学。",
     recommenderStory:
       "RMは本作からの影響を公言しており、BTSのMV「Blood, Sweat & Tears」とアルバム「WINGS」のコンセプトは本作の世界観に着想を得たと、本人言及・複数メディアで報じられている。",
     detailedStory:
