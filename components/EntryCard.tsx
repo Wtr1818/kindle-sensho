@@ -14,7 +14,7 @@ export function EntryCard({
   dateInsteadOfSale?: boolean;
 }) {
   return (
-    <article className="flex gap-8 py-10 first:pt-0">
+    <article className="flex flex-col gap-4 py-10 first:pt-0 sm:flex-row sm:gap-8">
       {entry.coverUrl ? (
         <Image
           src={entry.coverUrl}
