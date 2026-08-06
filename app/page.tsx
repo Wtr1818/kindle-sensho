@@ -18,16 +18,24 @@ export default function Home() {
     <div className="min-h-screen bg-[#ffffff]">
       <header className="border-b-2 border-[#000000]">
         <div className="mx-auto max-w-3xl px-6 py-16">
-          <div className="flex items-baseline justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
             <h1 className="font-serif text-5xl font-bold tracking-tight text-[#000000]">
               読み窓91
             </h1>
-            <Link
-              href="/archive"
-              className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
-            >
-              アーカイブ
-            </Link>
+            <nav className="flex gap-4 text-sm text-[#000000]/50">
+              <Link
+                href="/today-sale"
+                className="underline-offset-4 hover:text-[#000000] hover:underline"
+              >
+                本日のセール
+              </Link>
+              <Link
+                href="/archive"
+                className="underline-offset-4 hover:text-[#000000] hover:underline"
+              >
+                アーカイブ
+              </Link>
+            </nav>
           </div>
           <p className="mt-3 font-serif text-lg italic text-[#000000]">
             本を通して、世界を覗く窓。
