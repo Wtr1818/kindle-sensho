@@ -55,7 +55,9 @@ export const entries: Entry[] = [
       "本人が好んで再読する作品として複数のメディア・ファンサイトで紹介されている",
     sourceUrl: "https://www.buzzfeed.com/kagrawal/books-rm-of-bts-has-read-or-recommended",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-21",
   },
   {
@@ -308,7 +310,9 @@ export const entries: Entry[] = [
     sourceLabel: "One Grand Booksの選書リストで「人生に最も影響を与えた本」として紹介",
     sourceUrl: "https://onegrandbooks.com/shop/curators/chef/thomas-keller/",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-22",
   },
   {
@@ -331,7 +335,9 @@ export const entries: Entry[] = [
     sourceLabel: "メタバースの構想を得たと複数のインタビューで本人が言及",
     sourceUrl: "https://venturebeat.com/games/jensen-huang-interview-the-physical-world-and-the-metaverse-can-be-connected/",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-22",
   },
   {
@@ -354,7 +360,9 @@ export const entries: Entry[] = [
     sourceLabel: "「人生最高の本」と本人が複数のインタビューで発言",
     sourceUrl: "https://www.cnbc.com/2017/10/05/bezos-favorite-kazuo-ishiguro-wins-the-nobel-prize-in-literature.html",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-22",
   },
   {
@@ -377,7 +385,9 @@ export const entries: Entry[] = [
     sourceLabel: "文庫版の帯に本人の推薦コメントが掲載されている",
     sourceUrl: "https://tsunatsuna.blog.ss-blog.jp/2005-02-23",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-22",
   },
   {
@@ -561,7 +571,9 @@ export const entries: Entry[] = [
     sourceLabel: "「最も好きな小説家」と公言し、10代で読んだ経緯をインタビューで振り返っている",
     sourceUrl: "https://www.koreaherald.com/article/10518180",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-24",
   },
   {
@@ -723,7 +735,9 @@ export const entries: Entry[] = [
     sourceUrl:
       "https://www.cbc.ca/radio/q/wednesday-oct-20-2021-denis-villeneuve-joe-dator-and-more-1.6215575/dune-director-denis-villeneuve-on-adapting-frank-herbert-s-notoriously-unfilmable-sci-fi-epic-1.6215592",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-06-24",
   },
   {
@@ -1608,7 +1622,9 @@ export const entries: Entry[] = [
       "2008年に自身の読書クラブで選書し「最も重要な本」と明言（oprah.com）",
     sourceUrl: "https://www.oprah.com/",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-07-25",
   },
   {
@@ -1632,7 +1648,9 @@ export const entries: Entry[] = [
       "2012年の年次株主への手紙で紹介し、推薦図書リスト1位に選出",
     sourceUrl: "https://www.berkshirehathaway.com/letters/letters.html",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-07-25",
   },
   {
@@ -1728,7 +1746,9 @@ export const entries: Entry[] = [
       "日経BOOKプラス「本との出会いも一期一会」インタビューで、真のリーダーシップを学んだ一冊として紹介",
     sourceUrl: "https://bookplus.nikkei.com/atcl/column/111500600/120600004/",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-07-27",
   },
   {
@@ -2206,7 +2226,9 @@ export const entries: Entry[] = [
     sourceUrl:
       "https://www.bandwagon.asia/articles/7-book-recommendations-from-your-favourite-kpop-artists-bts-rm-got7-jay-b-blackpink-jisoo-nct-jaehyun-red-velvet-irene-iu-bookstagram-booktuber",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-08-01",
   },
   {
@@ -2418,7 +2440,9 @@ export const entries: Entry[] = [
     sourceLabel: "ヒトサラマガジン連載「シェフの本棚」本人インタビューで愛読書として紹介",
     sourceUrl: "https://magazine.hitosara.com/article/2103/",
     status: "active",
-    onSale: false,
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
     dateAdded: "2026-08-02",
   },
   {
@@ -2673,5 +2697,30 @@ export const entries: Entry[] = [
     status: "active",
     onSale: false,
     dateAdded: "2026-08-05",
+  },
+  {
+    slug: "childhoods-end",
+    title: "幼年期の終り",
+    author: "アーサー・C・クラーク（福島正実 訳）",
+    asin: "B00APBGAXK",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "落合陽一が「クラークの作品はほとんど読んでいる」と語る中で名前を挙げたSF史上屈指の名作",
+    whyRead:
+      "巨大宇宙船団が地球を覆い、人類より遙かに高度な知性を持つエイリアンが平和裡に地球管理を行う——宇宙知性との遭遇によって人類が新たな道を歩みだす姿を詩情豊かに描く、アーサー・C・クラークの代表作の一つ。",
+    recommenderStory:
+      "メディアアーティスト・研究者の落合陽一は、クラークの『都市と星』について語った際、「アーサー・C・クラークの作品はほぼすべて読んだ」とした上で、続けて「ほかにアーサー・Ｃ・クラークでは『幼年期の終り』も好きでした」と発言している。",
+    detailedStory:
+      "落合陽一はインタビューで、クラークの『都市と星』が50年代に書かれたにもかかわらず仮想現実化した世界を先取りして描いていたことに驚いたと語り、その流れでクラーク作品を「ほぼすべて読んだ」と明かした。その発言に続けて、他に好きな作品として本作『幼年期の終り』の名を挙げている。研究者・実業家として最先端のテクノロジーに携わる落合が、半世紀以上前に書かれたSFの中に評価する作品を見出している点は、この分野の古典が持つ先見性を物語っている。",
+    recommenderName: "落合陽一（メディアアーティスト・研究者、ピクシーダストテクノロジーズ代表）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "byTRUST.jpのインタビュー記事で本人が発言",
+    sourceUrl: "https://bytrust.jp/1856",
+    status: "active",
+    onSale: true,
+    saleName: "Kindleストア サマーセール第2弾",
+    saleEndsLabel: "8/20まで",
+    dateAdded: "2026-08-08",
   },
 ];
