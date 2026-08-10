@@ -10,6 +10,7 @@ export const GENRES = [
   "伝記",
   "ノンフィクション",
   "新書",
+  "コミック",
 ] as const;
 
 export type Genre = (typeof GENRES)[number];
