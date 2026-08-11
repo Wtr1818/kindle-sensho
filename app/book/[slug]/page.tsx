@@ -135,12 +135,12 @@ export default async function BookPage({
             <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
               {shortName(recommenderNames[0])}の他のおすすめ本
             </h2>
-            <ul className="space-y-2">
+            <ul className="divide-y divide-[#000000]/10">
               {sameRecommender.map((e) => (
                 <li key={e.slug}>
                   <Link
                     href={`/book/${e.slug}`}
-                    className="text-sm text-[#000000] underline-offset-2 hover:underline"
+                    className="block py-3 text-sm text-[#000000] underline-offset-2 hover:underline"
                   >
                     {e.title}
                   </Link>
@@ -155,12 +155,12 @@ export default async function BookPage({
             <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
               {entry.genre}の他のおすすめ本
             </h2>
-            <ul className="space-y-2">
+            <ul className="divide-y divide-[#000000]/10">
               {sameGenre.slice(0, 5).map((e) => (
                 <li key={e.slug}>
                   <Link
                     href={`/book/${e.slug}`}
-                    className="text-sm text-[#000000] underline-offset-2 hover:underline"
+                    className="block py-3 text-sm text-[#000000] underline-offset-2 hover:underline"
                   >
                     {e.title}
                   </Link>
