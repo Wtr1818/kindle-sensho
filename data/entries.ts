@@ -898,8 +898,7 @@ export const entries: Entry[] = [
     sourceLabel: "Far Out Magazineのインタビュー記事でお気に入りの本として紹介",
     sourceUrl: "https://faroutmagazine.co.uk/greta-gerwig-10-favourite-books/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 洋書タイムセール",
+    onSale: false,
     dateAdded: "2026-06-26",
   },
   {
@@ -922,8 +921,7 @@ export const entries: Entry[] = [
     sourceLabel: "公式サイトPrinciples.comで本人が紹介",
     sourceUrl: "https://www.principles.com/principles/e3617553-aed5-4ac8-a694-a9248130d9a0/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 洋書タイムセール",
+    onSale: false,
     dateAdded: "2026-06-26",
   },
   {
@@ -1296,8 +1294,7 @@ export const entries: Entry[] = [
     sourceLabel: "New York Magazine（The Cut）2021年インタビューで「人生観を変えた本」として紹介",
     sourceUrl: "https://www.thecut.com",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 洋書タイムセール",
+    onSale: false,
     dateAdded: "2026-07-02",
   },
   {
@@ -1821,8 +1818,7 @@ export const entries: Entry[] = [
       "インディアンウェルズでの読書姿がSNSで話題に。父親が投稿し、続編ハードカバーも購入するほど夢中になったと報道",
     sourceUrl: "https://www.essentiallysports.com/wta-tennis-news-coco-gauff-decides-to-give-fans-a-rare-glimpse-into-her-dearest-hobby-before-turning-dead-serious-on-tennis/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 洋書タイムセール",
+    onSale: false,
     dateAdded: "2026-07-27",
   },
   {
@@ -1894,9 +1890,7 @@ export const entries: Entry[] = [
       "乃木坂46随一の読書家として知られ、年間100〜200冊を読む中で愛読書として本作を挙げている",
     sourceUrl: "https://realsound.jp/2023/03/post-1273025.html",
     status: "active",
-    onSale: true,
-    saleName: "KADOKAWA電撃文庫セール",
-    saleEndsLabel: "8/13まで",
+    onSale: false,
     dateAdded: "2026-07-30",
   },
   {
@@ -2115,8 +2109,7 @@ export const entries: Entry[] = [
     sourceLabel: "日経BOOKプラス「経済、社会、技術など『経営マクロ環境を学ぶ本』」特集で紹介",
     sourceUrl: "https://xtech.nikkei.com/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア 期間限定セール",
+    onSale: false,
     dateAdded: "2026-07-30",
   },
   {
