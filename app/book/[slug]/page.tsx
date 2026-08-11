@@ -115,7 +115,7 @@ export default async function BookPage({
         </div>
       </header>
       <main className="mx-auto max-w-3xl px-6 py-10">
-        <EntryCard entry={entry} />
+        <EntryCard entry={entry} titleAs="h1" />
         {entry.detailedStory && (
           <section className="mt-4 border-t border-[#000000]/10 pt-8">
             <h2 className="font-serif text-xl font-bold text-[#000000]">

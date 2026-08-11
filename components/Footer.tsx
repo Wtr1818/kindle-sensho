@@ -14,6 +14,12 @@ export function Footer() {
           <Link href="/today-sale" className="underline-offset-2 hover:underline">
             本日のセール一覧
           </Link>
+          <Link href="/genre" className="underline-offset-2 hover:underline">
+            ジャンル一覧
+          </Link>
+          <Link href="/recommender" className="underline-offset-2 hover:underline">
+            推薦者一覧
+          </Link>
           <a href="/feed.xml" className="underline-offset-2 hover:underline">
             RSSで更新を受け取る
           </a>

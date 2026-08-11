@@ -8,11 +8,14 @@ export function EntryCard({
   entry,
   showSaleBadge = true,
   dateInsteadOfSale = false,
+  titleAs = "h2",
 }: {
   entry: Entry;
   showSaleBadge?: boolean;
   dateInsteadOfSale?: boolean;
+  titleAs?: "h1" | "h2";
 }) {
+  const TitleTag = titleAs;
   return (
     <article className="flex flex-col gap-4 py-10 first:pt-0 sm:flex-row sm:gap-8">
       {entry.coverUrl ? (
@@ -53,11 +56,11 @@ export function EntryCard({
         <p className="font-serif text-lg italic text-[#000000]/80">
           {entry.hook}
         </p>
-        <h3 className="mt-1 font-serif text-2xl font-bold leading-tight text-[#000000]">
+        <TitleTag className="mt-1 font-serif text-2xl font-bold leading-tight text-[#000000]">
           <Link href={`/book/${entry.slug}`} className="hover:underline">
             {entry.title}
           </Link>
-        </h3>
+        </TitleTag>
         <p className="mt-0.5 text-sm text-[#000000]/50">{entry.author}</p>
         <p className="mt-3 text-sm leading-7 text-[#000000]/70">
           {entry.whyRead}
