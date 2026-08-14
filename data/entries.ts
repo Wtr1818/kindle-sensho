@@ -3101,4 +3101,194 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-08-12",
   },
+  {
+    slug: "long-goodbye-murakami",
+    title: "ロング・グッドバイ　フィリップ・マーロウ〔新訳版〕",
+    author: "レイモンド・チャンドラー（村上春樹 訳）",
+    asin: "B01B2MWSBS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "村上春樹が『理想の小説』と語り、後年みずから翻訳を手がけた一冊",
+    whyRead:
+      "私立探偵フィリップ・マーロウが、富裕層の陰に潜む友情と裏切りの真相に迫るハードボイルド小説の金字塔。文体そのものを味わうために読み継がれてきた一冊で、村上春樹による新訳では簡潔で乾いた原文の魅力がより鮮やかに伝わる。",
+    recommenderStory:
+      "作家・村上春樹はThe Paris Review「The Art of Fiction」のインタビューで、レイモンド・チャンドラーの文体を敬愛していると語り、『ドストエフスキーとチャンドラーを一冊にまとめることができたら、それが自分にとって理想の小説だ』と発言している。長年にわたる愛読の末、村上は本作の翻訳にみずから取り組み、2007年に新訳『ロング・グッドバイ』として早川書房から刊行した。",
+    detailedStory:
+      "村上春樹がチャンドラーの文体に惹かれたのは、小説家としてデビューする以前からのことだったという。The Paris Review誌のインタビュー「The Art of Fiction No. 182」では、チャンドラーの名を挙げながら『ドストエフスキーとチャンドラーを一冊にまとめることができたら、それが自分にとって理想の小説だ』と語っており、単なる娯楽小説としてではなく、文体そのものへの敬愛がうかがえる。長年読み込んできた末に、村上は本作の翻訳にみずから取り組むことを決め、2007年に新訳『ロング・グッドバイ』として早川書房から刊行した。私立探偵フィリップ・マーロウと富豪の娘婿テリー・レノックスとの友情、そしてその裏に隠された真相を描く物語は、読み手として愛した村上が、訳し手としてもこの作品と向き合うことになった一冊である。",
+    recommenderName: "村上春樹（作家）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "The Paris Review「The Art of Fiction No. 182」で、チャンドラーの文体への敬愛と『ドストエフスキーとチャンドラーを一冊にまとめることが理想』という発言を紹介。後年自ら本作を翻訳し出版",
+    sourceUrl: "https://www.theparisreview.org/interviews/2/the-art-of-fiction-no-182-haruki-murakami",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "magic-mountain-mann",
+    title: "魔の山　完全版",
+    author: "トーマス・マン（佐藤晃一 訳）",
+    asin: "B07WG5VJDY",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "アン・パチェットが『自分に最も影響を与えた一冊』と語り、代表作『ベル・カント』のオマージュ元にした古典",
+    whyRead:
+      "スイスのサナトリウムを舞台に、青年ハンス・カストルプが病と思想と時間の感覚に向き合っていく20世紀文学の金字塔。閉ざされた空間での人間観察を通じて、生と死、理性と情熱といった対立する主題をじっくりと描き出す。",
+    recommenderStory:
+      "作家アン・パチェットはBookBrowseのインタビューで、『自分に最も影響を与えた一冊はトーマス・マンの《魔の山》だった』と語り、自身の代表作『ベル・カント』は『実質的には《魔の山》へのオマージュだ』と明言している。",
+    detailedStory:
+      "パチェットがBookBrowseのインタビューで語ったところによれば、『自分に最も影響を与えた一冊はトーマス・マンの《魔の山》だった』という。物語の大半がスイスのサナトリウムという閉ざされた空間で展開する『魔の山』の構造は、南米某国の副大統領公邸に人質とテロリストが共に閉じ込められ、音楽を介して心を通わせていくパチェットの代表作『ベル・カント』の舞台設定と重なる部分がある。パチェット自身、『ベル・カント』は『実質的には《魔の山》へのオマージュだ』と説明しており、閉鎖空間に集められた人々の心理変化をじっくりと描くという構造そのものを、マンの古典から受け継いだことがうかがえる。",
+    recommenderName: "Ann Patchett（作家、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "BookBrowse著者インタビューで『自分に最も影響を与えた一冊』と明言し、代表作『ベル・カント』は本書へのオマージュだと語った",
+    sourceUrl: "https://www.bookbrowse.com/author_interviews/full/index.cfm/author_number/645/ann-patchett",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "giovannis-room",
+    title: "ジョヴァンニの部屋",
+    author: "ジェイムズ・ボールドウィン（大橋吉之輔 訳）",
+    asin: "B0GJCZ6WQG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "Zendayaと監督バリー・ジェンキンス、二人の映画人がそれぞれ『一番好き』と語るボールドウィンの代表作",
+    whyRead:
+      "パリで暮らすアメリカ人青年とバーテンダーの恋愛を軸に、アイデンティティと自己欺瞞を鋭く描いたボールドウィンの代表作。発表から半世紀以上を経てなお、率直さと文章の美しさで新しい読者を獲得し続けている。",
+    recommenderStory:
+      "女優Zendayaは映画『The Odyssey』のプロモーション中、ブックチューバーのJack Edwardsとの対談でお気に入りの本を聞かれ、トニ・モリスン『The Bluest Eye』と並んでジェイムズ・ボールドウィンの『ジョヴァンニの部屋』を挙げた。一方、映画監督バリー・ジェンキンスは、ボールドウィンの数ある作品の中でも本作を『一番好き』と名指しし、『視覚的に一番自分を刺激する』作品だと語っている。",
+    detailedStory:
+      "『ジョヴァンニの部屋』は、パリで暮らすアメリカ人青年デイヴィッドと、バーテンダーのジョヴァンニとの関係を描いたボールドウィンの代表作の一つ。Zendayaがこの作品を挙げたのは、映画『The Odyssey』の宣伝で受けたブックチューバーJack Edwardsとのインタビューでのことで、彼女は同じくボールドウィンと並び称されるトニ・モリスンの『The Bluest Eye』を長年愛読しており、その延長でこの一冊にもたどり着いたことがうかがえる。一方、映画監督バリー・ジェンキンスは、自身が映画化した『ビール・ストリートの恋人たち』と同じくボールドウィン原作でありながら、実は『ジョヴァンニの部屋』こそが『一番好きなボールドウィン作品』だと語っている。理由は『視覚的に一番自分を刺激する』からだといい、権利上の理由で映画化には至らなかったものの、もし叶うならこの一冊こそ映像化したかった作品だったと述べている。俳優として物語の内側から、監督として画づくりの視点から——世代も立場も異なる二人の映画人が、それぞれ独立にこの一冊へ強く惹きつけられている。",
+    recommenderName: "Zendaya（女優、米国） ／ Barry Jenkins（映画監督、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "Zendayaはブックチューバーとの対談でお気に入りの一冊として紹介（Vogue Adria報道）。バリー・ジェンキンスは『一番好きなボールドウィン作品』とメディアで発言",
+    sourceUrl: "https://vogueadria.com/zendaya-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "autobiography-of-malcolm-x",
+    title: "The Autobiography of Malcolm X",
+    author: "Malcolm X, Alex Haley",
+    asin: "B013ZNNX5C",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    hook: "Kendrick Lamarが『自分の音楽への向き合い方の根っこ』と語る自伝",
+    whyRead:
+      "貧困と差別の中で育ち、投獄を経て思想家として自己を確立していったマルコムXの半生を、本人の口述をもとに構成した自伝。アメリカの人種問題を考えるうえで欠かせない一冊として、今も版を重ねている。",
+    recommenderStory:
+      "ラッパーのKendrick Lamarは、マルコムXの自伝『The Autobiography of Malcolm X』について『彼の思想が自分の音楽への向き合い方の根っこにある』と語っている。10代でこの自伝と出会ったことが、荒れた故郷コンプトンから自身を遠ざけた要因の一つだったとも明かしている。",
+    detailedStory:
+      "『The Autobiography of Malcolm X』は、公民権運動期のアメリカで急進的な思想家として活動したマルコムXが、ライターのアレックス・ヘイリーとの対話をもとに口述構成した自伝で、幼少期の困窮や投獄経験を経て思想を確立していく過程が描かれている。Kendrick Lamarは、10代の頃にこの自伝と出会ったことと、音楽に100%打ち込んだことの二つが、故郷コンプトンの荒れた環境から自分を遠ざけてくれたと語っている。本作について『彼の思想が自分の音楽への向き合い方の根っこにある』とも述べており、人種・貧困・信仰といったテーマを繰り返し楽曲のモチーフにしてきたLamarにとって、マルコムXの自己変革と思想形成の物語は、単に読んで感銘を受けた本というより、自身の表現の出発点として位置づけられていることがうかがえる。",
+    recommenderName: "Kendrick Lamar（米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel:
+      "『彼の思想が自分の音楽への向き合い方の根っこにある』と発言し、10代での出会いがコンプトンの環境から自分を遠ざけた要因の一つだったと明かした",
+    sourceUrl: "https://hiphopdx.com/news/id.31402/title.kendrick-lamar-says-the-autobiography-of-malcolm-x-changed-him",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "stoner-john-williams",
+    title: "Stoner: A Novel (Vintage Classics)",
+    author: "John Williams",
+    asin: "B00A8FXT8M",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "コメディアン、パットン・オズワルトが『スローモーションのホラー物語』と評した隠れた傑作",
+    whyRead:
+      "20世紀初頭のミズーリ大学を舞台に、平凡な英文学教師の人生を静かに描いた小説。刊行当時は注目されなかったが、没後に再評価が進み『最も知られざる傑作』として著名人からの支持を集めている。",
+    recommenderStory:
+      "コメディアンのパットン・オズワルトはForbes「Forbes Talks Shop」のインタビュー（2026年6月10日）で、ジョン・ウィリアムズの小説『Stoner』を取り上げ、『郊外の、家庭の、学究的な崩壊についての、スローモーションのホラー物語のようだ』と表現した。派手な事件が起きるわけではない大学教師の人生を淡々と描く本作を、コメディという派手さとは対極の分野で評価している点が興味深い。",
+    detailedStory:
+      "『Stoner』は、20世紀初頭のミズーリ大学を舞台に、平凡な英文学教師ウィリアム・ストーナーの人生を静かに描いた小説で、刊行時は大きな話題にならなかったものの、没後半世紀近くを経て再評価が進み、多くの著名人が絶賛する『隠れた傑作』として知られるようになった一冊だ。パットン・オズワルトはForbesのインタビューで本作を取り上げ、『郊外の、家庭の、学究的な崩壊についての、スローモーションのホラー物語のようだ』と表現した。派手な事件やひねりのある展開を武器にするスタンダップコメディアンが、正反対に抑制の効いた文体の小説を評価している点に、彼の読書の幅の広さがうかがえる。",
+    recommenderName: "Patton Oswalt（コメディアン、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "Forbes「Forbes Talks Shop」インタビュー（2026年6月10日）で、『郊外の、家庭の、学究的な崩壊についての、スローモーションのホラー物語』と紹介",
+    sourceUrl: "https://www.forbes.com/sites/forbes-personal-shopper/2026/06/10/forbes-talks-shop-patton-oswalt/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "titan-rockefeller",
+    title: "Titan: The Life of John D. Rockefeller, Sr.",
+    author: "Ron Chernow",
+    asin: "B000XUDGHG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    hook: "チャーリー・マンガーが『読んで気に入らなかった人を知らない』と評したロックフェラー伝",
+    whyRead:
+      "スタンダード・オイルを築いたロックフェラーの生涯を、未公開資料をもとに描いた大部の伝記。独占市場を築いた『強盗男爵』の顔と、巨額の寄付を続けた慈善家の顔の両方を、丹念な取材で描き出す。",
+    recommenderStory:
+      "バークシャー・ハサウェイ副会長チャーリー・マンガーは、ロン・チャーナウによるロックフェラー伝記『Titan』について、『これまで読んだビジネス伝記の中でも屈指の一冊』『読んだことがある人で気に入らなかった人を知らない』と評している。",
+    detailedStory:
+      "『Titan』は、スタンダード・オイルを築き上げた実業家ジョン・D・ロックフェラー・シニアの生涯を、未公開の私文書へのアクセスをもとに描いた大部の伝記で、独占市場を築いた実業家としての顔と、大学や医療機関に巨額の寄付を続けた慈善家としての顔、その両面を丹念に描き出している。チャーリー・マンガーはバークシャー・ハサウェイの年次株主総会で、その年に気に入った本として本作を挙げ、『これまで読んだビジネス伝記の中でも屈指の一冊』『とても興味深い家族の物語でもある』『素晴らしい本だった』『読んだことがある人で気に入らなかった人を知らない』と語った。生涯にわたり伝記を読み込むことを人生訓としてきたマンガーらしい、実業家の成功と矛盾を等身大で描いた一冊への高評価だ。",
+    recommenderName: "Charlie Munger（バークシャー・ハサウェイ副会長、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "バークシャー・ハサウェイ年次株主総会での発言として、複数のメディア・書籍まとめサイトが伝えている",
+    sourceUrl: "https://getread.app/every-book-charlie-munger-has-ever-recommended-at-the-berkshire-hathaway-annual-meeting.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "joy-of-cooking",
+    title: "Joy of Cooking: Fully Revised and Updated",
+    author: "Irma S. Rombauer, Marion Rombauer Becker, Ethan Becker, John Becker, Megan Scott",
+    asin: "B00AK78VTA",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "Milk Bar創業者クリスティーナ・トッシが『昔からずっと大好き』と語るアメリカ料理書の金字塔",
+    whyRead:
+      "1931年の初版以来、幾度も改訂を重ねながら読み継がれてきたアメリカ家庭料理のバイブル。基本のレシピはもちろん、時代ごとの改訂を追うことでアメリカの食文化そのものの変遷も見えてくる。",
+    recommenderStory:
+      "Milk Bar創業者でパティシエのクリスティーナ・トッシは、James Beard Foundation公式サイトのQ&Aで『お気に入りの料理書は？』と聞かれ、『Joy of Cookingが大好き。昔からずっと』と即答している。",
+    detailedStory:
+      "『Joy of Cooking』は1931年に主婦アーマ・S・ロンバウアーが自費出版した料理書を原型とし、以後何度も改訂を重ねながら90年以上にわたって読み継がれてきたアメリカ家庭料理の定番中の定番だ。奇抜な菓子作りで知られるMilk Barのオーナーシェフ、クリスティーナ・トッシはJames Beard Foundation公式サイトのQ&Aで『お気に入りの料理書は？』と聞かれ、『Joy of Cookingが大好き。昔からずっと』と即答している。実験的なレシピで名を上げたトッシが、奇をてらわないアメリカ家庭料理の王道書を挙げている点は、彼女の料理の土台がどこにあるかを物語っている。",
+    recommenderName: "Christina Tosi（Milk Bar創業者・パティシエ、米国）",
+    recommenderTag: "料理人",
+    sourceLabel: "James Beard Foundation公式サイトのQ&Aで『お気に入りの料理書は？』の質問に回答",
+    sourceUrl: "https://www.jamesbeard.org/stories/q-a-with-rising-star-nominee-christina-tosi",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
+  {
+    slug: "vegetarian-cooking-for-everyone",
+    title: "The New Vegetarian Cooking for Everyone",
+    author: "Deborah Madison",
+    asin: "B00CNQ9SJS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "シェフ、ヨタム・オトレンギが『自分の料理の基礎を作ってくれた』と語る菜食料理書の定番",
+    whyRead:
+      "野菜料理を『肉料理の代用品』ではなく、それ自体で魅力的な一皿として体系化した菜食料理書の定番。素材の扱い方や味の組み合わせ方を丁寧に解説し、菜食に限らず料理全般の技術書としても読める。",
+    recommenderStory:
+      "シェフのヨタム・オトレンギはFive Books誌のインタビューで、デボラ・マディソンの『Vegetarian Cooking for Everyone』について『他のどの本よりも、自分の料理の基礎を作ってくれた本』『レシピが一つうまくいくたびに、次のレシピに挑戦する後押しになった』と語っている。",
+    detailedStory:
+      "『Vegetarian Cooking for Everyone』は、サンフランシスコの伝説的レストラン「Greens」の創業シェフを務めたデボラ・マディソンが、野菜料理を主菜の代用品としてではなく、それ自体で魅力的な料理として体系化した一冊で、刊行後は英語圏における菜食料理書の定番として長く読み継がれてきた。ヨタム・オトレンギはFive Books誌のインタビューでお気に入りの料理書を紹介する企画に応じ、本書を『他のどの本よりも、自分の料理の基礎を作ってくれた本』と位置づけたうえで、『レシピが一つうまくいくたびに、次のレシピに挑戦する後押しになった』『菜食の食材の幅広さを、初めて自分に示してくれた本でもあった』と語った。中東料理の要素を取り入れながら野菜そのものを主役に据えるスタイルで知られるオトレンギにとって、マディソンの体系立てたアプローチはまさに料理人としての出発点だったことがうかがえる。なお、店頭で確認できたKindle版は同著者による増補改訂版『The New Vegetarian Cooking for Everyone』。",
+    recommenderName: "Yotam Ottolenghi（シェフ、英国／イスラエル出身）",
+    recommenderTag: "料理人",
+    sourceLabel: "Five Books誌のインタビュー「Yotam Ottolenghi recommends his Favourite Cookbooks」で紹介",
+    sourceUrl: "https://fivebooks.com/best-books/yotam-ottolenghi-cookbooks/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-08-15",
+  },
 ];
