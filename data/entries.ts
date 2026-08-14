@@ -3098,9 +3098,7 @@ export const entries: Entry[] = [
       "NHL公式サイト「Questions and Isles」で愛読書として紹介",
     sourceUrl: "https://www.nhl.com/islanders/news/questions-and-isles-favorite-book-329953182",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-08-12",
   },
 ];
