@@ -90,7 +90,7 @@ export function EntryCard({
             （{entry.sourceLabel}）
           </a>
         </p>
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
           <span className="text-xs text-[#000000]/40">
             {entry.recommenderTag}
             {!dateInsteadOfSale && entry.onSale && entry.saleName

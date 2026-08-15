@@ -108,12 +108,12 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
                     {item.author}
                   </span>
                 )}
-                <div className="mt-1 flex items-center gap-2">
-                  <span className="text-xs text-[#000000]/40">
+                <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="whitespace-nowrap text-xs text-[#000000]/40">
                     {item.genre}
                   </span>
                   <span className="text-xs text-[#000000]/40">・</span>
-                  <span className="text-xs text-[#000000]/40">
+                  <span className="whitespace-nowrap text-xs text-[#000000]/40">
                     {item.saleName}
                   </span>
                   {matched && (
@@ -121,7 +121,7 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
                       <span className="text-xs text-[#000000]/40">・</span>
                       <Link
                         href={`/book/${matched.slug}`}
-                        className="text-xs font-medium text-[#b5402b] underline-offset-2 hover:underline"
+                        className="whitespace-nowrap text-xs font-medium text-[#b5402b] underline-offset-2 hover:underline"
                       >
                         {matched.recommenderName}が推薦
                       </Link>
