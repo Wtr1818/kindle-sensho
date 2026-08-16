@@ -109,9 +109,9 @@ export function EntryCard({
         {showDetailLink && (
           <Link
             href={`/book/${entry.slug}`}
-            className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-[#000000]/60 underline-offset-2 hover:text-[#000000] hover:underline"
+            className="mt-3 inline-flex w-fit items-center gap-1.5 border border-[#000000]/30 px-3.5 py-1.5 text-xs font-medium text-[#000000] transition hover:border-[#000000] hover:bg-[#000000] hover:text-white"
           >
-            推薦の馴れ初めを見る
+            推薦エピソードを読む
             <span aria-hidden="true">→</span>
           </Link>
         )}

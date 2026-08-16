@@ -119,7 +119,7 @@ export default async function BookPage({
         {entry.detailedStory && (
           <section className="mt-4 border-t border-[#000000]/10 pt-8">
             <h2 className="font-serif text-xl font-bold text-[#000000]">
-              推薦の馴れ初め
+              推薦エピソード
             </h2>
             <p className="mt-4 text-sm leading-8 text-[#000000]/80">
               {entry.detailedStory}
