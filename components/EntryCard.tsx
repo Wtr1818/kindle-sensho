@@ -9,27 +9,38 @@ export function EntryCard({
   showSaleBadge = true,
   dateInsteadOfSale = false,
   titleAs = "h2",
+  showDetailLink = true,
 }: {
   entry: Entry;
   showSaleBadge?: boolean;
   dateInsteadOfSale?: boolean;
   titleAs?: "h1" | "h2";
+  showDetailLink?: boolean;
 }) {
   const TitleTag = titleAs;
+  const amazonHref = affiliateUrl(entry.asin, entry.platform);
   return (
     <article className="flex flex-col gap-4 py-10 first:pt-0 sm:flex-row sm:gap-8">
-      {entry.coverUrl ? (
-        <Image
-          src={entry.coverUrl}
-          alt={`${entry.title}の表紙`}
-          width={168}
-          height={252}
-          className="h-[252px] w-[168px] flex-none object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
-          unoptimized
-        />
-      ) : (
-        <CoverPlaceholder title={entry.title} author={entry.author} />
-      )}
+      <a
+        href={amazonHref}
+        target="_blank"
+        rel="noopener noreferrer sponsored"
+        className="flex-none"
+        aria-label={`${entry.title}をAmazonで見る`}
+      >
+        {entry.coverUrl ? (
+          <Image
+            src={entry.coverUrl}
+            alt={`${entry.title}の表紙`}
+            width={168}
+            height={252}
+            className="h-[252px] w-[168px] object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
+            unoptimized
+          />
+        ) : (
+          <CoverPlaceholder title={entry.title} author={entry.author} />
+        )}
+      </a>
       <div className="flex-1">
         <div className="mb-3 flex items-center justify-between">
           <span className="text-xs text-[#000000]/40">
@@ -57,9 +68,14 @@ export function EntryCard({
           {entry.hook}
         </p>
         <TitleTag className="mt-1 font-serif text-2xl font-bold leading-tight text-[#000000]">
-          <Link href={`/book/${entry.slug}`} className="hover:underline">
+          <a
+            href={amazonHref}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="hover:underline"
+          >
             {entry.title}
-          </Link>
+          </a>
         </TitleTag>
         <p className="mt-0.5 text-sm text-[#000000]/50">{entry.author}</p>
         <p className="mt-3 text-sm leading-7 text-[#000000]/70">
@@ -90,7 +106,16 @@ export function EntryCard({
             （{entry.sourceLabel}）
           </a>
         </p>
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+        {showDetailLink && (
+          <Link
+            href={`/book/${entry.slug}`}
+            className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-[#000000]/60 underline-offset-2 hover:text-[#000000] hover:underline"
+          >
+            推薦の馴れ初めを見る
+            <span aria-hidden="true">→</span>
+          </Link>
+        )}
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-3">
           <span className="text-xs text-[#000000]/40">
             {entry.recommenderTag}
             {!dateInsteadOfSale && entry.onSale && entry.saleName
@@ -98,10 +123,10 @@ export function EntryCard({
               : ""}
           </span>
           <a
-            href={affiliateUrl(entry.asin, entry.platform)}
+            href={amazonHref}
             target="_blank"
             rel="noopener noreferrer sponsored"
-            className="border border-[#000000] px-3.5 py-1.5 text-xs font-medium text-[#000000] hover:bg-[#000000] hover:text-[#ffffff]"
+            className="block w-full border-2 border-[#b5402b] bg-[#b5402b] px-6 py-3 text-center text-sm font-bold text-white transition hover:opacity-90 sm:w-auto"
           >
             {entry.onSale ? `${entry.platform}でセールを見る` : `${entry.platform}で見る`}
           </a>
