@@ -35,7 +35,7 @@ export default function TodaySale() {
     <div className="min-h-screen bg-[#ffffff]">
       <header className="border-b-2 border-[#000000]">
         <div className="mx-auto max-w-3xl px-6 py-16">
-          <div className="flex items-baseline justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
             <h1 className="font-serif text-5xl font-bold tracking-tight text-[#000000]">
               本日のセール対象一覧
             </h1>
