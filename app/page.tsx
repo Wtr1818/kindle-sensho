@@ -22,12 +22,24 @@ export default function Home() {
             <h1 className="font-serif text-5xl font-bold tracking-tight text-[#000000]">
               読み窓91
             </h1>
-            <nav className="flex gap-4 text-sm text-[#000000]/50">
+            <nav className="flex flex-wrap gap-4 text-sm text-[#000000]/50">
               <Link
                 href="/today-sale"
                 className="underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 本日のセール
+              </Link>
+              <Link
+                href="/genre"
+                className="underline-offset-4 hover:text-[#000000] hover:underline"
+              >
+                ジャンル一覧
+              </Link>
+              <Link
+                href="/recommender"
+                className="underline-offset-4 hover:text-[#000000] hover:underline"
+              >
+                推薦者一覧
               </Link>
               <Link
                 href="/archive"

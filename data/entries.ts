@@ -42,6 +42,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=ElHLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "BTSのRMが何度も読み返し、メンバーにも広がった一冊",
     whyRead:
       "監視社会と思考統制を描いたディストピア小説の代表作。時代を超えて読み継がれる一冊として、自由とは何かを問い直させる。",
@@ -68,6 +69,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=pqnd0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "大谷翔平が「人生の教科書」と呼ぶ一冊",
     whyRead:
       "京セラ創業者が綴る、仕事と人生に向き合う哲学書。功利や効率を超えた「人としての筋の通し方」を説く、世代を超えて読まれる定番書。",
@@ -91,6 +93,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=93lSuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "大谷翔平が「一回読んだだけでは50も理解できない」と語る兵法書",
     whyRead:
       "剣豪・宮本武蔵が晩年に著した兵法書。勝負における心構えや鍛錬の哲学は、スポーツや仕事における「型」の追求にも通じる。",
@@ -114,6 +117,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=0xfNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "孫正義が渡米を決意するきっかけになった歴史小説",
     whyRead:
       "幕末を生きた坂本龍馬を描いた歴史小説の傑作。時代を変える人物の生き方を通して、行動することの意味を教えてくれる一冊。",
@@ -137,6 +141,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/13190147-L.jpg",
     hook: "又吉直樹と羽生結弦、二人の表現者が読んだ一冊",
     whyRead:
       "人間社会への違和感と孤独を描いた太宰治の代表作。生きることの痛みに正面から向き合う文学として、時代を超えて読まれ続けている。",
@@ -183,6 +188,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=lOL6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "イーロン・マスクが起業家に薦める定番書",
     whyRead:
       "「競争するな、独占せよ」という挑戦的な主張で知られるスタートアップ論の定番書。ゼロから新しい価値を生み出す思考法を説く。",
@@ -206,6 +212,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=qqX5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "セリーナ・ウィリアムズが自身の成功と重ねた一冊",
     whyRead:
       "成功を決めるのは才能やIQではなく「情熱と粘り強さ」だと説く一冊。あらゆる分野の達成に通じる、努力の科学的な裏付けを提示する。",
@@ -229,6 +236,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/9296904-L.jpg",
     hook: "ブラッド・ピットが朗読を手がけたほど思い入れの強い一冊",
     whyRead:
       "テキサスの牧場を失った少年がメキシコへ渡る、ボーダー・トリロジー第一作。乾いた文体で描かれる青春と失われゆくアメリカの原風景。",
@@ -252,6 +260,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/14428305-L.jpg",
     hook: "ブラッド・ピットが「言葉に浸りたい時」に手に取る古典",
     whyRead:
       "風車を巨人と思い込む騎士の冒険を描いた、近代小説の原点とされる一冊。滑稽さの中に人間の理想と現実の隔たりを映し出す。",
@@ -275,6 +284,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "エッセイ",
+    coverUrl: "https://covers.openlibrary.org/b/id/10462708-L.jpg",
     hook: "Dua Lipaが自身のブッククラブで選んだ、食と家族をめぐる回想録",
     whyRead:
       "インディーロックバンド「Japanese Breakfast」のフロントウーマンが、韓国系の母を亡くした経験と料理を通じて自分のルーツを見つめ直す回想録。NYTベストセラー1位を1年以上記録した話題作。",
@@ -298,6 +308,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=KoMEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "トーマス・ケラーが「人生に最も影響を与えた本」の一冊に選んだ寓話",
     whyRead:
       "全体主義への痛烈な風刺を寓話形式で描いた、『一九八四年』と並ぶオーウェルの代表作。権力がどのように腐敗していくかを動物たちの物語に託して描き、時代を超えて読み継がれている。",
@@ -323,6 +334,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=da25zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "Nvidia CEOジェンスン・フアンが「メタバース」の構想を得たと語るSFの原点",
     whyRead:
       "「メタバース」という言葉を生み出した伝説的SF小説。仮想世界と現実が交錯する近未来を描き、30年後のテクノロジー業界の構想に直接影響を与えた一冊。",
@@ -348,6 +360,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=q_mxC1tf1E0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "ジェフ・ベゾスが「人生最高の一冊」と呼ぶブッカー賞受賞作",
     whyRead:
       "失われゆく英国貴族社会を、老執事の回想を通して描くイシグロの代表作。1989年ブッカー賞受賞。静謐な筆致の奥に、人生の選択と後悔というテーマが深く流れる。",
@@ -373,6 +386,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/5288068-L.jpg",
     hook: "椎名林檎が文庫の帯に直筆コメントを寄せた、実話に基づく感動作",
     whyRead:
       "明治42年に実際に起きた鉄道事故をもとに、信仰と自己犠牲を描いた三浦綾子の代表作。多くの読者の心を動かし続けるロングセラー。",
@@ -398,6 +412,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/2237620-L.jpg",
     hook: "ハリー・スタイルズが「一日中読んでいたいと思った最初の本」と語る村上文学の代表作",
     whyRead:
       "喪失と再生を描いた村上春樹の代表的長編小説。1960年代末の青春の記憶を通じて、愛と死が静かに織り込まれる、時代も国境も越えて読み継がれる一冊。",
@@ -421,6 +436,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://books.google.com/books/content?id=ybX1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "作家・角田光代が「生きる上での想像力が培われた本」に選んだ紀行文学の名作",
     whyRead:
       "インドからロンドンへ、乗合いバスで大陸を横断する一年以上の放浪を描いた紀行文学の傑作。多くのバックパッカーの「旅のバイブル」として読み継がれている。",
@@ -444,6 +460,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/13888826-L.jpg",
     hook: "爆笑問題・太田光が小学生時代に夢中になった「トム・ソーヤーごっこ」の原点",
     whyRead:
       "いたずら好きの少年トムが繰り広げる冒険を描いた、アメリカ文学を代表する一冊。子供の自由な心と大人になることへの葛藤を、痛快なユーモアとともに描く。",
@@ -467,6 +484,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=eSsPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "BTSの隠しトラック「Sea」の着想元になった村上文学の長編",
     whyRead:
       "現実からわずかにねじれた「もう一つの1984年」を生きることになった青豆と天吾、二人の運命が交錯していく長編小説。日常に潜む異界という村上春樹的な感覚を、もっとも壮大なスケールで描いた代表作の一つ。",
@@ -490,6 +508,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/6910926-L.jpg",
     hook: "又吉直樹が漱石作品の中で「一番好きかもしれない」と語る長編",
     whyRead:
       "親友の妻に想いを寄せながら無為な日々を送る主人公・代助の姿を通して、近代知識人の倫理的葛藤を描いた漱石中期の代表作。『三四郎』『門』と並ぶ三部作の一つ。",
@@ -513,6 +532,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=jINEPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "Nomaのシェフ、レネ・レゼピが開業直後の極限状態で読み込んだロシア文学の傑作",
     whyRead:
       "貧困にあえぐ元学生ラスコーリニコフが、独自の理論のもとに金貸しの老女を殺害してしまう――罪を犯した人間の内面の苦悩と救済を描いた、世界文学史に残る心理小説の最高峰。",
@@ -536,6 +556,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=-ScYPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "前澤友作が「衝撃を受けた」と著者本人に直接連絡した、お金のない世界を描く物語",
     whyRead:
       "ある日突然、お金が存在しない世界に迷い込んだ主人公の体験を通して、「仕事とは何のためにするのか」「人間本来の生き方とは何か」を問い直す寓話。資本主義社会の当たり前を一度離れて考えてみたくなる一冊。",
@@ -559,6 +580,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=R-xUAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "パク・チャヌク監督が10代で出会い、後に著者本人と語り合うまでになったスパイ小説の金字塔",
     whyRead:
       "ベルリンの壁を挟んだ英独諜報機関の暗闘を描く、冷戦スパイ小説の代表作。派手なアクションではなく、組織に利用される人間の哀しさを静かな筆致で描き切り、英国推理作家協会賞・アメリカ探偵作家クラブ賞を受賞した。",
@@ -584,6 +606,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=Tc7NDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "クリストファー・ノーラン監督が無人島に持っていく一冊に選んだ、迷宮のような短編集",
     whyRead:
       "鏡像や無限、時間の円環といったテーマを緻密な論理で描く、ラテンアメリカ文学を代表する短編集。「バベルの図書館」「死とコンパス」など、一編一編がそれぞれ小さな宇宙のような構造を持つ。",
@@ -607,6 +630,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=YT3SAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "アカデミー賞受賞作『ドライブ・マイ・カー』に丸ごと組み込まれたチェーホフの名戯曲",
     whyRead:
       "自分の人生が無意味だったのではと絶望する男と、それでも健気に生きようとする姪。チェーホフが描く「平凡な人生の悲哀と尊さ」は、120年以上前の戯曲でありながら今も色褪せない。",
@@ -630,6 +654,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=iHRq0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "満島ひかりが「翻訳の魔法」と評した、トルストイが遺した素朴な民話集",
     whyRead:
       "「ばか」と呼ばれながらも黙々と働き続ける末弟イワンを描く表題作ほか九篇の民話集。欲や知恵を誇る兄たちとの対比を通して、何が人間にとって本当の強さなのかを問いかける、ロマン・ロランも絶賛した一冊。",
@@ -653,6 +678,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=y6GHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "アメリカの人気コメディアン、アリ・ウォンの生活を変えた「こんまり」流片づけ術",
     whyRead:
       "「ときめくものだけを残す」というシンプルな基準で、片づけを通じて人生そのものを見直す一冊。世界40カ国以上で翻訳され、Netflix番組化もされた世界的ベストセラー。",
@@ -676,6 +702,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=u2vaTWhcEBsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "米津玄師が4年ぶりの新作アルバム名に選んだ、カズオ・イシグロのもう一つの代表作",
     whyRead:
       "クローン技術が当たり前になった近未来イギリスを舞台に、「提供者」と呼ばれる若者たちの友情と運命を描く。個人の尊厳とは何かを静かに、しかし深く問いかける、イシグロ文学の最高傑作とも評される一冊。",
@@ -699,6 +726,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=V_DezgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "伊集院光が「若者に薦めたい」と語った、100分de名著で出会った中でも特に心に刺さった3冊の一つ",
     whyRead:
       "ある朝目覚めると一匹の巨大な虫に変わっていた男、グレーゴル・ザムザ。なぜそうなったのかは説明されず、奇妙なほど平静な日常が続いていく。不条理文学の最高峰として、時代を超えて読み継がれる一冊。",
@@ -722,6 +750,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=f9QzjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "映画『DUNE』のデニス・ヴィルヌーヴ監督が「40年来のハードコアファン」と公言する原点",
     whyRead:
       "香料メランジと巨大砂蟲が支配する砂漠の惑星アラキスを舞台に、陰謀と運命が絡み合う壮大な未来叙事詩。SF情報誌《ローカス》のオールタイム・ベストSF第1位に選ばれた、ジャンルの源流とも言われる傑作。",
@@ -748,6 +777,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=D7-jDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "楽天創業者・三木谷浩史が「企業を本当に強くする本質を学んだ」と語る経営書の定番",
     whyRead:
       "「良好な企業」はなぜ「偉大な企業」へと飛躍できるのか。全米1435社から選び抜かれた11社を徹底比較し、地味で謙虚だが不屈の意志を持つ「第5水準のリーダーシップ」など、再現性のある飛躍の法則を解き明かす。",
@@ -817,6 +847,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=78eqBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "辻村深月のペンネームの一字にもなった、新本格ミステリの原点",
     whyRead:
       "十角形の奇妙な館が建つ孤島を訪れた大学ミステリ研の7人を待つ連続殺人。1987年刊行以来、「新本格ミステリ」ムーヴメントの出発点として読み継がれ、ミステリ史上最大級と評される結末が待つ一冊。",
@@ -863,6 +894,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/13989845-L.jpg",
     hook: "NBAの新星ヴィクター・ウェンバンヤマが試合前ロッカールームで読み、ニコラ・ヨキッチを驚かせた一冊",
     whyRead:
       "ブランドン・サンダースンが手がける、コズミア宇宙を舞台にした単独完結のファンタジー・ロマンス。陰と陽のように対照的な二つの世界に生きる主人公二人の運命が絡み合っていく、Kickstarter史上最大規模のプロジェクトから生まれた一作。",
@@ -886,6 +918,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/252882-L.jpg",
     hook: "映画監督グレタ・ガーウィグが「10年ごとに読み返したい」と語る英文学の最高峰",
     whyRead:
       "Martin AmisやJulian Barnesが「英語で書かれた最高の小説」と評するヴィクトリア朝文学の代表作。理想に燃える若き女性ドロシアの結婚と幻滅を軸に、地方都市ミドルマーチに生きる人々の野心と秘密を描き出す大長編。",
@@ -909,6 +942,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/9078085-L.jpg",
     hook: "世界最大のヘッジファンドを創業したレイ・ダリオが「習慣についての見方を開かれた」と語る一冊",
     whyRead:
       "なぜ人は同じ行動を繰り返すのか。「きっかけ→ルーティン→報酬」という習慣のループを脳科学・企業事例から解き明かし、P&Gやアルコア、NFLの事例を通じて個人と組織の変化の仕組みを描く全米300万部のベストセラー。",
@@ -932,6 +966,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=jmWzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "松本人志が「一気に八回読んだ」と語った、吉本興業トップが明かす生きづらさの処方箋",
     whyRead:
       "ダウンタウンを見出し、長年その活躍を支え続けてきた吉本興業のトップが、自身と大切な人たちの「居場所」をつくるために心がけてきた12の「しないこと」を明かす一冊。競争せず、白黒つけず、それでも前に進むための処世術。",
@@ -955,6 +990,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=I4yRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "孫正義が高校時代に単身上京し、著者に直接面会を申し込んだ伝説のベストセラー",
     whyRead:
       "日本マクドナルド創業者・藤田田が、ユダヤ商人の知恵を自らの経営に落とし込んで成功した経験を綴ったベストセラー。「値段は一番安くか一番高くせよ」など、商売の本質を説く語録は半世紀を経ても読み継がれている。",
@@ -1001,6 +1037,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=lqJqQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "宇多田ヒカルが公式ブログで「ただいまの愛読書」と紹介したゲーテの自然科学論",
     whyRead:
       "文豪ゲーテが終生情熱を傾けた自然研究の中でも白眉とされる一冊。光と闇の相互作用から色彩が生まれるとする独自の理論を展開し、ニュートンの光学に異を唱えた、文学者の顔とは異なるゲーテの科学者としての一面を知ることができる。",
@@ -1024,6 +1061,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=EF6iEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "ギレルモ・デル・トロが「世界で一番好きな小説」と公言する怪奇文学の原点",
     whyRead:
       "天才科学者が生み出した「怪物」が、知性と感情を獲得しながらも人間社会から拒絶されていく――19世紀に書かれたにもかかわらず、創造と責任、孤独と疎外という問いは今も新しい。SF・ホラーというジャンルそのものの原点ともいえる一冊。",
@@ -1048,6 +1086,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=q5RvnAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "村上春樹が自ら翻訳を手がけるほど愛した「人生で出会った最も大切な小説」",
     whyRead:
       "巨万の富を築きながら、過去の恋人への執念を捨てられない男ギャツビーの悲劇。1920年代ニューヨークの繁栄と虚飾を背景に、滅びゆくものの美しさを描いた20世紀アメリカ文学の最高峰。",
@@ -1071,6 +1110,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=dSsPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "GOT7のJAY Bが「6回読んだ」と語る、人生に最も影響を与えた3冊の一つ",
     whyRead:
       "15歳で家出した少年カフカと、猫と話せる老人ナカタ――二つの物語が交錯しながら、世界と世界が結びつく場所を目指す。村上春樹が描く「日常に潜む異界」を、最も壮大なスケールで展開した長編。",
@@ -1094,6 +1134,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=ZgEN0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "長谷部誠が「ドイツに行ってから哲学書が増えたのはこの本がきっかけ」と語る人間関係の名著",
     whyRead:
       "1936年刊行以来読み継がれる自己啓発書の原点。批判をせず相手の自尊心を満たし、自発的に動いてもらうための具体的な振る舞いを、豊富な実話とともに説く。あらゆる人間関係の土台となる一冊。",
@@ -1117,6 +1158,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=BDep0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "リチャード・ブランソンが「本当に楽しめた数少ないビジネス書」と評し、著者を自社に招いた一冊",
     whyRead:
       "「形式上のリーダー」と「本物のリーダー」を分けるのは、思考を「WHAT」からではなく「WHY」から始められるかどうか。アップルやサウスウエスト航空の事例から、人を動かす理念の力を解き明かす一冊。",
@@ -1140,6 +1182,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=1k1dvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "Spotify創業者ダニエル・エクが、著者本人と語り合った「夢を追う力」の寓話",
     whyRead:
       "羊飼いの少年サンチャゴが、宝物を求めてアフリカの砂漠を越えピラミッドを目指す旅の物語。世界中で読まれ続けるベストセラーが説く「夢を追い続けることの意味」は、起業家にも刺さる寓話だ。",
@@ -1186,6 +1229,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=LHRGngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "フィギュアスケートの新星・島田麻央が、勝つほど増す重圧と向き合うために手にした禅僧の言葉",
     whyRead:
       "禅僧であり庭園デザイナーでもある著者が、不安や悩みを手放すための48の禅の教えをやさしい言葉で説く。「人と比べない」「競争から離れてみる」など、勝負の世界に生きる人にこそ響く視点が詰まった一冊。",
@@ -1211,6 +1255,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/10705715-L.jpg",
     hook: "女優・浜辺美波が「わたしにとって最大の友」と語る、10歳の頃に出会った魔法の世界",
     whyRead:
       "マグルの家庭で育った少年ハリーが、11歳の誕生日に魔法学校への入学許可証を受け取るところから始まる物語。友情、冒険、そして自分の出自をめぐるミステリーが詰まった、全7巻シリーズの記念すべき第一作。",
@@ -1234,6 +1279,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/367267-L.jpg",
     hook: "「生涯最高のお気に入り作品」──グラミー受賞ラッパーStormzyが少年時代から愛読し、BBCドラマ版にカメオ出演するほど敬愛を示した人種逆転の青春小説",
     whyRead:
       "黒人が権力を持つ逆転した架空のイギリスで、「肌の色」の壁を越えようとする二人の禁断の恋を描く青春小説。人種差別と階級差別をYA（ヤングアダルト）フィクションの形式で鮮烈に問いかけ、Stormzyの社会正義への視点の原点ともなっている。",
@@ -1258,6 +1304,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/924521-L.jpg",
     hook: "「毎年読み返す一冊」──NFL史上最多7度のスーパーボウル制覇を誇るトム・ブレイディが「とても精神的な本だ」と語るトルテック族の古代智慧",
     whyRead:
       "「言葉に誠実であること」「思い込まないこと」「推測しないこと」「常にベストを尽くすこと」──古代メキシコのトルテック族の智慧から生まれた4つの実践を説く。NFL最長クラスのキャリアを支えた精神的な支柱の一つ。",
@@ -1282,6 +1329,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/8231990-L.jpg",
     hook: "「人生観を変えた本」──2021年東京五輪でメンタルヘルスを優先した決断で世界に勇気を与えたシモーネ・バイルズが愛読する、「何を手放し、何に本気になるか」を問う一冊",
     whyRead:
       "人生で本当に大切なことに意識とエネルギーを集中させ、それ以外への執着を手放す──「ノー」と言うことの哲学を説く。完璧主義のアスリートが「すべてに応えなくていい」という視点を得た一冊。",
@@ -1305,6 +1353,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=6Zg2PQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "「この本を丸ごと暗誦できる」──23個の金メダルを持つ競泳の神様マイケル・フェルプスと、テニス界の絶対王者ノバク・ジョコビッチ、二人のトップアスリートが支えにした「今この瞬間に在る」という教え",
     whyRead:
       "「過去の後悔」と「未来への不安」から意識を解き放ち、「今この瞬間」に完全に在ることの力を説く。フェルプスが「丸ごと暗誦できる」と語るほど繰り返し読み込み、ジョコビッチもお気に入りの一冊に挙げた、トップアスリートのメンタルを支えた一冊。",
@@ -1329,6 +1378,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/14428233-L.jpg",
     hook: "「これまで読んだ最高の一冊」──メジャー4冠のプロゴルファー・ロリー・マキロイが「もっと早く読んでいれば人生が変わっていた」と語る、逆境を力に変えるストア哲学",
     whyRead:
       "マルクス・アウレリウスをはじめとする古代ストア哲学の知恵を現代の成功者たちの実例で描き直した一冊。「障害そのものが道になる」という思想は、競技で壁にぶつかり続けるアスリートに特に深く響く。",
@@ -1353,6 +1403,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/9261036-L.jpg",
     hook: "日本人初のNBA選手・田臥勇太が「アンダーラインを引きながら読むほど、のめり込んだ」と語る、コービー・ブライアント引退記念公式本",
     whyRead:
       "5度のNBAチャンピオンに輝いたコービー・ブライアントが、自身のプレーへの向き合い方を初めて自らの言葉で語った公式本。フィル・ジャクソンの序文と数百枚の写真とともに、一つのことを極める姿勢が凝縮されている。",
@@ -1376,6 +1427,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "エッセイ",
+    coverUrl: "https://books.google.com/books/content?id=HELyPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "カズレーザーが「15年ぶりに泣いた」と明かした、SF作家が妻に贈った1778篇の物語",
     whyRead:
       "末期がんを宣告された妻のために、SF作家がたった一人の読者のために毎日ショートショートを書き続けた実話。夫婦で生きることの意味を、飾らない言葉で伝えるエッセイ集。",
@@ -1399,6 +1451,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=lUrkAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "IUが「人生で読んだ中で最高の本」と語るドストエフスキー最後の長編",
     whyRead:
       "父殺しをめぐる三兄弟の葛藤を通して、信仰・自由・道徳を問い続けるドストエフスキー最晩年の大作。亀山郁夫による読みやすい新訳で、シリーズ第1巻から物語が動き出す。",
@@ -1491,6 +1544,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=reiMwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "陸上選手・高良彩花が競技の挫折時に出会い、前向きさを取り戻した韓国発ベストセラー",
     whyRead:
       "誰かと比べることをやめ、自分自身を大切にして生きるための70のメッセージ。韓国で60万部を突破し、日本でも共感を呼んだエッセイ集。",
@@ -1514,6 +1568,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=lEpeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "宮崎駿が「自分の作品はすべてこの一作の影響を受けている」と語るファンタジーの原点",
     whyRead:
       "並外れた魔法の才を持つ少年ゲドが、禁じられた呪文で自らの〈影〉を呼び出してしまい、その影と対峙する旅に出る成長物語。児童文学の枠を超え、自己の暗部と向き合うことの意味を問う、世界文学史に残るファンタジーの金字塔。",
@@ -1538,6 +1593,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=3zV7lkfR1hIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "料理人・三國清三が壁にぶつかるたびに開く、生涯の愛読書",
     whyRead:
       "1968年の刊行以来400万部を超えて読み継がれる随想集。「自信を失ったときに」「困難にぶつかったときに」など、人生の局面ごとに開けるよう構成された短編エッセイの数々が、あらゆる年代・職種の読者に指針を与えてきた。",
@@ -1561,6 +1617,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=SDZrCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "柳井正が「これが私の最高の教科書だ」と語る、ユニクロの「幻のバイブル」",
     whyRead:
       "多国籍企業ITTのCEOとして14年半にわたり増益を続けた経営者による回顧録。「本は始めから終わりへ読むが、経営はまず終わりから考える」など、数字と組織運営の本質を突く金言に満ちた経営書の古典。",
@@ -1585,6 +1642,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://covers.openlibrary.org/b/id/9286949-L.jpg",
     hook: "バラク・オバマが「無人島に一冊だけ持っていくなら」と即答した大統領伝記",
     whyRead:
       "リンカーンが自身に反対した政敵たちをあえて自らの内閣に迎え入れ、南北戦争を乗り越えた統治術を描くピュリッツァー賞作家による大統領伝記。対立を力に変えるリーダーシップ論としても読める一冊。",
@@ -1609,6 +1667,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=36F6PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "オプラ・ウィンフリーが著者と共に無料オンライン授業を開き、2500万人が視聴した一冊",
     whyRead:
       "全米580万部を突破したスピリチュアル・ベストセラー。エゴを手放し「今この瞬間」に意識を向けることで、思考の支配から自由になる生き方を説く一冊。",
@@ -1659,6 +1718,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=eAOoSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "有村架純が「いつか演じてみたい」と語る主人公・芳子。23歳で受けた衝撃を、2年経った今も超える本が見つからないという",
     whyRead:
       "施設育ちの芳子と周也、実の姉弟のように育った二人の依存と共犯関係を描く直木賞作家の代表作。人間のずるさや弱さを一切隠さず描く筆致に惹かれ、有村は主人公・芳子をいつか演じてみたいと語っている。",
@@ -1683,6 +1743,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/9273490-L.jpg",
     hook: "加藤シゲアキが電車の中で読みながら「震えてきて」「これは俺だ！」と衝撃を受けた青春小説の金字塔",
     whyRead:
       "思春期の孤独と反抗、大人になることへの拒絶を描いた20世紀アメリカ文学の代表作。主人公ホールデンの独白は、時代を超えて多くの若者の心を代弁し続けている。",
@@ -1707,6 +1768,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=CHBjvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "King Gnu・常田大希が「憧れの気持ちを抱く14冊」に選んだ、現代美術家によるアート×ビジネス論",
     whyRead:
       "世界で高く評価される現代美術家・村上隆が、欧米の芸術構造を徹底的に分析し、作品をブランド化する戦略やプレゼンテーションの技術を語る異色の起業論。アートとビジネスの境界を越えて読める一冊。",
@@ -1757,6 +1819,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://books.google.com/books/content?id=DpvJBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "Boston Beer（サミュエルアダムス）創業者ジム・コックが「持続的なマネジメントに最も重要」と語る決定版評伝",
     whyRead:
       "本人への取材に全面協力して書かれた、唯一無二のスティーブ・ジョブズ評伝。アップル創業からiPhone誕生秘話、経営の極意まで、天才経営者の光と影を余すところなく描き切る。",
@@ -1781,6 +1844,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=YfibDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "Synaptics CEOリック・バーグマンが「これから社会に出る娘たちへの教訓」として選んだ全米ベストセラー",
     whyRead:
       "フェイスブックCOOだったシェリル・サンドバーグが、自身の経験を踏まえて女性リーダーへ贈る全米大ベストセラー。交渉術やメンター探し、キャリアプランニングなど実践的な視点も充実した一冊。",
@@ -1805,6 +1869,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/14407898-L.jpg",
     hook: "SNSで話題になったビーチでの読書姿から一気にハマった、テニス界の新星ココ・ガウフを夢中にさせた全米大ヒットの“ロマンタジー”",
     whyRead:
       "竜の騎士団に入るため過酷な訓練校に足を踏み入れたヒロインの成長と恋を描く、世界的ベストセラーのファンタジー×ロマンス。TikTokを起点に爆発的ヒットとなった「ロマンタジー」ブームの代表作。",
@@ -1829,6 +1894,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=s9c2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "乃木坂46・齋藤飛鳥が「好きな作家」の一人に挙げる遠藤周作の問題作",
     whyRead:
       "太平洋戦争末期、九州の大学病院で実際に起きた米軍捕虜生体解剖事件を題材に、「日本人とはいかなる人間か」という問いを追及した遠藤周作の代表作。新潮社文学賞受賞。",
@@ -1853,6 +1919,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=S5z5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "齋藤飛鳥が「好きな作家」に挙げる安部公房の代表作、世界24カ国語に翻訳された不条理文学の金字塔",
     whyRead:
       "昆虫採集に出かけた男が、底の見えない砂穴の家に閉じ込められる——。安部公房が全世界に問いかけた不条理と人間存在の極限を描く、読売文学賞受賞の傑作長編。",
@@ -1877,6 +1944,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=RaqkZZlI7CAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "乃木坂46随一の読書家・鈴木絢音が挙げる、時を超えて愛される青春SFの金字塔",
     whyRead:
       "理科実験室で謎の事件に巻き込まれた女子高生が、時間跳躍能力を手にして体験する不思議な世界と切ない想い。半世紀以上読み継がれる日本SFの永遠の名作。",
@@ -1949,6 +2017,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=t369DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "Google CEOサンダー・ピチャイが「Googleのリーダーシップ研修の基盤にした」と語る、シリコンバレー伝説のコーチの教え",
     whyRead:
       "スティーブ・ジョブズ、グーグル創業者たち、苦境のベゾスまでもが師と仰いだ元アメフトコーチ、ビル・キャンベル。その知られざる「人を育てる技術」を、Google元CEOらが徹底取材で描き出したベストセラー。",
@@ -1973,6 +2042,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=0xfNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "若林正恭（オードリー）が「アメトーーク！読書芸人」で薦めた、新選組副長・土方歳三の生き様を描く一冊",
     whyRead:
       "農民から身を起こし、新選組副長として「鬼の副長」と恐れられた土方歳三の生涯を描く司馬遼太郎の代表作。バラガキと呼ばれた少年期から函館での最期まで、己の美学を貫き通した男の姿は、時代を超えて胸を打つ。",
@@ -2015,6 +2085,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=A-w3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "マラソン世界記録保持者エリウド・キプチョゲが「サブ2時間」への挑戦前に読んでいた習慣化の教科書",
     whyRead:
       "小さな習慣の積み重ねがいかに大きな複利効果を生むかを、行動科学の知見とともに解き明かす世界的ベストセラー。意志力に頼らず仕組みで人生を変えるための具体的な方法論が詰まっている。",
@@ -2036,6 +2107,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/421244-L.jpg",
     hook: "LayerX・Gunosy創業者の福島良典が「マネジメントにおいてやるべきことはほぼない」と評した、元Intel CEOの経営バイブル",
     whyRead:
       "半導体大手インテルを率いた伝説の経営者アンドリュー・グローブが、自らの実践に基づいてマネジメントの本質を説いた古典的名著。「生産性を最大化する管理術」を体系立てて学べる一冊として、シリコンバレーで読み継がれている。",
@@ -2057,6 +2129,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=mX5oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "星野源が選書フェアで「一番好きな作家」と公言した米澤穂信の、報道の倫理を鋭く問うミステリー",
     whyRead:
       "ネパールを訪れた元記者が、王家殺害事件の取材に巻き込まれていく本格ミステリー。「なぜ書くのか」というジャーナリズムの根源的な問いを突きつける、米澤穂信の代表作の一つ。",
@@ -2078,6 +2151,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "エッセイ",
+    coverUrl: "https://books.google.com/books/content?id=RwnNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "星野源が文春文庫「秋の100冊」で選んだ、向田邦子が家族の記憶を綴った不朽の名エッセイ集",
     whyRead:
       "昭和の家庭の情景と、頑固な父をめぐる記憶を、繊細かつユーモラスな筆致で描いたエッセイの金字塔。何気ない日常の一場面から、忘れがたい人間ドラマを浮かび上がらせる向田邦子の筆力が光る。",
@@ -2099,6 +2173,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://books.google.com/books/content?id=vuneEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "リョーサン菱洋ホールディングス社長・中村守孝が「経営マクロ環境を学ぶ本」として選んだ、世界的ベストセラーの人類史",
     whyRead:
       "認知革命・農業革命・科学革命という3つの転換点から人類の歩みを描き直す、世界40カ国以上で刊行された歴史的ベストセラー。ビジネスパーソンが大きな視座で自社と社会の関係を捉え直すための必読書としても支持されている。",
@@ -2120,6 +2195,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=TZPi3RbfrUsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "ゼンリン社長・竹川道郎が「時代の変化に打ち勝つ経営戦略の名著」として選んだ、破壊的イノベーション論の原典",
     whyRead:
       "優良企業がなぜ新興企業の前に敗れ去るのかを解き明かした経営学の金字塔。「破壊的イノベーション」という概念を生み出した本書は、業界を問わず経営者・事業責任者の必読書として読み継がれている。",
@@ -2141,6 +2217,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "絵本",
+    coverUrl: "https://books.google.com/books/content?id=ByavBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "医師でもある作家・夏川草介が「読書の原体験」と語る、100万回生き死にを繰り返した猫の物語",
     whyRead:
       "100万回生き、100万回死んだ猫が、初めて「本当の死」を迎えるまでを描く絵本。子どもから大人まで、読むたびに異なる感慨を呼び起こす普遍的な物語として読み継がれている。",
@@ -2164,6 +2241,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=8_asEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "女優・松岡茉優が「恩田作品の中でも異色作」と語る、27人+1匹が入り乱れる群像疾走劇",
     whyRead:
       "東京駅を舞台に、27人の登場人物と1匹の犬の思惑が複雑に絡み合いながら疾走する群像コメディ。緻密などんでん返しとスピード感あふれる会話劇が持ち味で、恩田陸作品の中でも異色のコミカルな一冊。",
@@ -2211,6 +2289,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=CL4_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "BLACKPINK Jisooがリアリティ番組やライブ配信でたびたび紹介してきた、パトリシア・ハイスミスの隠れた代表作",
     whyRead:
       "1950年代のニューヨークを舞台に、若い女性と年上の人妻が惹かれ合う恋を描いた作品。発表当時のタブーに真正面から向き合いながらも希望のある結末を選んだことで、後年映画化もされ再評価された。",
@@ -2261,6 +2340,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=kdXnqiFmIdUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "寡黙な文豪コーマック・マッカーシーが1992年、生涯で数少ないインタビューの中で明かした「最も好きな本」",
     whyRead:
       "白い鯨モービィ・ディックへの復讐に取り憑かれた船長エイハブの狂気を描いた、アメリカ文学史上最も野心的な一冊。自然の脅威と人間の傲慢さをめぐる思索が随所に織り込まれた大作。",
@@ -2286,6 +2366,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=ixLNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "女優・二階堂ふみが原作発売直後に単行本を買い、後に自ら主演した第138回直木賞受賞作",
     whyRead:
       "津波で家族を失った孤児の少女と、彼女を引き取った25歳の養父。二人の禁忌に満ちた愛を、現在から過去へとアルバムを逆にめくるように描く直木賞受賞作。圧倒的な筆力で読み手を引き込む一冊。",
@@ -2310,6 +2391,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=T4UpCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "石田ゆり子が18歳の不安な時期に出会い、今も旅先に持ち歩く一冊。迷った時は「だいたいはパッと開いたところを読む」という",
     whyRead:
       "厳しい修行ではなく、すべてを受け入れ、自分に素直になることで「さとり」に近づけると説くニューエイジの古典的名著。50万部を超えるロングセラーとして読み継がれ、石田ゆり子は若い俳優仲間へのプレゼントにも選んでいる。",
@@ -2334,6 +2416,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=8pb_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "千原ジュニアが兄・せいじから勧められて読み「めっちゃええ本」と太鼓判",
     whyRead:
       "お金の「貯め方」ではなく「使い切り方」に焦点を当てた一冊。人生の各ステージで資産をどう経験に変えていくかを説き、貯金一辺倒の価値観を揺さぶる。累計77万部を超えるベストセラー。",
@@ -2380,6 +2463,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=HTzGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "小説家・伏尾美紀が「初恋は明智小五郎だと思う」と振り返る、少年探偵団シリーズ第一作",
     whyRead:
       "変装の達人・怪人二十面相と名探偵・明智小五郎、そして小林少年率いる少年探偵団の初対決を描く、日本のミステリー児童文学を代表するシリーズの記念すべき第一作。1936年の発表以来読み継がれる国民的ベストセラー。",
@@ -2403,6 +2487,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=9fWnuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "女優・水原希子が「小説好きになったきっかけ」と語る衝撃の恋愛ミステリー",
     whyRead:
       "ある一家で見つかった「ユリゴコロ」と題されたノート。そこに綴られていたのは殺人に取り憑かれた人間の生々しい告白だった。絶望的な暗黒の世界から一転、深い愛へと辿り着くラストまで一気読み必至の恋愛ミステリー。",
@@ -2449,6 +2534,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=eDTnngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "高校球児だった藤浪晋太郎が、甲子園の春夏連覇を引き寄せた一冊",
     whyRead:
       "サッカー日本代表の元主将が、ドイツでの海外生活を通じてたどり着いた56の習慣を綴った一冊。心を平静に保ち、逆境でも自分を見失わないための考え方を、平易な言葉で説く。",
@@ -2472,6 +2558,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=49pSSAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "本田圭佑が「自分を助けることができるのは自分だけ」という言葉に感銘を受けた一冊",
     whyRead:
       "1859年に英国で出版され世界的ベストセラーとなった自己啓発書の原典。多数の実例をもとに、自ら道を切り開いた人々に共通する姿勢を説き、150年以上経った今も色褪せない普遍的なメッセージを持つ。",
@@ -2495,6 +2582,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=PreDswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "YOASOBIのikuraが、作詞のヒントを得たと語る青春小説",
     whyRead:
       "同じ「ハル」という名を持つ二人の男女が、子供時代から大人になるまでをたどる恋愛小説。誰もが心当たりのある思春期特有の「居心地の悪さ」を、丁寧な筆致ですくい取る。",
@@ -2518,6 +2606,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=SsFhBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "Zendayaが「トニ・モリスンの小説マラソン中」に一番のお気に入りに挙げた衝撃作",
     whyRead:
       "黒人女性作家として初めてノーベル文学賞を受賞したトニ・モリスンのデビュー作。青い瞳への憧れに苦しむ黒人少女ピコーラを通して、人種と美の基準がもたらす痛みを鋭く描き出す。",
@@ -2541,6 +2630,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://books.google.com/books/content?id=9_dxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "鈴木保奈美が、著者の\"人間的魅力\"に引き込まれたと語る土壌革命の書",
     whyRead:
       "米国ノースダコタ州の牧場主が、化学肥料や耕耘に頼らず土壌を再生させてきた実践を綴ったノンフィクション。理系分野に不慣れな読者でも入り込める、平易で人間味あふれる筆致が持ち味。",
@@ -2564,6 +2654,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=IVXkAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "小説家・村田沙耶香が「２度目は読めなかった」ほど心を揺さぶられたフランス文学の名作",
     whyRead:
       "赤毛とそばかすの少年「にんじん」が、家族の中で疎まれながらも健気に生きる姿を描くフランス文学の古典。子供の視点から家族というものの残酷さと温かさを同時に描き出す一冊。",
@@ -2587,6 +2678,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=1xVX0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "小説家・渡辺優が「タイトルも作家も憶えた」最初の児童書として挙げるファンタジーの金字塔",
     whyRead:
       "「時間どろぼう」に時間を奪われた人々と、それを取り戻す少女モモの物語。効率と忙しさに追われる現代人にこそ刺さる、時間の本当の意味を問うドイツ発のファンタジー小説。",
@@ -2610,6 +2702,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=_c1MswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "小説家・石田夏穂が小学生時代に「泣いた」と語る、黒猫ルドルフの成長物語",
     whyRead:
       "ひょんなことから東京へ迷い込んでしまった黒猫ルドルフが、経験豊富な猫イッパイアッテナに導かれ成長していく物語。累計100万部のロングセラーで、大人が読んでも深い人生哲学に触れられる児童文学の名作。",
@@ -2633,6 +2726,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "エッセイ",
+    coverUrl: "https://books.google.com/books/content?id=BflnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "芸人・ヒコロヒーが「凹んだ時に読む」と語る、黒柳徹子の飄々としたエッセイ",
     whyRead:
       "クラシック・バレエや犬の調教、オペラの演出など、あらゆることに挑戦してきた黒柳徹子が、自らの「欠落」の数々をユーモラスに綴るエッセイ集。飄々とした語り口の奥に人生への肯定感がにじむ一冊。",
@@ -2702,6 +2796,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=0YqnzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "落合陽一が「クラークの作品はほとんど読んでいる」と語る中で名前を挙げたSF史上屈指の名作",
     whyRead:
       "巨大宇宙船団が地球を覆い、人類より遙かに高度な知性を持つエイリアンが平和裡に地球管理を行う——宇宙知性との遭遇によって人類が新たな道を歩みだす姿を詩情豊かに描く、アーサー・C・クラークの代表作の一つ。",
@@ -2727,6 +2822,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=TxF9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "あいみょんが感想を著者に直接送り、文庫版に自らのエッセイが載ることになった一冊",
     whyRead:
       "冴えないアラフォー男が青春時代の忘れられない恋を振り返る、燃え殻のデビュー小説。誰の人生にもある「普通の日々の中の特別な瞬間」を掬い取る筆致で、発表当時から幅広い世代の共感を呼んだ。",
@@ -2751,6 +2847,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/1166287-L.jpg",
     hook: "五輪金メダリストが自殺を考えるほどの危機から立ち直るきっかけとなった一冊",
     whyRead:
       "「人はなぜ存在するのか」という問いに、信仰の視点から向き合う世界的ベストセラー。キャリアや名声を失った後に「自分は何のために生きるのか」を考える人々に、宗派を越えて読み継がれている。",
@@ -2776,6 +2873,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=K017QgPfHCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "なにわ男子・大橋和也が「イヤミス」の魅力に開眼するきっかけになった一冊",
     whyRead:
       "結婚をめぐる8つの物語を通じて、幸福の裏に潜む人間の脆さや悪意を描き出す連作短編集。読後に後味の悪さが残る、いわゆる「イヤミス」の代表的な書き手による一冊。",
@@ -2800,6 +2898,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "エッセイ",
+    coverUrl: "https://books.google.com/books/content?id=cVgjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "BTS・Vがグラミー関連インタビューで「とても癒される」と紹介した韓国発エッセイ",
     whyRead:
       "家にいても心から安らげない、という現代人の生きづらさに向き合った韓国のエッセイスト、クォン・ラビンによる初めての著作。自己肯定感をめぐる率直な言葉が、世代や国境を越えて読まれている。",
@@ -2848,6 +2947,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://books.google.com/books/content?id=aUokDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "柳井正が「これが僕の人生のバイブル！」と自ら「はじめに」を寄せた自伝",
     whyRead:
       "ミルクシェイク用ミキサーのセールスマンだったレイ・クロックが52歳でマクドナルド兄弟と出会い、フランチャイズ展開で世界的企業を築き上げるまでを綴った自伝。「チャンスはゴミ箱の中に落ちている」という現場主義の哲学と、年齢を言い訳にしない執念が読みどころ。",
@@ -2871,6 +2971,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "コミック",
+    coverUrl: "https://covers.openlibrary.org/b/id/1041541-L.jpg",
     hook: "マンガの中でしか使えないはずの「片足スプリットステップ」を、錦織圭が実戦で本当に使った愛読マンガ",
     whyRead:
       "天才少年・越前リョーマが名門校テニス部で頭角を現していく王道スポーツ漫画。誇張された必殺技の数々の中でも「片足スプリットステップ」は、実在のトップ選手・錦織圭の技術観にまで影響を与えたテニス漫画の代表作。",
@@ -2895,6 +2996,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=K8nwoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "ケイト・ブランシェットが夫から「これを読まずに死ぬな」と手渡された一冊",
     whyRead:
       "精神を病んだ妻ニコルと、アルコールに溺れていく医師ディックの結婚生活の崩壊を描く、フィッツジェラルド最後の長編小説。ジャズ・エイジの繁栄の裏にある人間関係の脆さを、緻密な心理描写で描き切った代表作。",
@@ -2919,6 +3021,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://books.google.com/books/content?id=rOH6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "トレバー・ノアが「その人生にふさわしい一冊」と評した、マンデラ自身の手による自伝",
     whyRead:
       "27年間の投獄を経て南アフリカ初の黒人大統領となったネルソン・マンデラが、自らの半生と反アパルトヘイト闘争を綴った自伝。理不尽な弾圧の中でも人間性を失わなかった思想と行動の記録。",
@@ -2942,6 +3045,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://books.google.com/books/content?id=N5snDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "シェフ・荻野信也の食材へのこだわりに影響を与えたパタゴニア創業者の経営論",
     whyRead:
       "アウトドアブランド・パタゴニアの創業者イヴォン・シュイナードが、環境負荷を最小限に抑えながら事業を続けるための経営哲学を綴った一冊。「サステナブルなものは存在しない、できるのは害を減らすことだけ」という現実的な視点が特徴。",
@@ -2989,6 +3093,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://books.google.com/books/content?id=llZsQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "声優・千葉翔也がマインドセットを見つめ直すために手に取った、世界的ベストセラーの寓話",
     whyRead:
       "迷路の中でチーズを探す2匹のネズミと2人の小人を通じて、変化にどう向き合うかを説く寓話形式のベストセラー。短く読めるが、立場や生き方によって受け取り方が変わる普遍的な内容を持つ。",
@@ -3013,6 +3118,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "コミック",
+    coverUrl: "https://books.google.com/books/content?id=hCPBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "女優・今田美桜が「初心を思い出させてくれる」と読み返す、OLの出世を描く長寿コミック",
     whyRead:
       "バーのマネージャーを目指すヒロイン・麻理鈴の奮闘を描く、全37巻に及ぶ長寿コミックシリーズ。バブル期から続く時代背景の中で、ひたむきに夢を追う女性の姿を等身大に描く。",
@@ -3037,6 +3143,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=DLXhAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "BTSのRMがKBSインタビューとV LIVEで語った、「軽さ」と「重さ」をめぐる哲学的恋愛小説",
     whyRead:
       "「プラハの春」を背景に、4人の男女の愛と裏切りを通じて、人生における「軽さ」と「重さ」というテーマを問う哲学的恋愛小説。ミラン・クンデラの代表作として世界中で読み継がれている。",
@@ -3085,6 +3192,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://books.google.com/books/content?id=AhHvrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "元NHL最長身選手ズデノ・チャラが愛読書に挙げた、宇宙飛行士の生き方の教科書",
     whyRead:
       "国際宇宙ステーション船長を務めたカナダ人宇宙飛行士クリス・ハドフィールドが、極限状況を生き抜くために身につけた思考法を綴ったノンフィクション。目標達成よりも準備と謙虚さを重んじる姿勢が、宇宙という舞台を超えて説得力を持つ。",
@@ -3109,6 +3217,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=Clp-PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "村上春樹が『理想の小説』と語り、後年みずから翻訳を手がけた一冊",
     whyRead:
       "私立探偵フィリップ・マーロウが、富裕層の陰に潜む友情と裏切りの真相に迫るハードボイルド小説の金字塔。文体そのものを味わうために読み継がれてきた一冊で、村上春樹による新訳では簡潔で乾いた原文の魅力がより鮮やかに伝わる。",
@@ -3133,6 +3242,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://books.google.com/books/content?id=J4a7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "アン・パチェットが『自分に最も影響を与えた一冊』と語り、代表作『ベル・カント』のオマージュ元にした古典",
     whyRead:
       "スイスのサナトリウムを舞台に、青年ハンス・カストルプが病と思想と時間の感覚に向き合っていく20世紀文学の金字塔。閉ざされた空間での人間観察を通じて、生と死、理性と情熱といった対立する主題をじっくりと描き出す。",
@@ -3181,6 +3291,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://covers.openlibrary.org/b/id/7259420-L.jpg",
     hook: "Kendrick Lamarが『自分の音楽への向き合い方の根っこ』と語る自伝",
     whyRead:
       "貧困と差別の中で育ち、投獄を経て思想家として自己を確立していったマルコムXの半生を、本人の口述をもとに構成した自伝。アメリカの人種問題を考えるうえで欠かせない一冊として、今も版を重ねている。",
@@ -3205,6 +3316,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/8310729-L.jpg",
     hook: "コメディアン、パットン・オズワルトが『スローモーションのホラー物語』と評した隠れた傑作",
     whyRead:
       "20世紀初頭のミズーリ大学を舞台に、平凡な英文学教師の人生を静かに描いた小説。刊行当時は注目されなかったが、没後に再評価が進み『最も知られざる傑作』として著名人からの支持を集めている。",
@@ -3229,6 +3341,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://covers.openlibrary.org/b/id/12373738-L.jpg",
     hook: "チャーリー・マンガーが『読んで気に入らなかった人を知らない』と評したロックフェラー伝",
     whyRead:
       "スタンダード・オイルを築いたロックフェラーの生涯を、未公開資料をもとに描いた大部の伝記。独占市場を築いた『強盗男爵』の顔と、巨額の寄付を続けた慈善家の顔の両方を、丹念な取材で描き出す。",
@@ -3253,6 +3366,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/13762558-L.jpg",
     hook: "Milk Bar創業者クリスティーナ・トッシが『昔からずっと大好き』と語るアメリカ料理書の金字塔",
     whyRead:
       "1931年の初版以来、幾度も改訂を重ねながら読み継がれてきたアメリカ家庭料理のバイブル。基本のレシピはもちろん、時代ごとの改訂を追うことでアメリカの食文化そのものの変遷も見えてくる。",
@@ -3276,6 +3390,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/13003091-L.jpg",
     hook: "シェフ、ヨタム・オトレンギが『自分の料理の基礎を作ってくれた』と語る菜食料理書の定番",
     whyRead:
       "野菜料理を『肉料理の代用品』ではなく、それ自体で魅力的な一皿として体系化した菜食料理書の定番。素材の扱い方や味の組み合わせ方を丁寧に解説し、菜食に限らず料理全般の技術書としても読める。",
@@ -3299,6 +3414,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://books.google.com/books/content?id=z3Q6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "1日1冊を目標に読む読書家、菊池雄星がナイキ創業者の自伝に見出した「面白さ」",
     whyRead:
       "ナイキ創業者フィル・ナイトが、無一文からスニーカー帝国を築くまでの内幕を赤裸々に綴った自伝。理想と現実の狭間で走り続けた創業期の苦闘が、経営書らしからぬ疾走感のある筆致で描かれる。",
@@ -3322,6 +3438,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/8872597-L.jpg",
     hook: "「若手時代のバイブル」から著者本人の下で4年間働くきっかけへ――シェフ、エミリー・ユエンの原点の一冊",
     whyRead:
       "フレンチの巨匠ダニエル・ブルーが、次世代の料理人に宛てた手紙形式で綴る一冊。技術論にとどまらず、厨房での忍耐、師弟関係、プロフェッショナリズムのあり方まで、料理人としての生き方そのものを語りかける。",
@@ -3394,6 +3511,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/662232-L.jpg",
     hook: "コメディアン、サラ・シルバーマンが「最も読み返した本」と語る、美術批評の古典",
     whyRead:
       "1972年のBBC番組を書籍化した美術批評の古典。絵画や広告に潜む『見る』という行為そのものの政治性・権力性を鋭く解き明かし、以後の視覚文化論に決定的な影響を与えた薄くも濃密な一冊。",
@@ -3417,6 +3535,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/9329539-L.jpg",
     hook: "「あの本が私の人生を完全に変えた」――ミンディ・カリングが課題図書として出会った社交界小説",
     whyRead:
       "20世紀初頭のニューヨーク上流社交界を舞台に、結婚と経済的自立の間で揺れる女性リリー・バートの転落を描くイーディス・ウォートンの代表作。100年以上前の物語でありながら、現代にも通じる人間関係の生々しさで読み継がれている。",
@@ -3440,6 +3559,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=gMeqBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "恩田陸が小学6年生で出会い、今も年に一度読み返す「日本探偵小説三大奇書」の一つ",
     whyRead:
       "双子の失踪、連続する不審死、そして物語そのものへの自己言及――本格ミステリの体裁を取りながら、探偵小説というジャンルそのものを問い直す前代未聞の構成で知られる。『黒死館殺人事件』『ドグラ・マグラ』と並ぶ日本探偵小説三大奇書の一角。",
@@ -3463,6 +3583,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=9vxjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "お笑いコンビ「Aマッソ」加納愛子が選んだ芥川賞受賞作――職場の「食」をめぐる静かな緊張感",
     whyRead:
       "地方の食品会社を舞台に、『体に良いもの』を作る職場でありながら『食べること』そのものに違和感を抱く社員たちの人間関係を描く芥川賞受賞作。仕事・食事・恋愛という日常が交差する場所に潜む、名付けがたい息苦しさを丁寧にすくい上げる。",
@@ -3486,6 +3607,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=l9zMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "又吉直樹が小学生時代、読書感想文の課題で出会い「文章自体が絵になっている」ことに気づいた一冊",
     whyRead:
       "空襲で家族を失った兄妹が焼け跡の日本を懸命に生きる姿を独自の文体で描いた野坂昭如の代表作。直木賞受賞の表題作に加え、同じく直木賞を受賞した『アメリカひじき』など全6編を収録する。スタジオジブリのアニメ映画でも知られるが、原作の文章そのものが持つ技巧に触れることでまた違った読書体験が開ける。",
@@ -3509,6 +3631,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "小説",
+    coverUrl: "https://books.google.com/books/content?id=yKUCoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     hook: "コービー・ブライアントが「人生で最初に薦められた本」としてNFLチームを本屋に走らせた寓話",
     whyRead:
       "群れの掟に従わず、ひたすら飛ぶことを極めようとした一羽のかもめの物語。自己の限界に挑み続ける生き方の寓話として世界で4000万部を売り上げ、日本では五木寛之の訳で長く愛読されてきた。「完成版」には日本語版だけに収録される幻の最終章も含まれる。",
@@ -3555,6 +3678,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "伝記",
+    coverUrl: "https://books.google.com/books/content?id=itbHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     hook: "スティーブ・ジョブズが10代から生涯読み返し、自らの葬儀で参列者全員に配らせた一冊",
     whyRead:
       "西洋にヨーガの教えを広めた最初期のインド人指導者パラマハンサ・ヨガナンダが、自らの霊的探求の道のりを綴った自伝。1946年の初版刊行以来、西洋におけるスピリチュアリティのあり方に大きな影響を与え続けてきた一冊で、宗教や宗派を超えて読み継がれている。",

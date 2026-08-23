@@ -6,7 +6,7 @@ import { getGenreNames } from "@/data/genres";
 const BASE_URL = "https://yomimado91.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ["", "/archive", "/today-sale", "/disclosure"].map((path) => ({
+  const staticPages = ["", "/archive", "/today-sale", "/disclosure", "/genre", "/recommender"].map((path) => ({
     url: `${BASE_URL}${path}`,
     lastModified: new Date(),
   }));
