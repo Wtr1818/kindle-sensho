@@ -56,9 +56,7 @@ export const entries: Entry[] = [
       "本人が好んで再読する作品として複数のメディア・ファンサイトで紹介されている",
     sourceUrl: "https://www.buzzfeed.com/kagrawal/books-rm-of-bts-has-read-or-recommended",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-21",
   },
   {
@@ -321,9 +319,7 @@ export const entries: Entry[] = [
     sourceLabel: "One Grand Booksの選書リストで「人生に最も影響を与えた本」として紹介",
     sourceUrl: "https://onegrandbooks.com/shop/curators/chef/thomas-keller/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-22",
   },
   {
@@ -347,9 +343,7 @@ export const entries: Entry[] = [
     sourceLabel: "メタバースの構想を得たと複数のインタビューで本人が言及",
     sourceUrl: "https://venturebeat.com/games/jensen-huang-interview-the-physical-world-and-the-metaverse-can-be-connected/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-22",
   },
   {
@@ -373,9 +367,7 @@ export const entries: Entry[] = [
     sourceLabel: "「人生最高の本」と本人が複数のインタビューで発言",
     sourceUrl: "https://www.cnbc.com/2017/10/05/bezos-favorite-kazuo-ishiguro-wins-the-nobel-prize-in-literature.html",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-22",
   },
   {
@@ -399,9 +391,7 @@ export const entries: Entry[] = [
     sourceLabel: "文庫版の帯に本人の推薦コメントが掲載されている",
     sourceUrl: "https://tsunatsuna.blog.ss-blog.jp/2005-02-23",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-22",
   },
   {
@@ -593,9 +583,7 @@ export const entries: Entry[] = [
     sourceLabel: "「最も好きな小説家」と公言し、10代で読んだ経緯をインタビューで振り返っている",
     sourceUrl: "https://www.koreaherald.com/article/10518180",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-24",
   },
   {
@@ -764,9 +752,7 @@ export const entries: Entry[] = [
     sourceUrl:
       "https://www.cbc.ca/radio/q/wednesday-oct-20-2021-denis-villeneuve-joe-dator-and-more-1.6215575/dune-director-denis-villeneuve-on-adapting-frank-herbert-s-notoriously-unfilmable-sci-fi-epic-1.6215592",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-06-24",
   },
   {
@@ -1681,9 +1667,7 @@ export const entries: Entry[] = [
       "2008年に自身の読書クラブで選書し「最も重要な本」と明言（oprah.com）",
     sourceUrl: "https://www.oprah.com/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-07-25",
   },
   {
@@ -1806,9 +1790,7 @@ export const entries: Entry[] = [
       "日経BOOKプラス「本との出会いも一期一会」インタビューで、真のリーダーシップを学んだ一冊として紹介",
     sourceUrl: "https://bookplus.nikkei.com/atcl/column/111500600/120600004/",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-07-27",
   },
   {
@@ -2303,9 +2285,7 @@ export const entries: Entry[] = [
     sourceUrl:
       "https://www.bandwagon.asia/articles/7-book-recommendations-from-your-favourite-kpop-artists-bts-rm-got7-jay-b-blackpink-jisoo-nct-jaehyun-red-velvet-irene-iu-bookstagram-booktuber",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-08-01",
   },
   {
@@ -2809,9 +2789,7 @@ export const entries: Entry[] = [
     sourceLabel: "byTRUST.jpのインタビュー記事で本人が発言",
     sourceUrl: "https://bytrust.jp/1856",
     status: "active",
-    onSale: true,
-    saleName: "Kindleストア サマーセール第2弾",
-    saleEndsLabel: "8/20まで",
+    onSale: false,
     dateAdded: "2026-08-08",
   },
   {
