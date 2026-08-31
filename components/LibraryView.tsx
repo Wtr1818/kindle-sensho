@@ -33,7 +33,9 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
       </p>
       <div className="mb-6 flex flex-wrap gap-3">
         <button
+          type="button"
           onClick={() => setActiveTag(null)}
+          aria-pressed={activeTag === null}
           className={
             activeTag === null
               ? "rounded-full border border-[#000000] bg-[#000000] px-4 py-1.5 text-base font-medium text-white"
@@ -44,8 +46,10 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
         </button>
         {RECOMMENDER_TAGS.map((tag) => (
           <button
+            type="button"
             key={tag}
             onClick={() => setActiveTag(tag)}
+            aria-pressed={activeTag === tag}
             className={
               activeTag === tag
                 ? "rounded-full border border-[#000000] bg-[#000000] px-4 py-1.5 text-base font-medium text-white"
@@ -62,7 +66,9 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
           {filtered.length}件
         </p>
         <button
+          type="button"
           onClick={() => setSaleOnly((v) => !v)}
+          aria-pressed={saleOnly}
           className={
             saleOnly
               ? "border border-[#b5402b] bg-[#b5402b] px-3.5 py-1.5 text-xs font-medium text-white"
