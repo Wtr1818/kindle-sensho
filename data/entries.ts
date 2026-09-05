@@ -3574,9 +3574,7 @@ export const entries: Entry[] = [
     sourceLabel: "テレビ朝日「アメトーーク！本屋で読書芸人」（2023年4月20日放送）での紹介を三洋堂書店が記事化",
     sourceUrl: "https://www.sanyodo.co.jp/news/bks_ametalk230420",
     status: "active",
-    onSale: true,
-    saleName: "講談社【夏電書2026】ファイナルサマーセール（35%OFFクーポン）",
-    saleEndsLabel: "9/3まで",
+    onSale: false,
     dateAdded: "2026-08-18",
   },
   {
