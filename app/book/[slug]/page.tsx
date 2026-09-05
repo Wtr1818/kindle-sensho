@@ -108,7 +108,7 @@ export default async function BookPage({
         <div className="mx-auto max-w-3xl px-6 py-10">
           <Link
             href="/"
-            className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
+            className="text-sm text-[#000000]/60 underline-offset-4 hover:text-[#000000] hover:underline"
           >
             ← 読み窓91のライブラリへ
           </Link>
@@ -126,7 +126,7 @@ export default async function BookPage({
             </p>
           </section>
         )}
-        <p className="mt-8 text-xs text-[#000000]/40">
+        <p className="mt-8 text-xs text-[#000000]/60">
           価格・在庫はAmazonの商品ページでご確認ください。
         </p>
 

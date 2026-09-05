@@ -59,7 +59,7 @@ export default async function RecommenderPage({
         <div className="mx-auto max-w-3xl px-6 py-16">
           <Link
             href="/"
-            className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
+            className="text-sm text-[#000000]/60 underline-offset-4 hover:text-[#000000] hover:underline"
           >
             ← 読み窓91のライブラリへ
           </Link>
