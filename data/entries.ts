@@ -4414,4 +4414,181 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-06",
   },
+  {
+    slug: "siddharta-denzel-washington",
+    title: "シッダールタ（新潮文庫）",
+    author: "ヘルマン・ヘッセ（高橋健二 訳）",
+    asin: "B01E6HG8US",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/811XKrJD0sL._SY522_.jpg",
+    hook: "デンゼル・ワシントンが「人生で一番好きな本」と語る、探求者の物語",
+    whyRead:
+      "釈迦の出家前の名を持つ主人公シッダールタが、苦行と快楽という両極を経て、川のほとりでついに悟りに至るまでを描いたヘッセの代表作。特定の教義に頼らず自分自身の道を歩むことの意味を、静かに、しかし力強く問いかける一冊。",
+    recommenderStory:
+      "デンゼル・ワシントンは2006年のインタビューで、本作を「自分の人生で一番好きな本」として挙げている。理由として、大地を歩き、祈り、探求し続けるシッダールタの姿に自分自身を重ねてきたと語った。",
+    detailedStory:
+      "ワシントンが本作を「人生最高の一冊」と語ったのは2006年のインタビューでのことだった。彼は「シッダールタは大地を歩き、祈り、探求していた。自分にもそういう感覚と好奇心があった」と述べ、悟りを求めて彷徨う主人公の姿に自分自身を重ねてきたことを明かしている。さらに「それは自分自身の哲学へとたどり着く道であり、脳の使われていない90％が何をしているのかを探る作業のようなものだ」とも語り、単なる物語としてではなく、自己を見つめ直すための拠り所としてこの本を読んできたことがうかがえる。数々の役を通じて人間の内面を演じ続けてきた俳優にとって、悟りに至る一人の求道者を描いた本作は、演技という仕事の根底にある姿勢とも重なるものだったのかもしれない。",
+    recommenderName: "デンゼル・ワシントン（俳優、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "2006年のインタビューで「シッダールタは自分の人生で一番好きな本」と発言、探求者としての主人公の姿に自分を重ねたと語った",
+    sourceUrl: "https://www.purewow.com/books/denzel-washington-favorite-book",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "jiseiroku-jack-drury",
+    title: "マルクス・アウレーリウス 自省録（岩波文庫）",
+    author: "マルクス・アウレリウス（神谷美恵子 訳）",
+    asin: "B00QT9X9Y0",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/81Uq2zKmWWL._SY522_.jpg",
+    hook: "NHL期待の若手センターが遠征先で読み込む、ローマ皇帝の内省ノート",
+    whyRead:
+      "五賢帝の一人にして哲人でもあったマルクス・アウレリウスが、戦地の陣中で自らに言い聞かせるように綴った覚書。感情に振り回されず「今」を生きるための知恵は、2000年近くを経た今も色褪せない。",
+    recommenderStory:
+      "ハーバード大学出身でカロライナ・ハリケーンズの若手有望株ジャック・ドルーリーは、Lit Hub誌の企画「ホッケー界が愛する本」で本作を選び、「古代ローマ皇帝が、心の平静と幸福について時代を超えた助言をくれる」と評した。",
+    detailedStory:
+      "文芸誌Lit Hubが企画した「ホッケー界が愛する本」特集で、ハーバード大学からNHL入りしたばかりの若手センター、ジャック・ドルーリーが選んだのが本作だった。彼は「古代ローマ皇帝が、心の平静と幸福について時代を超えた助言をくれる」と、シンプルながら本質を突いたコメントを寄せている。プロスポーツ選手としての過密な遠征日程や勝敗のプレッシャーの中で、2000年近く前の皇帝が戦場の合間に自分自身へ書き留めた言葉に安らぎを見出しているという点は、本書が時代や職業を超えて読み継がれてきた理由をよく表している。",
+    recommenderName: "ジャック・ドルーリー（NHLカロライナ・ハリケーンズ、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "Lit Hub誌「ホッケー界が愛する本」特集で本人が直接コメント",
+    sourceUrl:
+      "https://lithub.com/are-there-any-actual-surprises-on-this-list-of-the-hockey-worlds-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "sorae-erik-gudbranson",
+    title: "空へ―「悪夢のエヴェレスト」1996年5月10日（ヤマケイ文庫）",
+    author: "ジョン・クラカワー（海津正彦 訳）",
+    asin: "B076CBR8K9",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    coverUrl: "https://m.media-amazon.com/images/I/81pBTA0ytoL._SY522_.jpg",
+    hook: "NHLの屈強なディフェンスマンが「読み出したら止まらない」と語る遭難ノンフィクションの金字塔",
+    whyRead:
+      "1996年のエベレスト大量遭難を、自ら公募隊に参加し九死に一生を得た著者が徹底取材で描いたノンフィクションの傑作。極限状況下で人間がどう判断し、どう壊れていくかを克明に記録した一冊。",
+    recommenderStory:
+      "NHLアナハイム・ダックスのディフェンスマン、エリック・グッドブランソンはLit Hub誌の企画で本作を挙げ、「とにかく凄まじい物語。読み出したら止まらない一冊」と評した。",
+    detailedStory:
+      "Lit Hub誌の「ホッケー界が愛する本」特集で、体格を活かした激しいプレーで知られるディフェンスマン、エリック・グッドブランソンが選んだのが、エベレスト大量遭難を描いた本作だった。彼のコメントは「とにかく凄まじい物語だ。読み出したら止まらない一冊の一つ」というシンプルなものだが、氷点下の極限環境で肉体と精神の限界に挑む登山家たちの姿は、リンク上で体を張り続けるプロアイスホッケー選手にとって、どこか重なるものがあったのかもしれない。著者クラカワー自身がツアー登山隊の一員として遭難の現場に居合わせ、生還した当事者として描いた臨場感が、多くの読者を惹きつけてきた一冊である。",
+    recommenderName: "エリック・グッドブランソン（NHLアナハイム・ダックス、カナダ）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "Lit Hub誌「ホッケー界が愛する本」特集で本人が直接コメント",
+    sourceUrl:
+      "https://lithub.com/are-there-any-actual-surprises-on-this-list-of-the-hockey-worlds-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "chikatetsudo-ken-dryden",
+    title: "地下鉄道（ハヤカワepi文庫）",
+    author: "コルソン・ホワイトヘッド（谷崎由依 訳）",
+    asin: "B08KXXSMH6",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://m.media-amazon.com/images/I/915b5pG60hL._SY522_.jpg",
+    hook: "NHL殿堂入りゴールキーパーが「すべての高校生の必読書に」と語るピュリッツァー賞受賞作",
+    whyRead:
+      "奴隷制下のアメリカ南部から自由を求めて逃げる少女コーラの旅を、実在した秘密の逃亡ネットワーク「地下鉄道」を実際の鉄道に見立てて描いた歴史小説。ピュリッツァー賞・全米図書賞をダブル受賞した現代アメリカ文学の傑作。",
+    recommenderStory:
+      "モントリオール・カナディアンズで6度のスタンレーカップ制覇を果たしたNHL殿堂入りゴールキーパー、ケン・ドライデンはLit Hub誌の企画で本作と姉妹編『ニッケル・ボーイズ』を挙げ、「『アラバマ物語』が長年そうであったように、アメリカの高校生全員のカリキュラムに入るべき作品だ」と評した。",
+    detailedStory:
+      "現役引退後、弁護士・政治家としても活動してきた知性派として知られるケン・ドライデンは、Lit Hub誌の「ホッケー界が愛する本」特集で、著者コルソン・ホワイトヘッドの2作品『地下鉄道』と『ニッケル・ボーイズ』を並べて紹介した。彼は「『アラバマ物語（To Kill a Mockingbird）』が長年そうであったように、アメリカの高校生全員のカリキュラムに入るべき作品だ」と述べ、単なる小説としてではなく、次世代が学ぶべき歴史教材としての価値を強調している。奴隷制という重いテーマを、逃亡奴隷コーラの旅路という物語の力で伝える本作を、スポーツ選手としてだけでなく一人の知識人としての顔も持つドライデンが選んだ点に、この一冊への信頼の厚さがうかがえる。",
+    recommenderName: "ケン・ドライデン（NHL殿堂入りゴールキーパー、カナダ）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "Lit Hub誌「ホッケー界が愛する本」特集で本人が直接コメント",
+    sourceUrl:
+      "https://lithub.com/are-there-any-actual-surprises-on-this-list-of-the-hockey-worlds-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "1929-howard-marks",
+    title: "1929: Inside the Greatest Crash in Wall Street History--and How It Shattered a Nation",
+    author: "Andrew Ross Sorkin",
+    asin: "B0DXMZWTYM",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/15161980-L.jpg",
+    hook: "伝説の投資家ハワード・マークスが「ここ数年で読んだ最高の投資本」と評した1929年大暴落の物語",
+    whyRead:
+      "1929年のウォール街大暴落を、当時実在した人物たちの視点から再構成したノンフィクション。数字の羅列ではなく人間ドラマとして恐慌のメカニズムを描き出す筆致が高く評価されている。",
+    recommenderStory:
+      "オークツリー・キャピタル共同創業者で、長年の「投資家への手紙」で知られるハワード・マークスは、顧客向けメモの中で本作を「ここ数年で読んだ中で最高の投資本」と評した。",
+    detailedStory:
+      "ハワード・マークスは、自身が長年発信してきた顧客向けメモの中で本作を取り上げ、「ここ数年で読んだ中で最高の投資本」と評した。数字や統計の羅列ではなく、実在した人物たちの視点から1929年の暴落を人間ドラマとして描き出すソーキンの筆致を高く評価し、当時の過剰なレバレッジや不適切な株式販売、資産と負債のミスマッチといった構造が、現在のプライベートクレジット市場の過熱と重なる部分があると指摘した。数十年にわたり相場サイクルを分析し続けてきたマークスが、単なる歴史書としてではなく現在への警鐘としてこの一冊を読んでいる点が興味深い。",
+    recommenderName: "ハワード・マークス（オークツリー・キャピタル共同創業者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "オークツリー社の顧客向けメモで「ここ数年で読んだ中で最高の投資本」と明言、Yahoo Financeが報道",
+    sourceUrl:
+      "https://finance.yahoo.com/markets/stocks/articles/howard-marks-recommends-best-investing-052656398.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "poor-charlies-almanack-pabrai",
+    title: "Poor Charlie's Almanack: The Essential Wit and Wisdom of Charles T. Munger",
+    author: "Charles T. Munger（編：Peter D. Kaufman）",
+    asin: "B0C5TCGPPS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/8337563-L.jpg",
+    hook: "投資家モニッシュ・パブライが「四年制大学の学位より価値がある」と断言した一冊",
+    whyRead:
+      "バークシャー・ハサウェイ副会長チャーリー・マンガーが半生をかけて語ってきた講演・スピーチをまとめた一冊。投資哲学だけでなく、合理的かつ倫理的に生きるための思考法が凝縮されている。",
+    recommenderStory:
+      "著名なバリュー投資家モニッシュ・パブライは、本書の巻末に収録されたマンガーの11本のスピーチについて、「これを理解すれば、どんな四年制大学の学位よりも価値がある」と語っている。",
+    detailedStory:
+      "モニッシュ・パブライは、ウォーレン・バフェットとの伝説的なチャリティランチへの参加でも知られるバリュー投資家で、自らもチャーリー・マンガーの思考法から強い影響を受けてきたと公言している。彼が特に高く評価するのが、本書の巻末に収録された、マンガーが生涯にわたって行ってきた11本のスピーチだ。パブライは「あの11本のスピーチには一生分の知恵が詰まっている。もし誰かがそれを読み込んで本当に理解したなら、それはどんな四年制大学の学位よりも価値がある」と語り、単なる投資指南書ではなく、人生そのものへの指南書として本書を位置づけている。",
+    recommenderName: "モニッシュ・パブライ（投資家、Pabrai Investment Funds創業者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "本書のマンガーによる11本のスピーチについて「四年制大学の学位より価値がある」と発言",
+    sourceUrl: "https://x.com/kejca/status/1780592446075801797",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
+  {
+    slug: "homo-deus-kahneman",
+    title: "ホモ・デウス 上下合本版　テクノロジーとサピエンスの未来",
+    author: "ユヴァル・ノア・ハラリ（柴田裕之 訳）",
+    asin: "B0BDZBGG1J",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    coverUrl: "https://m.media-amazon.com/images/I/71Q4MHtMpbL._SY522_.jpg",
+    hook: "ノーベル経済学賞受賞の心理学者ダニエル・カーネマンが「これまでにない視点で考えさせられる」と絶賛",
+    whyRead:
+      "『サピエンス全史』の著者ハラリが、AIやバイオテクノロジーの発展によって人類がどこへ向かうのかを大胆に予測する一冊。テクノロジーが人間の意思決定や幸福の定義そのものを変えていく未来像を描く。",
+    recommenderStory:
+      "『ファスト＆スロー』の著者でノーベル経済学賞を受賞した心理学者ダニエル・カーネマンは、本書に「衝撃を受け、夢中になり、これまで考えたことのない視点で考えさせられるだろう」という推薦コメントを寄せている。",
+    detailedStory:
+      "行動経済学の礎を築いたノーベル賞受賞者ダニエル・カーネマンは、ハラリの『ホモ・デウス』刊行にあたり「この本はあなたに衝撃を与え、楽しませ、これまで考えたことのない視点で物事を考えさせるだろう」という推薦コメントを寄せ、各国版の帯や表紙にたびたび使われている。カーネマンとハラリは2015年、Edge.org主催の対談企画「Death Is Optional（死は選択できる）」でも、テクノロジーが人間の生老病死の概念そのものを変えていく可能性について議論を交わしており、後に『ホモ・デウス』で展開される中心的なテーマの多くが、すでにこの対談で語られていた。人間の意思決定の非合理性を科学的に解明してきたカーネマンが、次はテクノロジーと人類の未来を大胆に描いたこの一冊を推したという構図が興味深い。",
+    recommenderName:
+      "ダニエル・カーネマン（心理学者・ノーベル経済学賞受賞者、プリンストン大学名誉教授、米国／イスラエル）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel:
+      "『ホモ・デウス』への推薦コメントで「衝撃を受け、これまでにない視点で考えさせられるだろう」と発言、Penguin社の公式書籍ページに掲載",
+    sourceUrl: "https://www.penguin.co.uk/books/433251/homo-deus-by-yuval-noah-harari/9781784703936",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-11",
+  },
 ];
