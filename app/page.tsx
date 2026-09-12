@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { entries } from "@/data/entries";
 import { LibraryView } from "@/components/LibraryView";
+import { OnSalePicks } from "@/components/OnSalePicks";
 
 export default function Home() {
   const activeEntries = entries.filter((entry) => entry.status === "active");
@@ -59,6 +60,7 @@ export default function Home() {
       </header>
 
       <main className="mx-auto max-w-3xl px-6 py-14">
+        <OnSalePicks entries={activeEntries} />
         <LibraryView entries={activeEntries} />
 
         <div className="mt-14 border-t border-[#000000]/10 pt-8">
