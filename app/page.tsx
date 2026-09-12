@@ -48,6 +48,12 @@ export default function Home() {
               >
                 アーカイブ
               </Link>
+              <Link
+                href="/favorites"
+                className="underline-offset-4 hover:text-[#000000] hover:underline"
+              >
+                お気に入り
+              </Link>
             </nav>
           </div>
           <p className="mt-3 font-serif text-lg italic text-[#000000]">

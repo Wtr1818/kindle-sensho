@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Entry, affiliateUrl } from "@/data/entries";
 import { splitRecommenderNames } from "@/data/recommenders";
 import { CoverPlaceholder } from "./CoverPlaceholder";
+import { FavoriteButton } from "./FavoriteButton";
 
 export function EntryCard({
   entry,
@@ -21,26 +22,29 @@ export function EntryCard({
   const amazonHref = affiliateUrl(entry.asin, entry.platform);
   return (
     <article className="flex flex-col gap-4 py-10 first:pt-0 sm:flex-row sm:gap-8">
-      <a
-        href={amazonHref}
-        target="_blank"
-        rel="noopener noreferrer sponsored"
-        className="flex-none"
-        aria-label={`${entry.title}をAmazonで見る`}
-      >
-        {entry.coverUrl ? (
-          <Image
-            src={entry.coverUrl}
-            alt={`${entry.title}の表紙`}
-            width={168}
-            height={252}
-            className="h-[252px] w-[168px] object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
-            unoptimized
-          />
-        ) : (
-          <CoverPlaceholder title={entry.title} author={entry.author} />
-        )}
-      </a>
+      <div className="relative flex-none">
+        <a
+          href={amazonHref}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="block"
+          aria-label={`${entry.title}をAmazonで見る`}
+        >
+          {entry.coverUrl ? (
+            <Image
+              src={entry.coverUrl}
+              alt={`${entry.title}の表紙`}
+              width={168}
+              height={252}
+              className="h-[252px] w-[168px] object-cover shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
+              unoptimized
+            />
+          ) : (
+            <CoverPlaceholder title={entry.title} author={entry.author} />
+          )}
+        </a>
+        <FavoriteButton slug={entry.slug} title={entry.title} />
+      </div>
       <div className="flex-1">
         <div className="mb-3 flex items-center justify-between">
           <span className="text-xs text-[#000000]/60">

@@ -20,6 +20,9 @@ export function Footer() {
           <Link href="/recommender" className="underline-offset-2 hover:underline">
             推薦者一覧
           </Link>
+          <Link href="/favorites" className="underline-offset-2 hover:underline">
+            お気に入り
+          </Link>
           <a href="/feed.xml" className="underline-offset-2 hover:underline">
             RSSで更新を受け取る
           </a>
