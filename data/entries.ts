@@ -4717,4 +4717,222 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-12",
   },
+  {
+    slug: "be-2-0-beyond-entrepreneurship",
+    title: "BE 2.0 (Beyond Entrepreneurship 2.0): Turning Your Business into an Enduring Great Company",
+    author: "ジム・コリンズ、ビル・レイジャー",
+    asin: "B08FZLMZDZ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "Netflix創業者リード・ヘイスティングスが1994年から毎年読み返す、若きCEOへの教科書",
+    whyRead:
+      "『ビジョナリー・カンパニー』シリーズで知られるジム・コリンズが、恩師ビル・レイジャーと共に若い起業家向けに書いた原点的著作。会社を「生き延びる」段階から「偉大な企業」へと導くための経営の地図（The Map）を提示する一冊。",
+    recommenderStory:
+      "Netflix共同創業者のリード・ヘイスティングスは、本書を「1994年に人からもらって以来、毎年読み返している」と公言している。特に冒頭86ページについては「絶対的に素晴らしい」と評し、若いCEOは暗記すべきだとまで語っている。",
+    detailedStory:
+      "ヘイスティングスが本書（当時のタイトルは『Beyond Entrepreneurship』）を手にしたのは1994年、Netflix創業の4年前のことだった。以来30年近くにわたって毎年読み返しているといい、自身のリーダーシップは「どの本、どの人物よりもこの本に形作られた」と述べている。原著はジム・コリンズが恩師ビル・レイジャーと共著したもので、後にコリンズは代表作『ビジョナリー・カンパニー2』（Good to Great）を世に送り出すことになる。レイジャーが2005年に他界した後、コリンズは30年分の研究成果を統合し、原著に4章と15本の新エッセイを加えた増補改訂版『BE 2.0』として本書を蘇らせた。一人の起業家が同じ本を何十年も読み返し続けるという事実そのものが、この本の内容がいかに実践に根差しているかを物語っている。",
+    recommenderName: "リード・ヘイスティングス（Netflix共同創業者・元CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "Jim Collins公式サイトの講演書き起こし・Fast Company誌等で発言が紹介されている",
+    sourceUrl: "https://www.jimcollins.com",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "america-no-doreisei-wo-ikiru",
+    title: "アメリカの奴隷制を生きる: フレデリック・ダグラス自伝",
+    author: "フレデリック・ダグラス（樋口映美 編訳）",
+    asin: "B084VFSQN4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    hook: "デイヴ・シャペルが「生涯で一番好きな本」に選ぶ、元奴隷が自らの言葉で綴った自由への記録",
+    whyRead:
+      "奴隷として生まれ、独学で読み書きを覚え、ついに逃亡を果たしたフレデリック・ダグラスが自らの半生を綴った19世紀アメリカの古典的自伝。「人間として生きる」ことの意味を、当事者の言葉で問い直す一冊。",
+    recommenderStory:
+      "コメディアンのデイヴ・シャペルは、2019年のライブ配信特番「The Punchline」でファンからの質問に答える中で、本作を生涯で一番好きな本として選んだ。",
+    detailedStory:
+      "「The Punchline」は、シャペルが人気特番『Sticks & Stones』を発表した直後の2019年に行われたライブ配信のQ&A企画で、その場で観客やリスナーからの質問に即興で答えるという形式だった。その中で「一番好きな本は何か」と問われたシャペルは、フレデリック・ダグラスの自伝を挙げている。奴隷制という抑圧の中で読み書きを独学し、自らの言葉で不正義を告発したダグラスの生き方は、社会に鋭い視点を投げかけ続けてきたコメディアンとしてのシャペル自身のスタンスとも重なるものがある。",
+    recommenderName: "デイヴ・シャペル（コメディアン、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "2019年のライブ配信特番「The Punchline」のQ&Aコーナーで発言",
+    sourceUrl:
+      "https://newyorkshockexchange.com/2019/09/04/dave-chappelle-chooses-frederick-douglass-over-shock-exchange-as-favorite-book/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "kindred-octavia-butler",
+    title: "キンドレッド (河出文庫)",
+    author: "オクテイヴィア・E・バトラー（風呂本惇子、岡地尚弘 訳）",
+    asin: "B09W95N93G",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ドリー・パートンが「誰も知らない、私のお気に入りの本」と語る、奴隷制時代へのタイムトラベル小説",
+    whyRead:
+      "現代のロサンゼルスに暮らす黒人女性デイナが、謎の力で19世紀の奴隷制時代の南部に引き戻され続けるSF小説。時間移動という設定を通じて、奴隷制の実態と現代との地続き性を描き出すアフリカ系アメリカ人文学の名著。",
+    recommenderStory:
+      "ドリー・パートンはThe New York Timesの人気コラム「By the Book」で、本作を「誰もその凄さを知らない、私のお気に入りの本」として紹介した。「人種問題とタイムトラベルとロマンスが同居していて、説明しづらいのだけれど、なぜかすべてがうまく噛み合っている」と評している。",
+    detailedStory:
+      "「By the Book」は著名人に読書遍歴を尋ねるNYTの名物コラムで、パートンはその中で数ある愛読書の一つとしてではなく、あえて「知られざる名作」として本作を選び出した。ジャンルを軽々と越境し、奴隷制の暴力と時間移動というSF的設定、そして人間関係の機微を同時に描くバトラーの筆致を、パートンは「なぜかすべてがうまく噛み合っている」という言葉で評価している。カントリー音楽界を代表する存在でありながら、幅広いジャンルの文学に親しんでいることをうかがわせる発言である。",
+    recommenderName: "ドリー・パートン（音楽アーティスト、米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel: "The New York Times「By the Book」コラムで発言",
+    sourceUrl:
+      "https://voraciousdpc.com/2020/12/04/dolly-parton-likes-to-read-by-the-fire-in-her-pajamas-the-new-york-times/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "kokoro-wa-kodoku-na-karyudo",
+    title: "心は孤独な狩人（新潮文庫）",
+    author: "カーソン・マッカラーズ（村上春樹 訳）",
+    asin: "B0CGLHMJ7J",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "村上春樹が20歳で出会い、50年近く温め続けた末に自ら翻訳した「最も親近感を覚える女性作家」の代表作",
+    whyRead:
+      "1930年代末、大恐慌下のアメリカ南部の町を舞台に、聾唖の男シンガーのもとに集う孤独な人々の姿を描くマッカラーズ23歳のデビュー作にして最高傑作。出口の見えない孤独を、静かな筆致で描き切った20世紀アメリカ文学の名品。",
+    recommenderStory:
+      "村上春樹は本作を約20歳の頃に読み、深く心を動かされたと語っている。マッカラーズを「自分が最も親近感を覚える女性作家」と位置づけ、長年温めてきた末に、みずから日本語訳を手がけて世に送り出した。",
+    detailedStory:
+      "村上春樹が本作と出会ったのは20歳前後、作家を志す以前の若い時期だったという。以来、長い時間を経てもその印象は薄れることなく、マッカラーズを自身が最も親近感を覚える女性作家として挙げ続けてきた。多くの海外文学を翻訳してきた村上だが、本作については単なる紹介者としてではなく、長年愛読してきた読者としての思い入れを翻訳作業に注ぎ込んでいる。訳者あとがきでは、マッカラーズの小説世界を「個人的に閉じた世界」であり「マッカラーズ自身の心象世界」だと評し、そこに登場する人々がそれぞれの欠落を抱えながら出口を探し続ける様子に触れている。一人の読者として長年心にとどめてきた作品を、自らの手で新訳として世に出すという行為そのものが、村上とこの作品との関係の深さを物語っている。",
+    recommenderName: "村上春樹（小説家）",
+    recommenderTag: "文学・小説家",
+    sourceLabel: "新潮社公式サイトの書籍紹介ページ・訳者あとがきで言及",
+    sourceUrl: "https://www.shinchosha.co.jp/book/507181/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "kitchen-confidential",
+    title: "キッチン・コンフィデンシャル",
+    author: "アンソニー・ボーデイン（野中邦子 訳）",
+    asin: "B07L432SMH",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "世界最高峰の料理人ルネ・レゼピが選ぶ、レストラン業界の内幕を暴いた伝説のベストセラー",
+    whyRead:
+      "CIA（米国料理学院）出身の異色シェフ、アンソニー・ボーデインがレストラン業界の裏側を赤裸々に綴った自伝的実録。2001年の刊行直後にベストセラーとなり、著者をテレビの世界へと導いた、料理業界ノンフィクションの金字塔。",
+    recommenderStory:
+      "「世界のベストレストラン50」で幾度も1位に輝いたNoma創業者のルネ・レゼピは、ニューヨークの書店One Grand Booksが手がける「料理人が選ぶ人生の10冊」の企画で本作を選出。「レストラン文化を描いた最高の本」と評している。",
+    detailedStory:
+      "One Grand Booksは、各界の著名人にジャンルを問わず人生に影響を与えた10冊を選んでもらうニューヨークの書店企画で、料理人部門にはレゼピをはじめ世界的なシェフたちが名を連ねている。レゼピはその中で本作を「レストラン文化を描いた最高の本」と位置づけ、じっくり読みたいときに繰り返し手に取る一冊として紹介した。北欧料理を再定義し「ニュー・ノルディック・キュイジーヌ」の旗手として世界の料理界を牽引してきたレゼピが、華やかな側面だけでなくレストランという現場の泥臭い内実を描いたボーデインの筆致を評価している点は興味深い。",
+    recommenderName: "ルネ・レゼピ（Noma創業者・シェフ、デンマーク）",
+    recommenderTag: "料理人",
+    sourceLabel:
+      "ニューヨークの書店One Grand Booksの選書企画「料理人が選ぶ10冊」で選出",
+    sourceUrl: "https://onegrandbooks.com/shop/curators/chef/rene-redzepi/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "jane-eyre-kanzenban",
+    title: "ジェーン・エア　完全版",
+    author: "シャーロット・ブロンテ（十一谷義三郎 訳）",
+    asin: "B0BPXQT2SJ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "ノーベル文学賞作家カズオ・イシグロが「自分の作家人生はこの一冊に負っている」と語る原点",
+    whyRead:
+      "孤児として育った主人公ジェーンが、苦難を乗り越えながら自らの意志と尊厳を貫いていく姿を描く英文学の金字塔。19世紀に書かれながら、自立した女性像を描いた小説として今なお読み継がれている。",
+    recommenderStory:
+      "カズオ・イシグロはThe Paris Reviewのインタビュー「The Art of Fiction No. 196」で、本作と『ヴィレット』の2作を挙げ、「自分の作家人生はこの2作に負っている」と語っている。",
+    detailedStory:
+      "イシグロがこのインタビューで語ったところによれば、シャーロット・ブロンテの2作品、『ジェーン・エア』と『ヴィレット』は自身の作家としての基盤を形作った作品だという。特筆すべきは、イシグロが後年これらの作品を読み返した際、自分では気づかぬうちに自作にその影響を色濃く取り込んでいたことに気づき、「かなり気恥ずかしい思いをした」と正直に振り返っている点だ。孤児や異邦人としての孤独、抑制された感情の内側に渦巻く強い意志という、イシグロ作品にも通底するテーマの源流を、彼自身がブロンテの作品に見出していることがうかがえる。",
+    recommenderName: "カズオ・イシグロ（小説家、英国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "The Paris Review「The Art of Fiction No. 196」インタビューで発言",
+    sourceUrl:
+      "https://www.theparisreview.org/interviews/6202/the-art-of-fiction-no-196-kazuo-ishiguro",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "hitsuji-tachi-no-chinmoku",
+    title: "羊たちの沈黙（上）（新潮文庫）",
+    author: "トマス・ハリス（高見浩 訳）",
+    asin: "B0876Y1RQP",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "フローレンス・ピューが「お気に入りの本、お気に入りの映画」と語るサイコサスペンスの金字塔",
+    whyRead:
+      "FBI訓練生クラリス・スターリングが、収監中の天才精神科医ハンニバル・レクターの助言を得ながら連続殺人犯を追う、サスペンス小説の最高峰。緻密な心理描写と息もつかせぬ展開で、映画版と並び称される原作小説。",
+    recommenderStory:
+      "俳優のフローレンス・ピューは2019年のインタビューで、本作を「お気に入りの本であり、お気に入りの映画でもある」と語り、若い頃から繰り返し読んできたことを明かしている。",
+    detailedStory:
+      "ピューは主演映画『ミッドサマー』などで注目を集めた頃のインタビューで、愛読書について問われた際に本作を挙げ、同じ本を「何度も繰り返し読んできた」と述べている。映画版『羊たちの沈黙』も自身の一番好きな映画として同時に挙げており、原作小説と映画版の両方に幼い頃から親しんできたことがうかがえる。クラリス・スターリングという、男性社会の中で自らの能力を証明しようとする若い女性の姿に、若手俳優として業界を歩み始めたピューが重ねるものがあったとしても不思議ではない。",
+    recommenderName: "フローレンス・ピュー（女優、英国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "2019年のインタビューで発言",
+    sourceUrl: "https://www.brainyquote.com/quotes/florence_pugh_998591",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "anne-no-nikki-zoho-shinteiban",
+    title: "アンネの日記　増補新訂版",
+    author: "アンネ・フランク（深町眞理子 訳）",
+    asin: "B00K7YJTO2",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    hook: "小説家・小川洋子が「日記をつけ、作家になる夢を見るきっかけになった」と語る、少女が綴った記録",
+    whyRead:
+      "ナチスの迫害から逃れ、隠れ家での2年間を克明に綴ったユダヤ人少女アンネ・フランクの日記。極限状況の中でも失われなかった希望と成長の記録として、世界中で読み継がれてきた20世紀を代表する記録文学。",
+    recommenderStory:
+      "小説家の小川洋子は、少女時代に本作と出会ったことが、自分自身も日記をつけ、いつか作家になりたいと夢見るきっかけになったと語っている。",
+    detailedStory:
+      "小川洋子は自身のインタビューで、アンネ・フランクの日記が「人はこれほど過酷な状況に置かれても、なお成長できるのだ」ということを証明した記録だと評している。隠れ家という極限まで閉ざされた環境の中でも、自分の内面と向き合い、言葉を綴り続けたアンネの姿は、幼い小川自身にも「書くこと」への憧れを植え付けた。後に『博士の愛した数式』などで知られる作家となった小川の原点に、この一冊があったことになる。",
+    recommenderName: "小川洋子（小説家）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "nippon.com「Writer Ogawa Yōko's Stories of Memory and Loss」で言及",
+    sourceUrl:
+      "https://www.nippon.com/en/people/bg900133/writer-ogawa-yoko%E2%80%99s-stories-of-memory-and-loss.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
+  {
+    slug: "toikake-tsuzukeru-all-blacks",
+    title: "問いかけ続ける",
+    author: "ジェイムズ・カー（恒川正志 訳）",
+    asin: "B077GLD93H",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "NBA名将スティーブ・カーがプレーオフの最中に読んでいた、オールブラックスに学ぶチーム文化論",
+    whyRead:
+      "世界最強のラグビーチーム、ニュージーランド代表オールブラックスがいかにして勝利の文化を次世代へ受け継いできたかを描くノンフィクション。「ロッカールームの掃除は自分たちで行う」など、組織づくりとリーダーシップの要諦が詰まった一冊。",
+    recommenderStory:
+      "NBAゴールデンステート・ウォリアーズのヘッドコーチ、スティーブ・カーはプレーオフ期間中のインタビューで本作を読んでいることを明かし、特に「ロッカールームの掃除」の章がチーム文化への考え方に影響を与えたと語っている。",
+    detailedStory:
+      "San Francisco Chronicle紙のインタビューでカーは、シリーズの重圧から気をそらすために読んでいる本として本作を挙げた。中でも印象に残った箇所として、オールブラックスの選手たちが試合後に自分たちの手でロッカールームを掃除するという「Sweep the Shed」の章を挙げ、地位や実績に関わらず全員が謙虚に基本的な仕事を担うという文化のあり方に言及している。複数の優勝を経験してきた名将が、バスケットボールとは全く異なる競技の組織文化から学びを得ようとする姿勢がうかがえるエピソードである。",
+    recommenderName: "スティーブ・カー（NBAゴールデンステート・ウォリアーズ ヘッドコーチ、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "San Francisco Chronicle「Steve Kerr escapes into books, gets crazy ideas」で発言",
+    sourceUrl:
+      "https://www.sfchronicle.com/sports/ostler/article/Steve-Kerr-escapes-into-books-gets-crazy-ideas-13782904.php",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
 ];
