@@ -4592,4 +4592,129 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-11",
   },
+  {
+    slug: "war-and-peace",
+    title: "戦争と平和　完全版",
+    author: "レフ・トルストイ（米川正夫 訳）",
+    asin: "B07F5KLM6N",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/81QY8to0HFL._SY522_.jpg",
+    hook: "ニコール・キッドマンが「女優になりたいと思った理由」と語る一冊",
+    whyRead:
+      "ナポレオン戦争期のロシア貴族社会を舞台に、無数の人物の運命を織り込みながら人生と歴史そのものを描き切った長編小説の金字塔。読み終えたとき、まったく別の時代・別の人生を生きたような読後感が残る。",
+    recommenderStory:
+      "ニコール・キッドマンはOprah.comのインタビューで、12歳のときに本作を読んだことが「女優になりたいと思った理由」だと明かした。ページをめくるうちに「別の世界、別の人生に入り込む」体験をし、それが演技という仕事への憧れにつながったという。",
+    detailedStory:
+      "2009年、映画『NINE』の公開に合わせて行われたOprah.comのインタビューで、キッドマンは自身の原点について問われ、12歳のときに手にした『戦争と平和』を挙げた。大長編の重厚な物語世界に没入し、登場人物たちの人生を自分のことのように生きる感覚を味わったことが、後に女優という「別の人生を生きる」職業を志す最初のきっかけになったと振り返っている。子ども時代に出会った一冊の古典文学が、その後のキャリア全体を方向づけたという逸話である。",
+    recommenderName: "ニコール・キッドマン（女優、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "Oprah.comインタビュー（2009年、映画『NINE』公開時）で「女優になりたいと思った理由」と発言",
+    sourceUrl: "https://www.oprah.com",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-12",
+  },
+  {
+    slug: "on-the-origin-of-species",
+    title: "種の起源（上）",
+    author: "チャールズ・ダーウィン（渡辺政隆 訳）",
+    asin: "B00H6XBDEQ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/81MXicPb6BL._SY522_.jpg",
+    hook: "俳優アンソニー・ホプキンスが挙げる、生涯愛読書6冊の一つ",
+    whyRead:
+      "自然淘汰による進化のメカニズムを提唱し、史上最大のパラダイムシフトを引き起こした科学史上の金字塔。専門家ではなく一般読者に向けて書かれており、平易な新訳でその論理の運びを追体験できる。",
+    recommenderStory:
+      "アンソニー・ホプキンスはBeliefNetのインタビューで、生涯の愛読書6冊の一つに本作を挙げ「魅力的な本」「優れた科学者によって書かれた」と評した。アインシュタインやプラトンと並ぶ知的関心の対象として紹介している。",
+    detailedStory:
+      "2011年、映画『ザ・ライト』の公開時に行われたBeliefNetのインタビューで、ホプキンスは自身が繰り返し読んできた本について尋ねられ、ダーウィンの『種の起源』を「無神論の本ではない」「魅力的な本」と評しながら紹介した。同作は悪魔祓いを題材にした信仰と科学がせめぎ合う映画の公開直後というタイミングでの発言であり、科学と信仰という対立しがちなテーマの両方に知的好奇心を向けてきたホプキンスの読書傾向をよく表すエピソードとなっている。",
+    recommenderName: "アンソニー・ホプキンス（俳優、英国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "BeliefNetインタビュー（2011年、映画『ザ・ライト』公開時）で愛読書6冊の一つに選出",
+    sourceUrl: "https://www.beliefnet.com",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-12",
+  },
+  {
+    slug: "the-master-and-margarita",
+    title: "巨匠とマルガリータ（新潮文庫）",
+    author: "ミハイル・ブルガーコフ（石井信介 訳）",
+    asin: "B0FNQT7X2L",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/81+3wGKRRRL._SY522_.jpg",
+    hook: "ローリング・ストーンズの名曲「Sympathy for the Devil」誕生の裏にあった一冊",
+    whyRead:
+      "スターリン独裁下のモスクワに悪魔が現れるという奇想天外な設定で、全体主義社会を痛烈に風刺しながら、芸術と愛と赦しを描き切った20世紀ロシア文学の傑作。死後発表されるや世界的センセーションを巻き起こした。",
+    recommenderStory:
+      "ミック・ジャガーは2012年のインタビューで、悪魔が人間社会に紛れ込む本作の設定から、ローリング・ストーンズの代表曲「Sympathy for the Devil」の着想を得たと明かした。恋人だったマリアンヌ・フェイスフルから本を贈られて読んだという。",
+    detailedStory:
+      "1968年発表の「Sympathy for the Devil」は、悪魔を語り手に人類の歴史における暴力を歌う異色の楽曲として知られるが、ジャガーは2012年のインタビューで、その着想源の一つが本作だったと語っている。当時交際していたマリアンヌ・フェイスフルからこの本をプレゼントされて読み、黒魔術の教授を名乗る悪魔がモスクワの文壇や社会を混乱させていく物語世界に強い印象を受けたという。恋人からの贈り物がロックの歴史に残る一曲の着想源になったという、音楽ファンにも興味深い逸話である。",
+    recommenderName: "ミック・ジャガー（音楽アーティスト、英国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel:
+      "2012年のインタビューで「Sympathy for the Devil」の着想元の一つとして本作を挙げたことが複数メディアで報じられている",
+    sourceUrl: "https://www.rollingstone.com",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-12",
+  },
+  {
+    slug: "common-sense",
+    title: "コモン・センス（光文社古典新訳文庫）",
+    author: "トマス・ペイン（角田安正 訳）",
+    asin: "B09HX394W7",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://m.media-amazon.com/images/I/712bFTb5TJL._SY522_.jpg",
+    hook: "NBA歴代得点王カリーム・アブドゥル＝ジャバーが「すべてのアメリカ人が読むべき」と挙げる歴史的名文",
+    whyRead:
+      "独立以外の道はないと大胆に説き、アメリカ独立への世論を決定づけた小冊子。王政と世襲制の非合理性を鋭く突いた論理の運びは、刊行から250年近く経った今も色褪せない説得力を持つ。",
+    recommenderStory:
+      "カリーム・アブドゥル＝ジャバーはSmithsonian Magazineのインタビューで、「すべてのアメリカ人が歴史教育の一環として読むべき」本の一冊として本作を挙げた。「独立の理由を出版してしまう大胆さだけでも読む理由になる」と評している。",
+    detailedStory:
+      "NBA歴代得点王として知られるアブドゥル＝ジャバーは、引退後は歴史コラムニスト・作家としても活動する読書家であり、Smithsonian Magazineのインタビューでは自身の歴史観の形成に影響を与えた本として『コモン・センス』と『マルコムX自伝』の2冊を明確な理由とともに紹介した。当時のイギリスと植民地アメリカの緊張関係の中で、匿名の著者ペインが独立という当時としては過激な主張を公然と世に問うた勇気そのものに価値があると評しており、単なる愛読書紹介ではなく、自身の歴史研究者としての視点が色濃く反映された発言になっている。",
+    recommenderName: "カリーム・アブドゥル＝ジャバー（NBA歴代得点王・殿堂入り、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "Smithsonian Magazine「Kareem Abdul-Jabbar on His Love of History, Youth Sports and Which Books Everyone Should Read」で発言",
+    sourceUrl: "https://www.smithsonianmag.com",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-12",
+  },
+  {
+    slug: "thinking-fast-and-slow",
+    title: "ファスト＆スロー（上）",
+    author: "ダニエル・カーネマン（村井章子 訳）",
+    asin: "B00ARDNMEQ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    coverUrl: "https://m.media-amazon.com/images/I/41IqC6GZA7L.jpg",
+    hook: "伝説の投資家セス・クラーマンが「最高の投資書」と呼ぶ、投資の本ではない一冊",
+    whyRead:
+      "ノーベル経済学賞受賞の心理学者が、人間の意思決定に潜む「速い思考」と「遅い思考」のメカニズムを解き明かす行動経済学の金字塔。判断エラーのパターンを知ることは、あらゆる意思決定の質を高める土台になる。",
+    recommenderStory:
+      "バウポスト・グループ創業者の著名バリュー投資家セス・クラーマンは、ハーバード・ビジネス・スクールのインタビューで本書を「投資の本でもビジネス書でもないのに、最高のビジネス書であり最高の投資書だ」と評した。人間心理への理解こそが投資判断の核心だと語っている。",
+    detailedStory:
+      "2022年、ハーバード・ビジネス・スクールのDas Narayandas教授によるインタビューでクラーマンは、優れた投資家に必要な資質について問われ、本書を引き合いに出した。「なぜならこの本は、市場についてではなく、私たち自身について教えてくれるからだ」と述べ、人間がいかに非合理な判断パターンに陥りやすいかを理解することこそが、市場の非効率性を見抜く投資家にとって最も実践的な学びだと説明している。数字やチャートを読む技術ではなく、人間心理の理解を投資の核心に据えるクラーマンの哲学がよく表れた発言である。",
+    recommenderName: "セス・クラーマン（バウポスト・グループ創業者・CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "Harvard Business School、Das Narayandas教授インタビュー（2022年6月、The Transcript Substackで抜粋公開）で発言",
+    sourceUrl: "https://www.hbs.edu",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-12",
+  },
 ];
