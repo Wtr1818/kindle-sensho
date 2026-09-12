@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { entries } from "@/data/entries";
 import { EntryCard } from "@/components/EntryCard";
+import { ShareButtons } from "@/components/ShareButtons";
 import {
   getEntriesByRecommender,
   shortName,
@@ -126,6 +127,13 @@ export default async function BookPage({
             </p>
           </section>
         )}
+        <div className="mt-8 border-t border-[#000000]/10 pt-8">
+          <ShareButtons
+            url={`${BASE_URL}/book/${entry.slug}`}
+            text={`${shortName(recommenderNames[0])}が薦める『${entry.title}』\n${entry.hook}`}
+          />
+        </div>
+
         <p className="mt-8 text-xs text-[#000000]/60">
           価格・在庫はAmazonの商品ページでご確認ください。
         </p>
