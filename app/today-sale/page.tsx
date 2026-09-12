@@ -41,7 +41,7 @@ export default function TodaySale() {
             </h1>
             <Link
               href="/"
-              className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
+              className="text-sm text-[#000000]/60 underline-offset-4 hover:text-[#000000] hover:underline"
             >
               本日の推薦へ
             </Link>
@@ -54,7 +54,7 @@ export default function TodaySale() {
 
       <main className="mx-auto max-w-3xl px-6 py-14">
         <SaleListView items={dailySaleList} />
-        <p className="mt-10 text-xs text-[#000000]/40">
+        <p className="mt-10 text-xs text-[#000000]/60">
           価格・在庫はAmazonの商品ページでご確認ください。
         </p>
       </main>

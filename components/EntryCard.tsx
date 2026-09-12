@@ -43,7 +43,7 @@ export function EntryCard({
       </a>
       <div className="flex-1">
         <div className="mb-3 flex items-center justify-between">
-          <span className="text-xs text-[#000000]/40">
+          <span className="text-xs text-[#000000]/60">
             {entry.platform} ・ {entry.contentType} ／{" "}
             <Link
               href={`/genre/${encodeURIComponent(entry.genre)}`}
@@ -53,7 +53,7 @@ export function EntryCard({
             </Link>
           </span>
           {dateInsteadOfSale ? (
-            <span className="text-xs text-[#000000]/40">
+            <span className="text-xs text-[#000000]/60">
               掲載日：{entry.dateAdded}
             </span>
           ) : entry.onSale && showSaleBadge ? (
@@ -61,7 +61,7 @@ export function EntryCard({
               {entry.saleEndsLabel ?? "セール中"}
             </span>
           ) : (
-            <span className="text-xs text-[#000000]/30">セール対象外</span>
+            <span className="text-xs text-[#000000]/60">セール対象外</span>
           )}
         </div>
         <p className="font-serif text-lg italic text-[#000000]/80">
@@ -116,7 +116,7 @@ export function EntryCard({
           </Link>
         )}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-3">
-          <span className="text-xs text-[#000000]/40">
+          <span className="text-xs text-[#000000]/60">
             {entry.recommenderTag}
             {!dateInsteadOfSale && entry.onSale && entry.saleName
               ? ` ・ ${entry.saleName}`
