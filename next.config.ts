@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { hostname: "covers.openlibrary.org" },
       { hostname: "books.google.com" },
-      { hostname: "m.media-amazon.com" },
     ],
   },
 };
