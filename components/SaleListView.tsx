@@ -73,7 +73,7 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
       </div>
 
       <div className="mb-6 flex items-center justify-between">
-        <span className="text-xs text-[#000000]/40">{filtered.length}件</span>
+        <span className="text-xs text-[#000000]/60">{filtered.length}件</span>
         <button
           onClick={() => setSortByEnding((v) => !v)}
           className={
@@ -109,16 +109,16 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
                   </span>
                 )}
                 <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
-                  <span className="whitespace-nowrap text-xs text-[#000000]/40">
+                  <span className="whitespace-nowrap text-xs text-[#000000]/60">
                     {item.genre}
                   </span>
-                  <span className="text-xs text-[#000000]/40">・</span>
-                  <span className="whitespace-nowrap text-xs text-[#000000]/40">
+                  <span className="text-xs text-[#000000]/60">・</span>
+                  <span className="whitespace-nowrap text-xs text-[#000000]/60">
                     {item.saleName}
                   </span>
                   {matched && (
                     <>
-                      <span className="text-xs text-[#000000]/40">・</span>
+                      <span className="text-xs text-[#000000]/60">・</span>
                       <Link
                         href={`/book/${matched.slug}`}
                         className="whitespace-nowrap text-xs font-medium text-[#b5402b] underline-offset-2 hover:underline"
