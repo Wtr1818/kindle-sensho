@@ -4935,4 +4935,30 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-13",
   },
+  {
+    slug: "business-adventures-john-brooks",
+    title:
+      "Business Adventures: Twelve Classic Tales from the World of Wall Street",
+    author: "ジョン・ブルックス",
+    asin: "B00LX6G752",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "ビル・ゲイツが「今も読んだ中で最高のビジネス書」と呼ぶ、ウォーレン・バフェットから借りた一冊",
+    whyRead:
+      "The New Yorker誌の名物記者ジョン・ブルックスが1960年代のウォール街を舞台に書いた12本のノンフィクション。エドセルの失敗、ゼロックスの戦略ミスなど、個別企業の栄枯盛衰を通じて「ビジネスとは結局のところ人間の営みである」ことを描き出す一冊。",
+    recommenderStory:
+      "ウォーレン・バフェットは1991年、ビル・ゲイツと初めて会った際に「一番好きなビジネス書」として本書を貸し出した。ゲイツはその後何十年にもわたり本書を「今も読んだ中で最高のビジネス書」と語り続けている。",
+    detailedStory:
+      "1991年、まだ互いをよく知らなかったバフェットとゲイツが初めて顔を合わせた際、ゲイツが「一番好きなビジネス書は何か」と尋ねたところ、バフェットが差し出したのが本書だったという。ゲイツは2014年に自身のブログで「バフェットから本書を借りてから20年以上、そして本書が刊行されてから40年以上が経つが、Business Adventuresは今も私が読んだ中で最高のビジネス書だ。ジョン・ブルックスは今でも私のお気に入りのビジネスライターだ」と綴っている。本書はエドセル車の失敗やピグリー・ウィグリーの創業者、ゼロックスの戦略的失策など、個別の企業ドラマを扱いながらも、そこに共通するのは経営者やリーダーが困難な状況でどう振る舞うかという人間観察であり、刊行から半世紀以上経った今も色褪せない理由はそこにあるとされる。二人の大富豪が同じ一冊を「最高のビジネス書」と呼び続けているという事実自体が、本書の普遍性を物語っている。",
+    recommenderName: "ウォーレン・バフェット（バークシャー・ハサウェイ会長・CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "ビル・ゲイツの公式ブログ（GatesNotes）・CNBC等で紹介されている、1991年の逸話",
+    sourceUrl:
+      "https://www.cnbc.com/2016/11/03/billionaires-warren-buffett-and-bill-gates-agree-on-the-best-business-book-ever-written.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-13",
+  },
 ];
