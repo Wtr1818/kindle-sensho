@@ -5081,4 +5081,130 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-13",
   },
+  {
+    slug: "shining-jo",
+    title: "シャイニング（上）",
+    author: "スティーヴン・キング（深町眞理子 訳）",
+    asin: "B00UBPILU0",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "コルソン・ホワイトヘッドが大学入学前まで「頭に『黒い』を付けたスティーヴン・キング作品を書きたい」と語り続けた、ホラー小説の金字塔",
+    whyRead:
+      "雪に閉ざされたホテルに巣食う悪霊が、管理人一家を追い詰めていく——スタンリー・キューブリック監督の映画化でも知られる、20世紀ホラー小説の金字塔。孤立した家族関係とアルコール依存症という現実の恐怖を、超自然的な恐怖と重ね合わせて描く。",
+    recommenderStory:
+      "ピュリッツァー賞受賞作家コルソン・ホワイトヘッドは、バージニア・コモンウェルス大学（2017年）やジョンズ・ホプキンス大学（2018年）での講演、The World from PRXのインタビューなど複数の機会で、「大学に入るまでは『黒いシャイニング』か『黒いサレムズ・ロット』を書きたいと思っていた」と繰り返し語っている。",
+    detailedStory:
+      "『地下鉄道』でピュリッツァー賞を受賞するなど文学賞を総なめにしてきたホワイトヘッドだが、その原点には10代の頃に読みふけったスティーヴン・キングのホラー小説があったという。VCUでの講演では、大学に進学する以前の自分にとって「スティーヴン・キングのどのタイトルでも頭に『黒い』を付けたものが、自分のやりたいことだった」と発言し、『シャイニング』のような作品世界を黒人作家の視点で書き直すことこそ、若き日の創作の原動力だったと明かしている。同様の発言はジョンズ・ホプキンス大学の講演やThe World from PRXのインタビューでも一貫しており、ジャンル小説としてのホラーへの愛着が、後年の文学的な実験精神につながっていったことがうかがえる。",
+    recommenderName: "コルソン・ホワイトヘッド（小説家・ピューリッツァー賞受賞、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "バージニア・コモンウェルス大学（2017年）・ジョンズ・ホプキンス大学講演（2018年）、The World from PRXのインタビューで発言",
+    sourceUrl:
+      "https://www.library.vcu.edu/about/news/2017/author-tells-the-story-behind-his-award-winning-underground-railroad-novel.html",
+    status: "active",
+    onSale: true,
+    saleName: "Kindle本まとめ買いキャンペーン",
+    saleEndsLabel: "終了まで20日",
+    dateAdded: "2026-09-19",
+  },
+  {
+    slug: "kaibutsu-ni-deatta-hi",
+    title: "vs.井上尚弥 怪物に出会った日",
+    author: "森合正範",
+    asin: "B0F6N123H4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "「対戦相手の心情など知れる機会などなく」——井上尚弥が公式Xで綴った、『モンスター』と戦った男たちの証言集",
+    whyRead:
+      "4団体統一世界王者・井上尚弥と対戦し敗れていった挑戦者たちに焦点を当て、リングの反対側から見た『モンスター』の姿を描くノンフィクション。勝者の記録ではなく、敗者たちのキャリアと心情を丹念に取材した異色の一冊。",
+    recommenderStory:
+      "井上尚弥は2023年11月17日、自身の公式X（旧Twitter）で本書について「対戦相手の心情など知れる機会などなく、この一冊は自分が辿って来たキャリアを色濃くしてくれました」「感慨深い一冊です」と投稿し、自らの言葉で推薦した。",
+    detailedStory:
+      "本書は井上尚弥と対戦し敗れていった選手たちの視点から、彼らがどのような思いでリングに上がり、『モンスター』とどう向き合ったのかを描いたノンフィクション。井上本人は自らの勝利の記録としてではなく、対戦相手たちの人生やキャリアを知る機会として本書を受け止めたようで、公式Xでの投稿では「自分が辿って来たキャリアを色濃くしてくれました」と、挑戦者たちの物語を通じて自身のキャリアの重みを改めて感じたことをうかがわせる言葉を残している。発売元の講談社もこの投稿をプレスリリースで取り上げ、著者・森合正範による丹念な取材を裏付ける形となった。",
+    recommenderName: "井上尚弥（プロボクサー・4団体統一世界王者、日本）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "2023年11月17日、本人の公式X（旧Twitter）投稿（講談社PR TIMESリリースで発言日・文脈を確認）",
+    sourceUrl: "https://prtimes.jp/main/html/rd/p/000005658.000001719.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-19",
+  },
+  {
+    slug: "james-percival-everett",
+    title: "ジェイムズ",
+    author: "パーシヴァル・エヴェレット（木原善彦 訳）",
+    asin: "B0FD9L3676",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "全米図書賞＆ピュリツァー賞W受賞。コメディアンHasan Minhajが「世界にどう見られるかということだけについての、美しい表現だ」と語った、『ハックルベリー・フィン』の語り直し",
+    whyRead:
+      "マーク・トウェイン『ハックルベリー・フィンの冒険』を、逃亡奴隷ジム——本作では「ジェイムズ」——の視点から語り直した衝撃作。2024年の全米図書賞とピュリツァー賞をダブル受賞し、アメリカ文学の古典を根底から問い直したと評された。",
+    recommenderStory:
+      "コメディアンのHasan Minhajは、Bustle誌のインタビュー企画「Hasan Minhaj Shares His 4 Favorite Books」（2025年）で本作を自身のお気に入りの一冊として紹介。「世界にどう見られるかということだけについての、美しい表現だ。それがアメリカで人種をどう生き抜くかということだ」と評した。",
+    detailedStory:
+      "本作は『ハックルベリー・フィンの冒険』の陰の主役だった奴隷ジムを、知性と主体性を持つ「ジェイムズ」として描き直し、2024年の全米図書賞とピュリツァー賞をダブル受賞した話題作。Minhajはインタビューの中で、本作が単なる古典の翻案にとどまらず「世界にどう見られるか」という視点そのものを描いた作品だと位置づけ、アメリカにおける人種というテーマを生き抜くことの意味と重ね合わせて語っている。移民二世としてアメリカ社会における人種・アイデンティティの問題をスタンダップコメディの題材にしてきたMinhajにとって、ジェイムズという語り手の視点の転換は、自身の表現とも通じるものがあったとみられる。",
+    recommenderName: "Hasan Minhaj（コメディアン、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel: "Bustle「Hasan Minhaj Shares His 4 Favorite Books」インタビュー（2025年）",
+    sourceUrl: "https://www.bustle.com/entertainment/hasan-minhaj-favorite-books-interview",
+    status: "active",
+    onSale: true,
+    saleName: "Kindle本まとめ買いキャンペーン",
+    saleEndsLabel: "終了まで20日",
+    dateAdded: "2026-09-19",
+  },
+  {
+    slug: "sports-idenshi-wa-shousha-wo-kimeru-ka",
+    title: "スポーツ遺伝子は勝者を決めるか？　アスリートの科学",
+    author: "デイヴィッド・エプスタイン（川又政治 訳）",
+    asin: "B01I37FUQK",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "日本証券業協会会長・鈴木茂晴が「経済界」誌『人生を変えた1冊』特集で選んだ、『才能は生まれつきか努力か』を科学的に問うノンフィクション",
+    whyRead:
+      "ジャマイカ勢が陸上界を席巻する理由、金メダリストを生む「遺伝」と「環境」の関係を、世界各地の事例と最新の科学的知見から検証するノンフィクション。オバマ元大統領も書店で購入したことで話題になった一冊。",
+    recommenderStory:
+      "日本証券業協会会長の鈴木茂晴は、経済界ウェブの企画「一流経営者が推薦する『人生を変えた1冊』」で本書を紹介し、「誰もが何かしらの才能を持っているが、それに気づいていないことがある」という趣旨のコメントを寄せている。",
+    detailedStory:
+      "本書は、超一流アスリートの活躍を決めるのは生まれ持った遺伝子なのか、それとも環境と努力なのかという問いを、世界各地のスポーツ科学の事例をもとに検証するノンフィクション。鈴木は経済界ウェブの「一流経営者が推薦する『人生を変えた1冊』」という、経営者たちが自らの人生を変えた一冊を語る企画の中で本書を取り上げ、才能というものが必ずしも表に出ているとは限らず、本人にも気づかれないまま眠っていることがあるという趣旨のコメントを残している。証券業界のトップとして数多くの人材と向き合ってきた鈴木にとって、スポーツ科学というやや異色のテーマの中に、人材育成にも通じる示唆を見出したことがうかがえる。",
+    recommenderName: "鈴木茂晴（日本証券業協会会長、日本）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "経済界ウェブ「【読書と経営】一流経営者が推薦する『人生を変えた1冊』」",
+    sourceUrl: "http://net.keizaikai.co.jp/archives/1208",
+    status: "active",
+    onSale: true,
+    saleName: "Kindle本まとめ買いキャンペーン",
+    saleEndsLabel: "終了まで20日",
+    dateAdded: "2026-09-19",
+  },
+  {
+    slug: "a-sport-and-a-pastime",
+    title: "A Sport and a Pastime",
+    author: "James Salter（英語版）",
+    asin: "B0081YPJHQ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/3216808-L.jpg",
+    hook: "サリー・ルーニーが「自分にとって本当に重要な一冊」と語り、代表作『Normal People』の主人公にもボロボロになった一冊を持たせた、戦後フランスを舞台にした恋愛小説",
+    whyRead:
+      "1967年発表、文体の美しさで高く評価される米作家James Salterの代表作。戦後フランスの田舎町を舞台に、アメリカ人青年フィリップ・ディーンとフランス人娘アンヌ＝マリーの情事を、語り手の想像も交えながら描く。ニューヨーク・タイムズ紙が「アメリカ文学の中でも最も完璧に近い一冊」と評した一冊。",
+    recommenderStory:
+      "サリー・ルーニーは文芸メディアHazlittのインタビュー（2019年4月30日）で、本作を「自分にとって本当に重要な一冊だった（really seminal for me）」と語った。自身の代表作『Normal People』の登場人物コネルにも、ボロボロになった本作の一冊を持たせるほど影響を受けたと明かしている。",
+    detailedStory:
+      "Hazlittのインタビューでルーニーは、本作が自分の作家としての感性に「本当に重要」な影響を与えたと振り返っている。その影響の深さは代表作『Normal People』の中にも表れており、主人公コネルの手元にはこの作品のボロボロになった一冊が置かれている——ルーニー自身の読書体験を、登場人物の内面に重ね合わせるような形で作品に織り込んでいることがうかがえる。未邦訳のため、今回は英語版のKindle版（amazon.co.jpで購入可能な洋書）での紹介となる。",
+    recommenderName: "サリー・ルーニー（小説家、アイルランド）",
+    recommenderTag: "文学・小説家",
+    sourceLabel: "文芸メディアHazlittのインタビュー（2019年4月30日）",
+    sourceUrl:
+      "https://hazlitt.net/feature/im-not-so-interested-feelings-people-go-through-their-own-interview-sally-rooney",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-19",
+  },
 ];
