@@ -27,10 +27,10 @@ export function Footer() {
             RSSで更新を受け取る
           </a>
         </nav>
-        <p className="text-xs leading-6 text-[#000000]/50">
+        <p className="text-xs leading-6 text-[#000000]/60">
           読み窓91は、Amazonアソシエイト・プログラムの参加者です。このプログラムは、サイトが適格販売により収益を得ることを可能にするために設定されたアフィリエイトプログラムです。当サイトのAmazon商品リンクから購入された場合、Amazon.co.jpから紹介料を受け取ることがあります。
         </p>
-        <p className="mt-3 text-xs text-[#000000]/40">
+        <p className="mt-3 text-xs text-[#000000]/60">
           <Link href="/disclosure" className="underline-offset-2 hover:underline">
             広告・アフィリエイトに関する詳細
           </Link>

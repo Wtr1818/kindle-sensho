@@ -7,7 +7,7 @@ function HeartIcon({ filled }: { filled: boolean }) {
   return (
     <svg
       viewBox="0 0 24 24"
-      className="h-4 w-4"
+      className="h-[18px] w-[18px]"
       fill={filled ? "currentColor" : "none"}
       stroke="currentColor"
       strokeWidth={filled ? 0 : 1.8}
@@ -33,8 +33,8 @@ export function FavoriteButton({ slug, title }: { slug: string; title: string })
       aria-label={favorited ? `${title}をお気に入りから削除` : `${title}をお気に入りに追加`}
       className={
         favorited
-          ? "absolute right-1.5 top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 text-[#b5402b] shadow-sm"
-          : "absolute right-1.5 top-1.5 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 text-[#000000]/50 shadow-sm hover:text-[#000000]"
+          ? "absolute right-1 top-1 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-[#b5402b] shadow-sm"
+          : "absolute right-1 top-1 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-[#000000]/50 shadow-sm hover:text-[#000000]"
       }
     >
       <HeartIcon filled={favorited} />
