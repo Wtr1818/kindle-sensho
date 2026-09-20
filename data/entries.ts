@@ -5207,4 +5207,175 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-19",
   },
+  {
+    slug: "stoner-bill-hader",
+    title: "Stoner: A Novel (Vintage Classics)",
+    author: "John Williams（英語版）",
+    asin: "B00A8FXT8M",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/8310729-L.jpg",
+    hook: "コメディアン、ビル・ヘイダーが「正直さ」に胸を打たれたと語った、静かな文学の傑作",
+    whyRead:
+      "20世紀初頭のミズーリ大学を舞台に、平凡な英文学教師の人生を静かに描いた小説。刊行時は注目されなかったが、没後に再評価が進み、多くの著名人から支持される「隠れた傑作」として知られる。",
+    recommenderStory:
+      "俳優・コメディアンのビル・ヘイダーはHazlitt誌のインタビュー「Empathy Implicates You」で、ジョン・ウィリアムズの『Stoner』を取り上げ、主人公が農家に生まれ育ちながら「別の道に進もう」と決意していく生涯を「正直」に描いた小説だと評した。",
+    detailedStory:
+      "『Stoner』は、20世紀初頭のミズーリ大学を舞台に、平凡な英文学教師ウィリアム・ストーナーの人生を静かに描いた小説で、刊行当初は大きな話題にならなかったが、没後に再評価が進み、多くの著名人が絶賛する「隠れた傑作」として知られるようになった。SNL出身のコメディアン・俳優ビル・ヘイダーはHazlitt誌のインタビューで本作を取り上げ、主人公が農家として育ちながら「別の道に進もう」と静かに決意していく生涯の描き方を「正直」だと表現した。コメディという瞬発力の芸で知られるヘイダーが、正反対に抑制の効いた文体の小説に強く共感している点に、彼の読みの深さがうかがえる。同書はコメディアンのパットン・オズワルトも「スローモーションのホラー物語」と評し当サイトで紹介済みだが、ヘイダーもまた別の角度からこの小説に惹かれた一人である。",
+    recommenderName: "Bill Hader（コメディアン・俳優、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "Hazlitt誌インタビュー「Empathy Implicates You」で、主人公の生涯を静かに描く「正直さ」を称賛",
+    sourceUrl: "https://hazlitt.net/feature/empathy-implicates-you-interview-bill-hader",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "nekonoyurikago-eddie-vedder",
+    title: "猫のゆりかご",
+    author: "カート・ヴォネガット（伊藤典夫 訳）",
+    asin: "B00CIME72U",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "パール・ジャムのエディ・ヴェダーが「人生を変えた」と語ったヴォネガットとの出会いの一冊",
+    whyRead:
+      "架空の宗教ボコノン教と、世界中の水を凍らせる物質「アイス・ナイン」を軸に、文明の終末を痛烈な風刺とユーモアで描くヴォネガットの代表作の一つ。皮肉と悲しみが同居する語り口は、初めて読む読者にも強い印象を残す。",
+    recommenderStory:
+      "パール・ジャムのフロントマン、エディ・ヴェダーはUNCUT誌のインタビューで、カート・ヴォネガットの『猫のゆりかご』を「人生を変えた本」の一つとして挙げた。ヴォネガット特有のヒューマニズムに満ちた語り口に衝撃を受け、以後ヴォネガットの著作をほぼ読み尽くしたと明かしている。",
+    detailedStory:
+      "エディ・ヴェダーは2009年、UNCUT誌の「An Audience With...」企画のインタビューで、人生を変えた本を問われて『猫のゆりかご』を挙げた。ヴォネガットが「ヒューマニストであること」について語る姿勢が、無神論とは少し違う「深い影響」を自分に与えたと振り返っている。この出会いを機に、ヴェダーはヴォネガットの著作をほぼ読み尽くすほどのめり込んだという。ロックスターとして激しいライブパフォーマンスで知られる一方、静かに本と向き合う時間を持ち続けてきたことがうかがえるエピソードである。",
+    recommenderName: "Eddie Vedder（Pearl Jam、音楽アーティスト、米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel:
+      "UNCUT誌「An Audience With...」インタビュー（2009年）で「人生を変えた本」として紹介、以後ヴォネガット作品を読み尽くしたと発言",
+    sourceUrl: "https://www.pearljamonline.it/en/qa-with-ed-vedder-uncut-06-08-2009/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "tinker-tailor-soldier-spy-seth-meyers",
+    title: "ティンカー、テイラー、ソルジャー、スパイ〔新訳版〕",
+    author: "ジョン・ル・カレ（村上博基 訳）",
+    asin: "B00BN5GYDI",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "深夜番組の司会者セス・マイヤーズが、ル・カレの訃報に際し「スパイ小説の金字塔」と称えた一冊",
+    whyRead:
+      "冷戦下の英国諜報部内部に潜む二重スパイを、静かな筆致であぶり出す諜報小説の最高峰。派手なアクションではなく、緻密な心理戦と組織内の疑心暗鬼を描く構成が、刊行から半世紀以上を経てなお読み継がれている。",
+    recommenderStory:
+      "『Late Night』の司会者として知られるコメディアン、セス・マイヤーズは2020年12月のジョン・ル・カレ逝去に際し、追悼のコメントで『ティンカー、テイラー、ソルジャー、スパイ』を「スパイ小説の金字塔」と称賛した。Variety誌など複数メディアが著名人の追悼コメントの一つとして報じている。",
+    detailedStory:
+      "ジョン・ル・カレは2020年12月に89歳で死去し、世界中の作家・俳優・読書家から追悼のコメントが寄せられた。セス・マイヤーズもその一人で、代表作『ティンカー、テイラー、ソルジャー、スパイ』を「スパイ小説の金字塔（the gold standard for espionage fiction）」と表現し、冷戦下の英国諜報部を舞台にした緻密な心理戦の物語への敬意を示した。この発言はVariety誌の追悼記事でスティーヴン・キングら他の著名人のコメントと並んで紹介されている。派手なジョークとテンポの良いトークで知られる深夜番組の司会者が、静かな筆致で組織内の疑心暗鬼をあぶり出す本作を高く評価している点に、彼の読書の幅の広さがうかがえる。",
+    recommenderName: "Seth Meyers（コメディアン・司会者、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "2020年12月のジョン・ル・カレ逝去に際した追悼コメントで「スパイ小説の金字塔」と称賛、Variety誌が著名人の追悼コメントとして報道",
+    sourceUrl:
+      "https://variety.com/2020/film/news/john-le-carre-dead-89-tribute-stephen-king-1234852713/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "team-of-teams-doug-mcmillon",
+    title: "TEAM OF TEAMS ＜チーム・オブ・チームズ＞",
+    author: "スタンリー・マクリスタル、タントゥム・コリンズ、デビッド・シルバーマン、クリス・ファッセル（吉川南 訳）",
+    asin: "B01DTZ6PF6",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "ウォルマート前CEOダグ・マクミロンが、創業者サム・ウォルトンの自伝と並べて薦めた「意識の共有」の教科書",
+    whyRead:
+      "米軍統合特殊作戦部隊の元司令官マクリスタルが、イラクでの対テロ戦を通じて編み出した「チーム・オブ・チームズ」という組織論。硬直した指揮系統ではなく、現場に権限を委譲し情報を共有し合う組織づくりの実例を描く、経営書としても読まれるノンフィクション。",
+    recommenderStory:
+      "ウォルマート前CEOのダグ・マクミロンは、CNBCの「2016年に読んで刺激を受けた本」特集で本書を紹介し、創業者サム・ウォルトンの自伝と並べて薦めた。両書に共通する「意識の共有と実行力の最大化」が成果を生むという考え方を評価している。",
+    detailedStory:
+      "ダグ・マクミロンは2014年にウォルマートのCEOに就任し、世界最大級の小売企業の組織改革を進めてきた経営者だ。2016年末、CNBCのFacebook企画「#ReadToLead」に寄せたコメントで、元米軍統合特殊作戦部隊司令官スタンリー・マクリスタルが著した『TEAM OF TEAMS』を、創業者サム・ウォルトンの自伝と並ぶ愛読書として紹介した。イラクでの対テロ戦を通じて生まれた「硬直した指揮系統ではなく、現場に権限を委譲し情報を共有し合う組織」という考え方が、巨大な小売チェーンを率いる自身の経営哲学と重なる部分があったとみられる。軍事組織で培われた教訓を民間企業の経営に応用する視点を持つ点に、マクミロンの経営スタイルがうかがえる。",
+    recommenderName: "Doug McMillon（ウォルマート前CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "CNBC「Wal-mart CEO's top 6 inspiring reads of 2016」（2016年12月13日）で、サム・ウォルトン自伝と並べて紹介",
+    sourceUrl:
+      "https://www.cnbc.com/2016/12/13/wal-mart-ceos-top-6-inspiring-reads-of-2016.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "yokubou-to-gensou-no-shijou-paul-tudor-jones",
+    title: "欲望と幻想の市場―伝説の投機王リバモア",
+    author: "エドウィン・ルフェーブル（林康史 訳）",
+    asin: "B019DDIOX4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "伝説のヘッジファンド運用者ポール・チューダー・ジョーンズが「最良の教訓」と呼んだ、伝説の相場師リバモアの生涯",
+    whyRead:
+      "20世紀初頭のウォール街を舞台に、天才的な相場観で巨万の富を築きながら破産と再起を繰り返した実在の投機家ジェシー・リバモアの半生を描いた金融小説の古典。相場心理を描いた書として、現代のトレーダーにも読み継がれている。",
+    recommenderStory:
+      "ヘッジファンド運用会社テューダー・インベストメントの創業者ポール・チューダー・ジョーンズは、本書の“Annotated Edition”（2010年）に寄せた序文・Q&Aで、リバモアの失敗談について「本書から学べる最良の教訓は、繰り返された失敗と、彼がそれにどう向き合ったかにある」と述べた。",
+    detailedStory:
+      "ポール・チューダー・ジョーンズは、1987年のブラックマンデーを事前に予見し利益を上げたことで知られる伝説的なマクロトレーダーだ。2010年に刊行された本書の“Annotated Edition”（Jon D. Markman編）に寄せた序文・Q&Aで、20世紀初頭の伝説の相場師ジェシー・リバモアを描いた本作について、「本書から学べる最良の教訓は、繰り返された失敗と、彼がそれにどう向き合ったかにある」と語った。ジョーンズ自身も20代前半のトレーダー時代に、リバモアを彷彿とさせる大きな損失を経験したと告白しており、成功譚としてではなく、失敗との向き合い方を学ぶ教科書として本書を読んでいたことがうかがえる。",
+    recommenderName: "Paul Tudor Jones（テューダー・インベストメント創業者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "Wiley刊“Annotated Edition”（2010年、Jon D. Markman編）に寄稿した序文・Q&Aで、リバモアの失敗談を「学べる最良の教訓」と紹介",
+    sourceUrl: "https://joefahmy.com/2015/07/13/paul-tudor-jones-on-jesse-livermore",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "scale-vinod-khosla",
+    title: "スケール　上　万物を支配する「大きさ」の法則",
+    author: "ジョフリー・ウェスト（山形浩生、森本正史 訳）",
+    asin: "B0BNKW3C7X",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "Sun Microsystems共同創業者ヴィノッド・コースラが「啓発的で楽しい」と評した、生命から都市までを貫くスケールの法則",
+    whyRead:
+      "生物の代謝から企業の成長、都市の人口まで、あらゆるものの「大きさ」を貫く数理法則を解き明かす理論物理学者ジェフリー・ウェストの代表作。事業の急拡大に挑む経営者にとっても示唆に富む一冊。",
+    recommenderStory:
+      "Sun Microsystems共同創業者でベンチャーキャピタリストのヴィノッド・コースラは、自身のMedium公式ブログ「2017 Book Recommendations」で本書を取り上げ、「啓発的で楽しい新しい洞察に満ちている」と評した。",
+    detailedStory:
+      "ヴィノッド・コースラは、毎年末に自身のMediumブログで読んだ本を紹介する習慣を持っており、2017年12月の投稿でジェフリー・ウェストの『スケール』を推薦図書の一つに挙げた。生命体の代謝速度から企業や都市の成長パターンまで、規模の異なる対象を貫く共通の数理法則を説く本書について、「啓発的で楽しい新しい洞察に満ちている」とコメントしている。ベンチャーキャピタリストとしてスタートアップの急成長を数多く見てきたコースラにとって、生物学的成長法則を経済・組織にも応用する本書の視点は、自身の投資判断とも通じる部分があったとみられる。",
+    recommenderName: "Vinod Khosla（Khosla Ventures創業者、Sun Microsystems共同創業者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "自身のMedium公式ブログ「2017 Book Recommendations」（2017年12月20日）で「啓発的で楽しい新しい洞察に満ちている」と紹介",
+    sourceUrl: "https://medium.com/@vkhosla/2017-book-recommendations-aa3633a18baf",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "tristram-shandy-percival-everett",
+    title: "トリストラム・シャンディ　上",
+    author: "ロレンス・スターン（朱牟田夏雄 訳）",
+    asin: "B00RF1QD4O",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "全米図書賞・ブッカー賞受賞作家パーシヴァル・エヴェレットが「自分への影響が見て取れる」と語った、18世紀の実験小説の元祖",
+    whyRead:
+      "主人公が生まれる前の経緯だけで何巻も費やすなど、時系列を自在に脱線させる語りの構造で知られる18世紀イギリス文学の異色作。ポストモダン小説の元祖ともいわれ、後世の実験的作家たちに影響を与え続けている。",
+    recommenderStory:
+      "『James』で全米図書賞・ブッカー賞を受賞した小説家パーシヴァル・エヴェレットは、The White Review誌のインタビュー（2020年6月）で「Tristram Shandyが大好きだ。自分への影響が見て取れる」と発言した。",
+    detailedStory:
+      "パーシヴァル・エヴェレットは、語りの型を大胆に崩す実験的な作風で知られる作家で、2024年には『James』で全米図書賞、2025年にはブッカー賞を受賞した。2020年6月のThe White Review誌インタビューで、18世紀にローレンス・スターンが著した『トリストラム・シャンディ』について「大好きだ。自分への影響が見て取れる」と明言している。主人公の誕生にまつわる経緯だけで何巻も費やし、時系列を大胆に脱線させる本作の語りの構造は、既存の物語形式を意図的に崩すエヴェレット自身の作風と強く響き合う。18世紀に書かれた実験小説が、現代のもっとも革新的な作家の一人に影響を与え続けているという系譜がうかがえる一冊だ。",
+    recommenderName: "Percival Everett（小説家、全米図書賞・ブッカー賞受賞、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "The White Review誌インタビュー（2020年6月）で「自分への影響が見て取れる」と発言",
+    sourceUrl: "https://www.thewhitereview.org/feature/interview-with-percival-everett/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
 ];
