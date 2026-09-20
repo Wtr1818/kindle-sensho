@@ -4944,6 +4944,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/8231778-L.jpg",
     hook: "ビル・ゲイツが「今も読んだ中で最高のビジネス書」と呼ぶ、ウォーレン・バフェットから借りた一冊",
     whyRead:
       "The New Yorker誌の名物記者ジョン・ブルックスが1960年代のウォール街を舞台に書いた12本のノンフィクション。エドセルの失敗、ゼロックスの戦略ミスなど、個別企業の栄枯盛衰を通じて「ビジネスとは結局のところ人間の営みである」ことを描き出す一冊。",
@@ -5043,6 +5044,7 @@ export const entries: Entry[] = [
     platform: "Kindle",
     contentType: "本",
     genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/8781091-L.jpg",
     hook: "『GRIT やり抜く力』の著者アンジェラ・ダックワースが推薦文を寄せた、感情知性についての一冊",
     whyRead:
       "イェール大学感情知性センター所長が説く、感情を抑え込むのではなく理解し活かすための実践的な方法論。感情知性は生まれつきの才能ではなく、誰でも学べるスキルであることを豊富な研究に基づいて示す。",
@@ -5374,6 +5376,131 @@ export const entries: Entry[] = [
     sourceLabel:
       "The White Review誌インタビュー（2020年6月）で「自分への影響が見て取れる」と発言",
     sourceUrl: "https://www.thewhitereview.org/feature/interview-with-percival-everett/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "yoru-to-kiri",
+    title: "夜と霧 新版",
+    author: "ヴィクトール・E・フランクル（池田香代子 訳）",
+    asin: "B00P7C2D2O",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "「すべての人間が読むべきだ」──リーダーシップ論の人気著者サイモン・シネックが繰り返し愛読するナチス強制収容所の記録",
+    whyRead:
+      "精神科医である著者自身のアウシュヴィッツ収容体験を通し、極限状況でも人間が尊厳と意味を見失わずにいられるのかを問う20世紀の古典。「生きる意味」をめぐる普遍的な問いを、飾らない筆致で突きつける一冊。",
+    recommenderStory:
+      "『WHYから始めよ！』で知られる作家・スピーカーのサイモン・シネックは、CNBCのインタビューで本書を「人生を変える2冊」の1冊として紹介し、「長年ずっとこの本を愛している。すべての人間が読むべきだと思う」と語った。",
+    detailedStory:
+      "サイモン・シネックはリーダーシップやモチベーションをテーマに執筆・講演を続けてきた作家で、CNBCのインタビューでは本書を挙げ「長年ずっとこの本を愛している。すべての人間が読むべきだと思う」と明言している。著者ヴィクトール・フランクルは精神科医としてアウシュヴィッツなどナチスの強制収容所に3年間収容された経験を持ち、家族を失いながらも生還した後、その体験を通じて見出した「どんな状況でも人は自らの態度を選ぶ自由を持つ」という洞察を本書に綴った。シネックは同じインタビューで本書を「思考をリセットしてくれる」本と位置づけており、極限状態における人間の精神のあり方を説いた本書が、現代のリーダーシップ論者にとっても指針であり続けていることがうかがえる。",
+    recommenderName: "サイモン・シネック（作家・スピーカー、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "CNBC記事「Simon Sinek: These 2 life-changing books will rewire your brain for success」（2019年2月）",
+    sourceUrl:
+      "https://www.cnbc.com/2019/02/20/simon-sinek-these-2-life-changing-books-will-train-your-brain-for-success.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "unmei-wo-hiraku",
+    title: "運命を拓く（講談社文庫）",
+    author: "中村天風",
+    asin: "B06XC5FRJP",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    hook: "二刀流で海を渡った大谷翔平が、渡米前から熟読していたと報じられる「積極的人生」の哲学書",
+    whyRead:
+      "日露戦争の諜報活動、死病からの生還、ヒマラヤでの求道──波乱の半生を送った哲人・中村天風が説く「心が一切を創る」という積極哲学の集大成。100年近く読み継がれてきた自己啓発書の原点的存在。",
+    recommenderStory:
+      "大谷翔平は、日本球界からメジャーへ渡る前から本書を熟読していたと複数のメディアで報じられている。二刀流という前例のない挑戦に挑む若者にとって、逆境の中でも積極的な心を持ち続けることを説く天風の哲学が、精神的な支えになっていたとみられている。",
+    detailedStory:
+      "現代ビジネス（講談社）の記事は、大谷が渡米前から中村天風の『運命を拓く』を熟読していたことに触れ、「タイトルは『運命を拓く』。二刀流をひっさげて海を渡る若者にふさわしい響きだ」と評している。著者の中村天風は、日露戦争で諜報員として満州に渡った後に不治とされた結核を患い、生きる意味を求めて欧米を巡るも答えを得られず、帰路に立ち寄ったインドでヒマラヤのヨガの聖者カリアッパ師と出会い、そこで悟りを得たという波乱の半生を持つ人物だ。「運命は自分の心が創る」と説くその積極哲学は、稲盛和夫をはじめ多くの経営者やアスリートにも影響を与えてきたことで知られる。前例のない環境に飛び込む決断をした大谷にとって、逆境を恐れず前に進むための拠り所の一つになっていたことがうかがえる。",
+    recommenderName: "大谷翔平（プロ野球選手、ロサンゼルス・ドジャース）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "現代ビジネス「あの大谷翔平も心酔する、中村天風とは何者か」ほか複数メディアの報道",
+    sourceUrl: "https://gendai.media/articles/-/59201",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "run-with-the-horses",
+    title: "Run with the Horses: The Quest for Life at Its Best",
+    author: "Eugene H. Peterson",
+    asin: "B07P5GR3SV",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/671717-L.jpg",
+    hook: "U2のボノが「正気を保たせてくれた」と語る、預言者エレミヤの生涯から人間らしさを問う一冊",
+    whyRead:
+      "旧約聖書の預言者エレミヤの生涯を手がかりに、困難な時代にあっても「人間らしく生きる」とはどういうことかを問う一冊。著者ユージン・ピーターソンは聖書を平易な英語に訳した『THE MESSAGE』でも知られる牧師・著述家。",
+    recommenderStory:
+      "U2のボノは、著者ユージン・ピーターソンとの親交でも知られ、本書について「ここ数年、ユージンの文章が自分を正気に保たせてくれた。Run with the Horsesは自分にとって力強い指南書だった」と語っている。",
+    detailedStory:
+      "ボノはInterVarsity（米国のキリスト教学生団体）のインタビューで、牧師・著述家ユージン・ピーターソンとの関係に触れながら「ここ数年、ユージンの文章が自分を正気に保たせてくれた。Run with the Horsesは自分にとって力強い指南書だった」と振り返っている。本書は旧約聖書の預言者エレミヤの生涯を通じて「人間らしく生きるとは何か」を問う一冊で、ボノは同書を通じて預言者という存在の仕事、すなわち理不尽な現実に対して声を上げ続けることの意味を学んだと語り、「神に近づく唯一の方法は、比喩や象徴を通してだ」という理解にも至ったという。長年にわたり信仰と音楽活動を重ね合わせてきたボノにとって、本書はステージの外側で自らの立ち位置を確かめるための道しるべであり続けてきたことがうかがえる。",
+    recommenderName: "ボノ（U2、ミュージシャン、アイルランド）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel: "InterVarsity公式ブログ「Bono's Favorite Book」",
+    sourceUrl: "https://intervarsity.org/blog/bonos-favorite-book",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "in-pursuit-of-flavor",
+    title:
+      "In Pursuit of Flavor: The Beloved Classic Cookbook from the Acclaimed Author of The Taste of Country Cooking",
+    author: "Edna Lewis（序文：Mashama Bailey）",
+    asin: "B00B0LP5I0",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    coverUrl: "https://covers.openlibrary.org/b/id/7024687-L.jpg",
+    hook: "ジェームズ・ビアード賞シェフが「オープンマインドをすべて体現した本」と序文で称えた、南部料理の伝説の一冊",
+    whyRead:
+      "「南部料理のファーストレディ」と呼ばれたエドナ・ルイスが1988年に著した料理書。単なるレシピ集にとどまらず、素材と季節への向き合い方そのものを教えてくれる、米国料理界のロングセラー。",
+    recommenderStory:
+      "2019年ジェームズ・ビアード賞受賞シェフのマシャマ・ベイリーは、本書の2019年復刊版に寄せた序文で「オープンマインドとすべてを受け入れる姿勢を見事に体現した本」と称賛している。",
+    detailedStory:
+      "マシャマ・ベイリーはジョージア州サバンナのレストラン「The Grey」の共同オーナーシェフで、南部料理の伝統を独自の視点で再解釈する仕事で知られる。2019年に刊行された本書の復刊版に序文を寄せた際、著者エドナ・ルイスについて「オープンマインドとすべてを受け入れる姿勢を見事に体現した本」と評し、自らの料理観の土台にこの一冊があることを示唆した。エドナ・ルイスはバージニア州の元奴隷が開いた農村コミュニティに生まれ、素材そのものの味を引き出すことに徹した料理哲学で「南部料理のファーストレディ」と呼ばれた人物。同じ南部にルーツを持つ料理人として、ベイリーがルイスの仕事に敬意を寄せ続けていることがうかがえる一冊だ。",
+    recommenderName: "マシャマ・ベイリー（シェフ、The Grey共同オーナー、米国）",
+    recommenderTag: "料理人",
+    sourceLabel: "2019年復刊版に寄せた本人執筆の序文",
+    sourceUrl: "https://www.penguinrandomhouse.com/books/100917/in-pursuit-of-flavor-by-edna-lewis-with-a-foreword-by-mashama-bailey/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-20",
+  },
+  {
+    slug: "the-energy-bus",
+    title:
+      "The Energy Bus: 10 Rules to Fuel Your Life, Work, and Team with Positive Energy",
+    author: "Jon Gordon",
+    asin: "B0086I25S8",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/1239462-L.jpg",
+    hook: "NFLカンザスシティ・チーフスをスーパーボウル制覇に導いたアンディ・リード監督が、父の日ギフト企画で選んだ一冊",
+    whyRead:
+      "フラットタイヤをきっかけにバス通勤を余儀なくされた主人公が、個性豊かな乗客たちから「前向きなエネルギー」で人生とチームを立て直す10のルールを学ぶビジネス寓話。全世界200万部超のベストセラー。",
+    recommenderStory:
+      "チーフス公式サイトの「父の日ギフト企画：コーチ陣のおすすめ本」で、ヘッドコーチのアンディ・リードは本書を選び、ポジティブなエネルギーでチームを牽引する考え方に共感を示した。",
+    detailedStory:
+      "アンディ・リードは、Kansas City Chiefsを2度のスーパーボウル制覇に導いたNFL屈指の名将で、選手だけでなくスタッフのマネジメントにも定評がある。チーフス公式サイトが父の日に合わせて企画した「コーチ陣が薦める本」特集で、リードは本書を選出した。本書はフラットタイヤに見舞われた主人公が、やむなく乗ったバスで出会う運転手や乗客たちから「前向きなエネルギーが人と組織を動かす」という10の法則を学んでいく寓話形式のビジネス書で、刊行から200万部を超えるロングセラーとなっている。長年にわたりチームの士気を高く保ち続けてきたリードのマネジメント哲学と、本書が説く「ポジティブなエネルギーの伝染力」というテーマが重なる一冊だ。",
+    recommenderName: "アンディ・リード（NFLカンザスシティ・チーフス ヘッドコーチ、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "チーフス公式サイト「Chiefs Coaches Share Book Recommendations for Father's Day Gift」",
+    sourceUrl:
+      "https://www.chiefs.com/news/chiefs-coaches-share-book-recommendations-for-father-s-day-gift",
     status: "active",
     onSale: false,
     dateAdded: "2026-09-20",
