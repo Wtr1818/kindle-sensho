@@ -5505,4 +5505,421 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-09-20",
   },
+  {
+    slug: "creativity-inc-pixar",
+    title: "ピクサー流　創造するちから",
+    author: "エド・キャットムル、エイミー・ワラス（石原薫 訳）",
+    asin: "B00OYMOEOS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "マーク・ザッカーバーグが自らの読書会で選書し「Pixarから学べる」と説いた一冊",
+    whyRead:
+      "ピクサー共同創業者が明かす、創造性を組織的に生み出す仕組みづくりの記録。失敗を恐れず率直に意見を言い合う文化がどう築かれたかを描き、クリエイティブな組織運営の教科書として読まれている。",
+    recommenderStory:
+      "マーク・ザッカーバーグは2015年、自身が始めた読書会「A Year of Books」の5冊目として本書を選書した。「Pixarのような偉大な企業がどう作られ、革新性を育んでいるかを描いた一次情報を読むのが好きだ」とコメントし、Facebookの経営にも応用できる教訓があるはずだと期待を語った。",
+    detailedStory:
+      "ザッカーバーグは2015年の新年の抱負として、2週間に1冊のペースで本を選び読者と議論する読書会「A Year of Books」を始めた。本書はその5冊目に選ばれた一冊で、選書にあたり「Pixarのような偉大な企業がどう作られ、革新性を育んでいるかの一次情報を読むのが好きだ」「これは同じことに挑む誰にとっても刺激になるはずで、世界をつなぐという自分たちの取り組みにも応用できる教訓があるかもしれない」とコメントを寄せた。ピクサー共同創業者エド・キャットムルが率いた「率直な意見交換を恐れない文化」づくりの記録を、当時Facebookという急成長企業を率いていたザッカーバーグが経営の参考書として読んでいたことがうかがえるエピソードである。",
+    recommenderName: "Mark Zuckerberg（Meta創業者・CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "自身の読書会「A Year of Books」（2015年3月）で選書しコメント（Business Insider・Penguin Random House Speakers Bureau等で報道）",
+    sourceUrl:
+      "https://www.businessinsider.in/strategy/why-mark-zuckerberg-thinks-everyone-can-learn-something-from-pixar/articleshow/46449926.cms",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "song-of-solomon-morrison",
+    title: "ソロモンの歌",
+    author: "トニ・モリスン（金田眞澄 訳）",
+    asin: "B0BDJPHT4T",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ミシェル・オバマが「読書を好きにさせてくれた」と語る、高校卒業後の出会いの一冊",
+    whyRead:
+      "ノーベル文学賞作家トニ・モリスンが黒人一家の三世代を描く代表作。血のつながりと自己探求のテーマが重層的に織り込まれ、読むたびに新しい発見があると評される長編小説。",
+    recommenderStory:
+      "ミシェル・オバマは、本書と出会う前は読書を「しなければならないもの」としか感じていなかったが、本書が自分を「つかんで引っ張った」ことで読書そのものを好きになったと語っている。大人になってから最も影響を受けた本として、『怒りの葡萄』と並べて本書を挙げている。",
+    detailedStory:
+      "ミシェル・オバマが本書を手にしたのは、高校卒業後の夏だったという。当時トニ・モリスンの名前すら知らなかったが、たまたま家のリビングに置いてあったペーパーバック版を読み始めたことがきっかけだった。「その本のおかげで読書を好きになった。それまでの読書は、しなければならないことのようなものだった。でもあの本は、私をつかんで引っ張り込むようで、次から次へと読み進めてしまった」と振り返っている。2019年にモリスンが亡くなった際には追悼文を寄せ、「いつかまた『ソロモンの歌』を手に取って、今の自分の人生の段階に応じた新しい教訓を見つけるだろう」と綴った。大人になってから最も影響を受けた本として『怒りの葡萄』と並べて本書を挙げるなど、生涯を通じて折に触れて読み返してきた一冊である。",
+    recommenderName: "ミシェル・オバマ（元米国大統領夫人・弁護士、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "TODAY番組でのインタビュー、ワシントン・ポスト紙寄稿（2019年）等、複数のインタビュー・エッセイで言及",
+    sourceUrl:
+      "https://www.xonecole.com/the-book-that-changed-oprah-winfreys-life/michelle-obama-song-of-solomon-by-toni-morrison",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "the-road-mccarthy",
+    title: "ザ・ロード",
+    author: "コーマック・マッカーシー（黒原敏行 訳）",
+    asin: "B0BSGTGPGV",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ブルース・スプリングスティーンが「最後に涙した本」と明かした父子の物語",
+    whyRead:
+      "文明崩壊後の荒野を父と息子が歩く、ピューリッツァー賞受賞のポストアポカリプス小説。極限状況における親子の愛と希望を、抑制の効いた文体で描き出す。",
+    recommenderStory:
+      "ブルース・スプリングスティーンは、自身の絵本『Outlaw Pete』刊行に合わせたニューヨーク・タイムズ紙のインタビュー企画「By the Book」で、「最後に涙した本」として本作を挙げている。長年にわたり幅広いジャンルの本を読み続けてきた彼の読書歴の中でも、特に感情を強く揺さぶられた一冊として紹介された。",
+    detailedStory:
+      "このエピソードは、スプリングスティーンが2014年に自身初の絵本『Outlaw Pete』を刊行したタイミングで受けた、ニューヨーク・タイムズ紙の名物コーナー「By the Book」でのインタビューに由来する。同コーナーでは「最近笑った本」「最近泣いた本」といった質問が定番で、スプリングスティーンは「最後に笑った本」としてリチャード・フォード『The Lay of the Land』を、「最後に涙した本」として本作を挙げた。父と息子が荒廃した世界を生き延びようとする本作の物語は、家族との絆や父性をテーマに歌い続けてきたスプリングスティーン自身の作家性と重なる部分が大きく、彼の読書歴の中でも特に感情を動かされた一冊として記憶されている。",
+    recommenderName: "Bruce Springsteen（ミュージシャン、米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel: "ニューヨーク・タイムズ紙「By the Book」インタビュー（2014年）",
+    sourceUrl:
+      "https://www.themarginalian.org/2014/11/03/bruce-springsteen-reading-list-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "price-of-time-chancellor",
+    title: "金利　「時間の価格」の物語",
+    author: "エドワード・チャンセラー（松本剛史 訳）",
+    asin: "B0D2KX32S4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "伝説の投資家スタンリー・ドラッケンミラーが「力作」と評した金利の通史",
+    whyRead:
+      "古代バビロニアから現代の超低金利時代まで、金利の歴史を膨大な文献から描き出す骨太のノンフィクション。低金利政策が経済に及ぼす歪みを問い直す、投資家必読の一冊。",
+    recommenderStory:
+      "伝説的ヘッジファンドマネジャーのスタンリー・ドラッケンミラーは、2023年6月のBloomberg Invest Conferenceの取材で、本書を「Tour de Force（力作）」と評して推薦した。金利の歴史を紐解くことで、低金利政策がもたらしてきた経済の不安定化のパターンを学べる一冊として紹介している。",
+    detailedStory:
+      "この推薦は、Bloombergの記者ソナリ・バサックが2023年6月のBloomberg Invest Conferenceを取材した記事の中で紹介されたものである。ドラッケンミラーは同カンファレンスを前に本書を勧め、「Tour de Force（力作）」という言葉で評価した。本書は過去500年にわたる金融の歴史を通じて、金利が大きく引き下げられるたびに経済が不安定化してきたことを描いており、長年マクロ経済のトレンドを読み解いて巨額のリターンを上げてきたドラッケンミラーの投資哲学とも重なるテーマを扱っている。金利という一見地味なテーマに、伝説的トレーダーが太鼓判を押したエピソードとして、金融関係者の間で話題になった。",
+    recommenderName: "Stanley Druckenmiller（デュケーヌ・ファミリー・オフィス会長兼CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "Bloomberg Invest Conference関連記事（Sonali Basak記者、2023年6月）",
+    sourceUrl:
+      "https://www.bloomberg.com/news/newsletters/2023-06-09/poker-the-price-of-time-tsunamis-and-other-views-of-markets",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "influence-cialdini",
+    title: "影響力の武器［第三版］　なぜ、人は動かされるのか",
+    author: "ロバート・B・チャルディーニ（社会行動研究会 訳）",
+    asin: "B08VDZS65P",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "チャーリー・マンガーが著者に自社株を贈って感謝を伝えた「お気に入りのビジネス書」",
+    whyRead:
+      "返報性・一貫性・社会的証明など、人が説得され行動を変える心理的メカニズムを体系的に解説した社会心理学の古典的名著。ビジネスから日常生活まで応用できる実践的な一冊。",
+    recommenderStory:
+      "バークシャー・ハサウェイ副会長チャーリー・マンガーは、ハーバード大学での講演「The Psychology of Human Misjudgment」などで本書から学んだ人間心理の誤判断パターンについて繰り返し言及している。感謝の印として著者ロバート・チャルディーニにバークシャー・ハサウェイの株式を1株贈ったという逸話でも知られる。",
+    detailedStory:
+      "マンガーは自身の代表的な講演「The Psychology of Human Misjudgment」の中で、人間がいかに非合理な判断を下しやすいかを説明する際、本書から学んだ心理学の枠組みを繰り返し引用している。「結局のところ、この本から学んだのだ」と語り、その学びへの感謝を示すために著者チャルディーニにバークシャー・ハサウェイのクラスA株を1株贈ったという逸話が広く報じられている。マンガー自身、本書を自らが挙げるビジネス書の中でも最上位に位置づけており、投資判断だけでなく人間の意思決定全般を理解するための必読書として紹介してきた。",
+    recommenderName: "Charlie Munger（バークシャー・ハサウェイ副会長、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "ハーバード大学講演「The Psychology of Human Misjudgment」、著者への自社株贈呈エピソード（複数メディアで報道）",
+    sourceUrl:
+      "https://www.theinvestorspodcast.com/millennial-investing/buffett-munger-influence-book/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "foundation-asimov",
+    title: "ファウンデーション　銀河帝国興亡史",
+    author: "アイザック・アシモフ（岡部宏之 訳）",
+    asin: "B00N4FBCO6",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ノーベル経済学賞受賞者ポール・クルーグマンを経済学の道に導いたSF古典",
+    whyRead:
+      "数学的手法で銀河帝国の未来を予測する「心理歴史学」を軸に、文明の興亡を壮大なスケールで描くSF史に残る金字塔。緻密な世界観と骨太のテーマ性で今なお読み継がれる。",
+    recommenderStory:
+      "ノーベル経済学賞受賞者のポール・クルーグマンは、本作が自分を経済学の道へ導いたと公言している。「銀河文明を救う心理歴史学者になりたくて経済学者を志した」と自身のSNSや、本作の新版に寄せた序文で明かしている。",
+    detailedStory:
+      "クルーグマンは10代の頃に本作を読み、数学的な法則で歴史の流れを予測し文明の崩壊を防ごうとする「心理歴史学者」という架空の職業に強く惹かれたという。実在する学問の中で、この心理歴史学に最も近いものが経済学だと考えたことが、自身が経済学者を志すきっかけになったと繰り返し語っている。本作の新版に寄せた序文でも「ファウンデーション三部作こそが自分を経済学に導いた作品だ。銀河文明を救う心理歴史学者になりたかったのだ」と明言しており、SF小説が実際の学問的キャリア選択に直接影響を与えた稀有な例として知られている。",
+    recommenderName: "Paul Krugman（プリンストン大学名誉教授・ノーベル経済学賞受賞者、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel: "本人のX（旧Twitter）投稿、および新版『ファウンデーション』に寄せた序文",
+    sourceUrl: "https://file770.com/krugman-introduces-foundation/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "being-mortal-gawande",
+    title: "死すべき定め――死にゆく人に何ができるか",
+    author: "アトゥール・ガワンデ（原井宏明 訳）",
+    asin: "B01HMHXDAC",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "ハリソン・フォードが「永遠に生きようとしないための本」と紹介した一冊",
+    whyRead:
+      "外科医であり作家でもある著者が、現代医療が「死」とどう向き合うべきかを問い直すノンフィクション。延命よりも尊厳を重んじる医療のあり方を、豊富な症例とともに描き出す。",
+    recommenderStory:
+      "ハリソン・フォードは、Entertainment Weekly誌のTumblrで行われたAMA（読者との質疑応答）企画の中で、本書を「永遠に生きようとしないための本」と紹介した。数々の映画で老いや死と向き合う役柄を演じてきた俳優が、実生活でも医療と死のあり方をテーマにした一冊を薦めたことが話題になった。",
+    detailedStory:
+      "フォードがこの本を挙げたのは、Entertainment Weekly誌が開催したTumblr上でのAMA（Ask Me Anything）企画で、読者から愛読書を尋ねられた際のことだった。「Being Mortal by Atul Gawande. It's about not trying to live forever（『死すべき定め』、アトゥール・ガワンデ著。永遠に生きようとしないための本だ）」と簡潔に答えている。外科医である著者ガワンデが、終末期医療の現場で目の当たりにした「延命至上主義」の限界と、患者本人の尊厳を尊重する医療のあり方を描いた本書は、老いや死をテーマにした役柄を数多く演じてきたフォードの人生観とも通じるものがあると受け止められている。",
+    recommenderName: "Harrison Ford（俳優、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "Entertainment Weekly誌のTumblr AMA企画",
+    sourceUrl: "https://faroutmagazine.co.uk/the-book-harrison-ford-recommends/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "count-of-monte-cristo-dumas",
+    title: "モンテ・クリスト伯１",
+    author: "アレクサンドル・デュマ（山内義雄 訳）",
+    asin: "B00QT9X7DS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "キアヌ・リーブスが「物語に運ばれる感覚を初めて知った」と語る少年時代の愛読書",
+    whyRead:
+      "無実の罪で投獄された青年が脱獄後、緻密な復讐計画を実行する大ロマン小説。友情・裏切り・復讐と赦しを壮大なスケールで描き、読み始めたら止まらないと評される冒険活劇。",
+    recommenderStory:
+      "キアヌ・リーブスは『Esquire』誌のインタビューで、子供の頃に本作を読んだ経験を「物語に運ばれるという感覚を初めて味わったのは、おそらくあの時だった」と振り返っている。",
+    detailedStory:
+      "リーブスは複数のインタビューの中で、少年時代に読んだ本の中で特に印象に残っている作品として本作を挙げている。「物語に運ばれる（transportation）という感覚を初めて味わったのは、おそらくあの時だった」と語っており、複雑な陰謀と壮大なスケールの復讐劇に没入した読書体験が、物語の世界に入り込む感覚を教えてくれた原体験になったことがうかがえる。俳優として数々の架空の世界を生きてきたリーブスにとって、フィクションに「運ばれる」という感覚の原点が少年時代のこの一冊にあったというエピソードである。",
+    recommenderName: "Keanu Reeves（俳優、カナダ）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "Esquire誌、Details誌、Elle誌等のインタビューで言及",
+    sourceUrl: "https://elitereads.com/elite/keanu-reeves",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "silmarillion-tolkien",
+    title: "新版　シルマリルの物語",
+    author: "J.R.R.トールキン（田中明子 訳）",
+    asin: "B0B515HQC8",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "スティーブン・コルベアが「自分史上最高の一冊」と公言するトールキンの世界創造神話",
+    whyRead:
+      "『指輪物語』の遥か以前、中つ国が生まれる過程を描く壮大な神話体系。トールキンが生涯をかけて紡いだ世界観の根幹を成す一冊で、エルフ語にも精通するファンの間で特に愛される作品。",
+    recommenderStory:
+      "スティーブン・コルベアは大のトールキン愛読家として知られ、複数のインタビューや出演番組で本作を自身の「お気に入りの本」として繰り返し紹介している。エルフ語を独学で習得するほどの熱の入れようで、その傾倒ぶりは長年のトークショー出演やインタビューで度々語られてきた。",
+    detailedStory:
+      "コルベアは10代の頃から『指輪物語』をはじめとするトールキン作品を愛読し、その前日譚にあたる本作にも深く傾倒してきた愛読家として知られる。ファンとしての傾倒ぶりは徹底しており、エルフ語（クウェンヤ）を独学で学び、トークショーやインタビューでエルフ語を披露する場面が度々見られるほどだ。長年にわたり複数のメディアで本作を「自分にとって最高の一冊」として挙げ続けており、トールキンの神話世界がコルベアにとって単なる娯楽を超えた特別な存在であることがうかがえる。",
+    recommenderName: "Stephen Colbert（コメディアン・司会者、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel: "複数のインタビュー・出演番組でのトールキン愛読への言及",
+    sourceUrl:
+      "https://blog.amplereads.com/these-10-books-explain-stephen-colbert-better-than-any-interview-ever-could/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "journey-end-of-night-celine",
+    title: "JOURNEY TO THE END OF THE NIGHT",
+    author: "Louis-Ferdinand Céline（Ralph Manheim 英訳）",
+    asin: "B0BV23S3N1",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    coverUrl: "https://covers.openlibrary.org/b/id/14054027-L.jpg",
+    hook: "マーティン・スコセッシが『アイリッシュマン』制作のヒントを得た、後悔をめぐる一節",
+    whyRead:
+      "第一次世界大戦前後の混沌を舞台に、皮肉屋の主人公バルダミュが世界を放浪しながら人間存在の不条理と向き合う20世紀文学の問題作。ヘンリー・ミラーやブコウスキーにも影響を与えたとされる、荒々しくも詩的な文体で知られる（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "マーティン・スコセッシは、映画『アイリッシュマン』の製作背景を語ったThe Film Stage誌のインタビューで本作を挙げ、終盤のある一節が自身の後悔や罪の意識についての理解を形作ったと語っている。",
+    detailedStory:
+      "2019年公開の『アイリッシュマン』は、殺し屋として生きた男が老いてなお過去の罪と向き合う物語だが、スコセッシはThe Film Stage誌のインタビューで、その着想の一部が本作にあったことを明かした。特に印象的だったのは「自分の身に起きたことは、まるまる一つの人生が起きたようなものだった」という一節で、罪を重ねながら生きた人間が老いてから自らの人生を振り返るときの感覚を、この一文が的確に捉えていると語っている。フィリップ・ロスが「自分にとってのプルースト」と評し、ヘンリー・ミラーやブコウスキーにも影響を与えたとされる本作の荒々しい文体と、罪と後悔をめぐるテーマが、スコセッシ自身の映画作りに直接反映された例として紹介されている。",
+    recommenderName: "Martin Scorsese（映画監督、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "The Film Stage誌「Martin Scorsese on the Films and Books that Influenced 'The Irishman'」（2019年10月）",
+    sourceUrl:
+      "https://thefilmstage.com/martin-scorsese-on-the-films-and-books-that-influenced-the-irishman/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "east-of-eden-steinbeck",
+    title: "East of Eden",
+    author: "John Steinbeck（David Wyatt 序文、Susan Shillinglaw 解説）",
+    asin: "B0GLLQ4F76",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/11386937-L.jpg",
+    hook: "スティーヴン・スピルバーグが7人の子供全員に読むよう勧めた、聖書「カインとアベル」を下敷きにした大河小説",
+    whyRead:
+      "カリフォルニアのサリナス・バレーを舞台に、二つの家族三代にわたる愛憎と葛藤を、旧約聖書「カインとアベル」の物語になぞらえて描くスタインベックの代表作。善悪や自由意志という普遍的なテーマを、壮大なスケールで問い直す（未邦訳版のamazon.co.jp Kindleが未確認のため、英語版Kindleを使用）。",
+    recommenderStory:
+      "スティーヴン・スピルバーグは、俳優ジャック・エドワーズによるインタビュー企画「Required Reading」で、本作をスタインベックの全作品の中でも「一番好きな一冊」として挙げた。初版本を所蔵するほどの愛着を持ち、自身の7人の子供全員にも読むよう勧めてきたと語っている。",
+    detailedStory:
+      "スピルバーグはインタビューで「あれは、スタインベックの作品の中でも自分が最も好きな一冊の一つだった、East of Eden（エデンの東）だ」と述べ、本作への強い思い入れを明かしている。単に好きな作品として挙げるだけでなく、初版本をコレクションとして所蔵していることや、自身の7人の子供たちにもこの作品を読むよう勧めてきたことを語っており、家族に読み継がせたいと思うほど特別な一冊であることがうかがえる。カインとアベルの物語を下敷きに、善悪の選択が人の一生を左右する様を描く本作のテーマは、家族の絆や倫理的な選択を繰り返し映画の主題にしてきたスピルバーグの作家性とも響き合う。",
+    recommenderName: "Steven Spielberg（映画監督、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "俳優ジャック・エドワーズのインタビュー企画「Required Reading」",
+    sourceUrl:
+      "https://www.aol.com/articles/steven-spielberg-opens-dyslexia-favorite-210005000.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "free-to-choose-friedman",
+    title: "Free To Choose: A Personal Statement",
+    author: "Milton Friedman, Rose Friedman",
+    asin: "B004MYFLBS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/4393564-L.jpg",
+    hook: "アーノルド・シュワルツェネッガーが「渡米を決意させた」と明かした自由市場経済の古典",
+    whyRead:
+      "ノーベル経済学賞受賞者ミルトン・フリードマンが、自由な市場経済こそが個人の繁栄と社会の発展を最大化するという思想を平易に説いたベストセラー。同名のテレビシリーズを書籍化したもので、経済学の入門書としても読み継がれている（邦訳版のamazon.co.jp Kindleが未確認のため、英語版Kindleを使用）。",
+    recommenderStory:
+      "アーノルド・シュワルツェネッガーは、本書の基になったテレビシリーズ「Free to Choose」に寄せた自らの序文（フーヴァー研究所アーカイブ所蔵）で、この作品が「自分の人生を変えた」「アメリカへの移住を決意させた」と明かしている。感銘を受けるあまり、これまでに数百冊を人に贈ってきたとも綴っている。",
+    detailedStory:
+      "シュワルツェネッガーは、フリードマン夫妻によるテレビシリーズ「Free to Choose」に寄せた自筆の序文で、この作品との出会いが自身の人生を大きく変えたと振り返っている。オーストリアで育った青年期にこの思想に触れたことがアメリカへの移住を後押しした一因になったと明かし、以来、自由市場経済への信念を象徴する作品として、これまでに「数百冊」を知人に贈り続けてきたという。ボディビルダーから俳優、そして政治家へと転身した自身のキャリアの背景に、本書が説く「個人の自由な選択が繁栄を生む」という思想があったことをうかがわせるエピソードである。",
+    recommenderName: "Arnold Schwarzenegger（俳優・元カリフォルニア州知事、オーストリア／米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "テレビシリーズ「Free to Choose」に寄せた本人の序文（フーヴァー研究所アーカイブ所蔵）",
+    sourceUrl:
+      "https://miltonfriedman.hoover.org/objects/56646/arnold-schwarzeneggers-introduction-to-free-to-choose",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "catching-the-big-fish-lynch",
+    title: "Catching the Big Fish: Meditation, Consciousness, and Creativity",
+    author: "David Lynch",
+    asin: "B0024NP55G",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/850405-L.jpg",
+    hook: "デンゼル・ワシントンが本屋でたまたま手に取り、瞑想を始めるきっかけになった一冊",
+    whyRead:
+      "映画監督デヴィッド・リンチが、超越瞑想と創造性の関係について自らの体験を綴ったエッセイ集。「意識を深めることが本来の自分に近づく道になる」という考え方を、映画制作の逸話を交えながら平易に語る（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "デンゼル・ワシントンは、ニューヨーク・タイムズ紙のポッドキャスト「The Interview」（2025年2月）で、本屋で偶然手に取った本書がきっかけで瞑想を始めたと語った。「本来の自分に近づく手助けになる」というリンチの言葉に触れ、それから約15年間瞑想を続けてきたことで「人生が完全に変わった」と振り返っている。",
+    detailedStory:
+      "ワシントンによれば、本書との出会いはごく偶然のものだったという。書店で何気なく手に取った本書の中で、デヴィッド・リンチが「瞑想は本来の自分になる手助けをしてくれる」という趣旨のことを綴っているのを読み、興味を持ったことがきっかけで瞑想を始めた。それから約15年にわたって瞑想を続けており、ニューヨーク・タイムズ紙のポッドキャスト「The Interview」（2025年2月）では、この習慣が自身の人生を「完全に変えた」と明言している。名優として長年トップランナーであり続けてきたワシントンにとって、創造性と精神の安定を支える土台として、リンチが説く瞑想の思想が実生活に深く根付いていることがうかがえるエピソードである。",
+    recommenderName: "Denzel Washington（俳優、米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "ニューヨーク・タイムズ紙ポッドキャスト「The Interview」（2025年2月8日）",
+    sourceUrl:
+      "https://podcasts.apple.com/us/podcast/the-interview-denzel-washington-has-finally-found-his/id1200361736?i=1000690264264",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "the-alienist-carr",
+    title: "The Alienist: A Novel",
+    author: "Caleb Carr",
+    asin: "B000JMKV9Y",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/417627-L.jpg",
+    hook: "元MLB投手ショーン・ドゥーリトルがオフシーズンの愛読書に選んだ、19世紀ニューヨークを舞台にしたミステリー",
+    whyRead:
+      "1896年のニューヨークを舞台に、若き精神科医（エイリアニスト）が連続殺人犯のプロファイリングに挑む歴史ミステリー。当時最先端だった犯罪心理学の黎明期を、緻密な時代考証とともに描き出す（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "元MLB投手ショーン・ドゥーリトルは、MLB.com「Cut4」のオフシーズン愛読書特集インタビューで本作を挙げ、「本当に良い物語で、文章も優れていると思った」と評している。",
+    detailedStory:
+      "MLB.comの名物企画「Cut4」は、選手たちがオフシーズン中に読んだ本を紹介するインタビュー特集で、ドゥーリトルはその中で本作を選んだ。19世紀末のニューヨークを舞台に、当時まだ黎明期だった犯罪心理学の手法で連続殺人事件の謎に挑む主人公の姿を描く本格ミステリーで、緻密な時代考証と本格的なプロット展開が評価されている作品だ。ドゥーリトルは「本当に良い物語で、文章も優れていると思った」と評しており、シーズン中の激しい遠征生活の合間にじっくりと物語に没入できる読書を求める現役選手ならではの一冊選びがうかがえる。",
+    recommenderName: "Sean Doolittle（元MLB投手、オークランド・アスレチックス、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "MLB.com「Cut4」オフシーズン愛読書特集インタビュー",
+    sourceUrl:
+      "https://www.mlb.com/cut4/mlb-players-share-the-best-books-they-read-during-the-offseason-c216320608",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "travelers-gift-andrews",
+    title: "The Traveler's Gift: Seven Decisions that Determine Personal Success",
+    author: "Andy Andrews",
+    asin: "B00ETK822K",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/537210-L.jpg",
+    hook: "元MLB捕手クリス・スチュワートが「自分の人生にも応用できる」と評したベストセラー自己啓発小説",
+    whyRead:
+      "人生に絶望した主人公が、リンカーンやアンネ・フランクら歴史上の偉人たちとの出会いを通じて「成功を決める7つの意思決定」を学んでいく物語形式の自己啓発書。全米で130万部を超えるロングセラー（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "元MLB捕手クリス・スチュワートは、MLB.com「Cut4」のオフシーズン愛読書特集インタビューで本作を挙げ、「目を開かされる内容で、自分の人生にも応用できる」と語っている。",
+    detailedStory:
+      "MLB.com「Cut4」のオフシーズン愛読書特集で、スチュワートは本作を選び、「目を開かされる内容で、読者は自分自身の人生にそれを応用できる」と評価した。本作は、人生に行き詰まった主人公が時間を超えてリンカーンやアンネ・フランクといった歴史上の偉人たちと出会い、それぞれから人生を左右する意思決定の教訓を学んでいくという物語形式の自己啓発書で、全米で130万部を超えるベストセラーになっている。長年正捕手としてチームを支え、引退後は指導者としても選手のメンタル面を支えてきたスチュワートにとって、物語を通じて人生訓を学べる本作の構成が響いたことがうかがえる。",
+    recommenderName: "Chris Stewart（元MLB捕手、ピッツバーグ・パイレーツ、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "MLB.com「Cut4」オフシーズン愛読書特集インタビュー",
+    sourceUrl:
+      "https://www.mlb.com/cut4/mlb-players-share-the-best-books-they-read-during-the-offseason-c216320608",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "one-more-thing-novak",
+    title: "One More Thing: Stories and Other Stories",
+    author: "B. J. Novak",
+    asin: "B00EGMQIIQ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/10414658-L.jpg",
+    hook: "元MLB投手ジム・ヘンダーソンが「型にはまらない発想をくれた」と語る、俳優B.J.ノヴァクによる短編集",
+    whyRead:
+      "ドラマ『THE OFFICE』での演技でも知られる俳優・脚本家B.J.ノヴァクが手がけた64篇の短編集。ユーモアと不条理が入り混じる語り口で、日常の当たり前を鮮やかに裏切ってみせる一冊（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "元MLB投手ジム・ヘンダーソンは、MLB.com「Cut4」のオフシーズン愛読書特集インタビューで本作を挙げ、「型にはまらない発想をさせてくれる、少し変わった内容だった」と語っている。",
+    detailedStory:
+      "MLB.com「Cut4」のオフシーズン愛読書特集で、ヘンダーソンは本作を選び、「型にはまらない発想をさせてくれる、ちょっと変わった内容だった」と感想を述べている。俳優・脚本家として知られるB.J.ノヴァクが手がけた本作は、短いものは1ページに満たない掌編から本格的な短編まで、64篇のバラエティ豊かな物語を収めたユーモアと不条理の入り混じる一冊で、朗読版にはミンディ・カリングやエマ・トンプソンら豪華俳優陣が参加していることでも知られる。長年リリーフ投手として不確実性の高い場面を任されてきたヘンダーソンにとって、予測不能な展開が続く本作の語り口が気分転換となる読書体験だったことがうかがえる。",
+    recommenderName: "Jim Henderson（元MLB投手、シカゴ・カブス、カナダ）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "MLB.com「Cut4」オフシーズン愛読書特集インタビュー",
+    sourceUrl:
+      "https://www.mlb.com/cut4/mlb-players-share-the-best-books-they-read-during-the-offseason-c216320608",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
+  {
+    slug: "masters-of-scale-hoffman",
+    title: "Masters of Scale: Surprising Truths from the World's Most Successful Entrepreneurs",
+    author: "Reid Hoffman, June Cohen, Deron Triff",
+    asin: "B08VS2BVD4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    coverUrl: "https://covers.openlibrary.org/b/id/11974815-L.jpg",
+    hook: "組織心理学者アダム・グラントが公式推薦文で「偉大な創業者たちの記憶に残るエピソードが詰まっている」と評した一冊",
+    whyRead:
+      "LinkedIn共同創業者リード・ホフマンが人気ポッドキャスト「Masters of Scale」で重ねてきた、世界的起業家たちへのインタビューを書籍化。急成長する組織づくりの「意外な真実」を、豊富な実例とともに解説する（未邦訳・英語版Kindle）。",
+    recommenderStory:
+      "ウォートン校教授でベストセラー作家のアダム・グラントは、本書に寄せた推薦文（Penguin Random House公式サイト掲載）で「これは、多くの偉大な創業者たちの教訓を凝縮した一冊だ。記憶に残るエピソードと実践的な洞察が詰まっている」と評している。",
+    detailedStory:
+      "グラントは本書のために書いた推薦文の中で「一人の起業家から学ぶ代わりに、この時代を代表する多くの創業者たちの教訓を一気に吸収できるとしたら？　本書は、忘れがたいエピソードと世界クラスのリーダーたちの実践的な洞察を組み合わせ、あなたの最も大胆なアイデアを現実にする手助けをしてくれる」と綴り、公式の推薦文としてPenguin Random Houseの書籍紹介ページに掲載されている。本書はリード・ホフマンが自ら手がける人気ポッドキャスト「Masters of Scale」でのインタビューを元に、世界的な起業家たちが直面してきた成長の壁とその乗り越え方を体系立ててまとめたもので、逸話とフレームワークの両方を兼ね備えた実践書として評価されている。組織における成功の要因を研究してきたグラント自身の専門領域とも重なるテーマであり、学術的な視点からもビジネス書として高く評価していることがうかがえる。",
+    recommenderName: "Adam Grant（ウォートン校教授・組織心理学者、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel: "Penguin Random House公式サイト掲載の推薦文",
+    sourceUrl:
+      "https://www.penguinrandomhouse.com/books/669987/masters-of-scale-by-reid-hoffman-with-june-cohen-and-deron-triff/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-09-21",
+  },
 ];
