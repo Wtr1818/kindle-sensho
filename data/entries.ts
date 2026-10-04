@@ -5105,9 +5105,7 @@ export const entries: Entry[] = [
     sourceUrl:
       "https://www.library.vcu.edu/about/news/2017/author-tells-the-story-behind-his-award-winning-underground-railroad-novel.html",
     status: "active",
-    onSale: true,
-    saleName: "Kindle本まとめ買いキャンペーン",
-    saleEndsLabel: "終了まで20日",
+    onSale: false,
     dateAdded: "2026-09-19",
   },
   {
@@ -5154,9 +5152,7 @@ export const entries: Entry[] = [
     sourceLabel: "Bustle「Hasan Minhaj Shares His 4 Favorite Books」インタビュー（2025年）",
     sourceUrl: "https://www.bustle.com/entertainment/hasan-minhaj-favorite-books-interview",
     status: "active",
-    onSale: true,
-    saleName: "Kindle本まとめ買いキャンペーン",
-    saleEndsLabel: "終了まで20日",
+    onSale: false,
     dateAdded: "2026-09-19",
   },
   {
@@ -5179,9 +5175,7 @@ export const entries: Entry[] = [
     sourceLabel: "経済界ウェブ「【読書と経営】一流経営者が推薦する『人生を変えた1冊』」",
     sourceUrl: "http://net.keizaikai.co.jp/archives/1208",
     status: "active",
-    onSale: true,
-    saleName: "Kindle本まとめ買いキャンペーン",
-    saleEndsLabel: "終了まで20日",
+    onSale: false,
     dateAdded: "2026-09-19",
   },
   {
@@ -5921,5 +5915,125 @@ export const entries: Entry[] = [
     status: "active",
     onSale: false,
     dateAdded: "2026-09-21",
+  },
+  {
+    slug: "little-engine-that-could",
+    title: "The Little Engine That Could",
+    author: "Watty Piper（絵：George & Doris Hauman）",
+    asin: "B07YK17YT7",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "絵本",
+    coverUrl: "https://covers.openlibrary.org/b/id/446449-L.jpg",
+    hook: "ドリー・パートンが3億冊超を無料配布する「イマジネーション・ライブラリ」の1冊目に選んだ、自身の原点でもある絵本",
+    whyRead:
+      "急な坂を越えられない貨物列車のために、小さな機関車が「I think I can, I think I can」と自らを励ましながら坂を登っていく、1930年刊行の古典絵本。シンプルな言葉の繰り返しが、努力と前向きな思考の大切さを子どもに伝える定番作品。",
+    recommenderStory:
+      "ドリー・パートンは、子どもに無料で本を届ける自身の非営利団体「イマジネーション・ライブラリ」で、米国・カナダの対象地域で生まれた子どもが最初に受け取る1冊に本作を選んでいる。本作はパートン自身のお気に入りの一冊でもあるという。",
+    detailedStory:
+      "パートンがイマジネーション・ライブラリを1995年に始めたきっかけは、実の父ロバート・リー・パートンにあった。父は読み書きができないまま生涯を送った人物で、パートンは2016年のCNBCのインタビューで「父のことを思い、子どもたちに読書と学びを好きになってもらえる何かをしたいと思った」と振り返っている。2018年、米議会図書館に1億冊目の寄贈を行った式典では、当時の議会図書館長カーラ・ヘイデンに「父は読み書きができなかったけれど、私が知る中で一番賢い人でした」と語り、「父を誇らしい気持ちにさせる何かができたのだと思うと、心が温かくなりました」と続けた。坂を登り続ける小さな機関車の物語を、読み書きを学ぶ機会がなかった父に重ね合わせながら、何百万人もの子どもたちに最初の1冊として届け続けている。",
+    recommenderName: "ドリー・パートン（音楽アーティスト、米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel:
+      "CNBCインタビュー（2016年）・2018年米議会図書館寄贈式典での発言",
+    sourceUrl: "https://www.cnbc.com/2016/06/02/dolly-parton-how-my-father-inspired-the-imagination-library.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-04",
+  },
+  {
+    slug: "the-power-broker-caro",
+    title: "The Power Broker: Robert Moses and the Fall of New York",
+    author: "Robert A. Caro",
+    asin: "B0DDWV768S",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    coverUrl: "https://covers.openlibrary.org/b/id/253659-L.jpg",
+    hook: "コナン・オブライエンが「仕事をすることの守護聖人」と呼ぶ、1300ページ超のピュリッツァー賞受賞伝記",
+    whyRead:
+      "ニューヨークの都市計画を半世紀にわたり陰で動かした権力者ロバート・モーゼスの生涯を、膨大な取材で描き切った1974年刊のノンフィクションの金字塔。選挙で選ばれたことのない一人の男がいかにして巨大権力を手にしたかを解き明かす。",
+    recommenderStory:
+      "コナン・オブライエンは自ら「ロバート・カーロの一番のファン」を公言し、ポッドキャスト番組「99% Invisible」の特別回「Breaking Down The Power Broker with Conan O'Brien」に出演して本作を語り尽くした。自身のポッドキャスト「Conan O'Brien Needs A Friend」にもカーロ本人をゲストに招いている。",
+    detailedStory:
+      "ハーバード大学で歴史・文学を専攻し、フォークナーとフラナリー・オコナーを卒業論文のテーマに選んだオブライエンにとって、ロバート・カーロは「仕事をすること、時間をかけること、忍耐強くあること、そして神は細部に宿ると信じることの守護聖人だ」と評するほどの存在だという。本作と、同じくカーロによる大河伝記『The Years of Lyndon Johnson』シリーズを、「本気の仕事とはどういうものか」を測る基準にしているとオブライエンは語っている。綿密な取材に裏打ちされたディテールへのこだわりは、コメディという全く異なる分野で生きるオブライエン自身の仕事の流儀にも通じるとして、繰り返し敬意を表してきた。",
+    recommenderName: "コナン・オブライエン（コメディアン、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "ポッドキャスト「99% Invisible」特別回および自身のポッドキャスト「Conan O'Brien Needs A Friend」での発言",
+    sourceUrl: "https://99percentinvisible.org/episode/562-breaking-down-the-power-broker/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-04",
+  },
+  {
+    slug: "david-and-goliath-gladwell",
+    title: "David and Goliath 絶対強者をうち破れ",
+    author: "マルコム・グラッドウェル（桜田直美 訳）",
+    asin: "B0G12K9C5S",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    hook: "元MLB内野手マット・ダフィーがオフシーズンに読んだ、「弱者がなぜ勝つのか」を解き明かす一冊",
+    whyRead:
+      "弱者とされる側が、なぜしばしば強者を打ち破るのか。バスケットボールのプレス戦術から公民権運動まで、多様な事例を通じて「不利」とされる条件がむしろ強みに転化する仕組みを解説するマルコム・グラッドウェルの代表作。",
+    recommenderStory:
+      "元MLB内野手マット・ダフィーは、MLB公式サイト「Cut4」のオフシーズン読書特集インタビューで本作を挙げ、「多くの人が弱みだと思っているものを取り上げ、それをどう強みに変えていったかを見せてくれる内容が興味深かった」と語っている。",
+    detailedStory:
+      "タンパベイ・レイズ等でプレーしたダフィーは、シーズンオフの読書習慣についてMLB.com「Cut4」の企画取材に応じ、数ある本の中から本作を紹介した一人だった。プロスポーツの世界では、体格や経歴など「恵まれていない」とされる選手が結果を残す場面が珍しくない。ダフィー自身、ドラフト下位指名からメジャーの座をつかみ取ったキャリアを歩んでおり、本書が説く「不利に見える条件がどう強みに転じるか」というテーマに重なる部分を感じ取ったことがうかがえる。「弱者」とされる側の戦い方を学ぶ一冊として、オフシーズンの読書リストに加えていた。",
+    recommenderName: "マット・ダフィー（元MLB選手、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "MLB公式サイト「Cut4」のオフシーズン読書特集インタビュー",
+    sourceUrl: "https://www.mlb.com/cut4/mlb-players-share-the-best-books-they-read-during-the-offseason-c216320608",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-04",
+  },
+  {
+    slug: "lonesome-dove-mcmurtry",
+    title: "Lonesome Dove: The Pulitzer Prize Winning Novel Set in the American West",
+    author: "Larry McMurtry",
+    asin: "B005V2250U",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ホラーの帝王スティーヴン・キングが「人生最高の一冊」に選んだ、ピュリッツァー賞受賞の西部劇大作",
+    whyRead:
+      "テキサスからモンタナへ、元レンジャーの牛追い一行が広大な西部の荒野を旅する群像劇。1986年ピュリッツァー賞（フィクション部門）受賞作で、「究極のカウボーイ小説」とも評される、アメリカ西部開拓時代を描いた大河小説。",
+    recommenderStory:
+      "スティーヴン・キングは『ザ・レイト・ショー・ウィズ・スティーヴン・コルベア』の企画映像「What Ya' Readin'?」で、人生で一番好きな本を問われ「挙げるのが怖いくらいたくさんあるけれど、一つ選ぶならラリー・マクマートリーの『Lonesome Dove』だ」と答えている。",
+    detailedStory:
+      "数多くのベストセラーホラー小説を世に送り出してきたキングだが、2021年夏に出演したコルベアの番組企画では、ホラーではなく西部劇の大河小説を自身の最高の一冊に挙げた。『Lonesome Dove』は、引退した元テキサス・レンジャーたちが牛の群れを率いてテキサスからモンタナまで旅をする物語で、広大な西部の自然と、年老いてなお己の生き方を問い続ける男たちの姿を描いている。1986年にピュリッツァー賞を受賞し、「アメリカが生んだ究極のカウボーイ小説」として読み継がれてきた本作を、ホラーというジャンルを極めたキング自身が別ジャンルの頂点として挙げたという事実が、この小説の持つ懐の深さを物語っている。",
+    recommenderName: "スティーヴン・キング（作家、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel: "『ザ・レイト・ショー・ウィズ・スティーヴン・コルベア』の企画映像「What Ya' Readin'?」（2021年）での発言",
+    sourceUrl: "https://parade.com/news/stephen-kings-favorite-book-ever-a-1985-western-that-won-the-pulitzer-prize-is-becoming-a-netflix-series",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-04",
+  },
+  {
+    slug: "they-cant-kill-us-until-they-kill-us",
+    title: "They Can't Kill Us Until They Kill Us: Essays",
+    author: "Hanif Abdurraqib",
+    asin: "B07ZTYBVKG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "エッセイ",
+    coverUrl: "https://covers.openlibrary.org/b/id/13157813-L.jpg",
+    hook: "The Rootsのドラマー、クエストラヴが「好きなもの2つが1冊に詰まっている」と評した音楽エッセイ集",
+    whyRead:
+      "ブルース・スプリングスティーンのライブからヒップホップの名盤まで、音楽という切り口を通じて現代社会の文化と政治を見つめ直す評論家・詩人ハニフ・アブドゥラキブによるエッセイ集。音楽への愛と鋭い批評眼が共存する一冊。",
+    recommenderStory:
+      "The Rootsのドラマーでプロデューサーのクエストラヴは、ニューヨーク・タイムズ紙「By the Book」企画で自身の歴代お気に入り本リストに本作を挙げ、「自分が好きな2つのもの、ライナーノーツとヒップホップの名盤が1冊に詰まっている！」と評している。",
+    detailedStory:
+      "クエストラヴ自身、ヒップホップの名盤解説書『Check the Technique』シリーズに寄稿するなど、レコードのライナーノーツを読み込むことを愛読の原点としてきた人物として知られる。ニューヨーク・タイムズのインタビューで歴代のお気に入り本を聞かれた際、音楽への愛と文化批評が交差するアブドゥラキブのエッセイ集を即座に挙げ、自身の読書の嗜好を端的に言い表す一冊として紹介した。ブルース・スプリングスティーンのコンサートに足を運ぶ場面から始まり、音楽を通じてアメリカ社会の分断や喪失を見つめ直していく本書の構成は、音楽家として長年レコードと言葉の両方に向き合ってきたクエストラヴの感性と強く響き合うものだったことがうかがえる。",
+    recommenderName: "クエストラヴ（The Roots、米国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel: "ニューヨーク・タイムズ紙「By the Book」企画での発言",
+    sourceUrl: "https://hiphophero.com/questlove-lists-his-favourite-books-of-all-time/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-04",
   },
 ];
