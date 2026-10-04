@@ -27,7 +27,7 @@ export default function Archive() {
             </h1>
             <Link
               href="/"
-              className="text-sm text-[#000000]/50 underline-offset-4 hover:text-[#000000] hover:underline"
+              className="text-sm text-[#000000]/60 underline-offset-4 hover:text-[#000000] hover:underline"
             >
               本日の推薦へ
             </Link>

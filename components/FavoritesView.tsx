@@ -30,7 +30,7 @@ export function FavoritesView({ entries }: { entries: Entry[] }) {
 
   return (
     <div>
-      <p className="mb-6 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
+      <p className="mb-6 text-xs font-medium tracking-[0.2em] text-[#000000]/60">
         {favorites.length}件
       </p>
       <div className="divide-y divide-[#000000]/10">

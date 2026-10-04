@@ -28,7 +28,7 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
 
   return (
     <div>
-      <p className="mb-3 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
+      <p className="mb-3 text-xs font-medium tracking-[0.2em] text-[#000000]/60">
         RECOMMENDED BY
       </p>
       <div className="mb-6 flex flex-wrap gap-3">
@@ -62,7 +62,7 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
       </div>
 
       <div className="mb-6 flex items-center justify-between border-t border-[#000000]/10 pt-6">
-        <p className="text-xs font-medium tracking-[0.2em] text-[#000000]/40">
+        <p className="text-xs font-medium tracking-[0.2em] text-[#000000]/60">
           {filtered.length}件
         </p>
         <button
@@ -80,7 +80,7 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
       </div>
 
       {filtered.length === 0 ? (
-        <p className="text-sm text-[#000000]/50">
+        <p className="text-sm text-[#000000]/60">
           該当する推薦は見つかりませんでした。
         </p>
       ) : (
