@@ -23,7 +23,7 @@ export default function Home() {
             <h1 className="font-serif text-5xl font-bold tracking-tight text-[#000000]">
               読み窓91
             </h1>
-            <nav className="flex flex-wrap gap-4 text-sm text-[#000000]/50">
+            <nav className="flex flex-wrap gap-4 text-sm text-[#000000]/60">
               <Link
                 href="/today-sale"
                 className="underline-offset-4 hover:text-[#000000] hover:underline"
@@ -77,7 +77,7 @@ export default function Home() {
             <span className="text-[#000000]">
               推薦の有無にかかわらず、本日のセール対象をすべて見る
             </span>
-            <span className="text-[#000000]/40">→</span>
+            <span className="text-[#000000]/60">→</span>
           </Link>
         </div>
 

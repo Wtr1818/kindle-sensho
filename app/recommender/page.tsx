@@ -56,7 +56,7 @@ export default function RecommenderIndexPage() {
                 <span className="font-serif text-lg">
                   {shortName(recommender.name)}
                 </span>
-                <span className="text-xs text-[#000000]/40">
+                <span className="text-xs text-[#000000]/60">
                   {recommender.count}件
                 </span>
               </Link>

@@ -48,7 +48,7 @@ export default function GenreIndexPage() {
                 className="flex items-center justify-between py-4 text-[#000000] hover:underline"
               >
                 <span className="font-serif text-lg">{genre.name}</span>
-                <span className="text-xs text-[#000000]/40">
+                <span className="text-xs text-[#000000]/60">
                   {genre.count}件
                 </span>
               </Link>

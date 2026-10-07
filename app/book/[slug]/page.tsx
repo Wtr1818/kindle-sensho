@@ -140,7 +140,7 @@ export default async function BookPage({
 
         {sameRecommender.length > 0 && (
           <section className="mt-10 border-t border-[#000000]/10 pt-8">
-            <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
+            <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/60">
               {shortName(recommenderNames[0])}の他のおすすめ本
             </h2>
             <ul className="divide-y divide-[#000000]/10">
@@ -160,7 +160,7 @@ export default async function BookPage({
 
         {sameGenre.length > 0 && (
           <section className="mt-8">
-            <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/40">
+            <h2 className="mb-4 text-xs font-medium tracking-[0.2em] text-[#000000]/60">
               {entry.genre}の他のおすすめ本
             </h2>
             <ul className="divide-y divide-[#000000]/10">
