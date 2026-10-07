@@ -6272,4 +6272,178 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-10-04",
   },
+  {
+    slug: "boys-in-the-boat-nadella",
+    title: "ヒトラーのオリンピックに挑んだ若者たち　ボートに託した夢",
+    author: "ダニエル・ジェイムズ・ブラウン（森内薫 訳）",
+    asin: "B00P0QOVMW",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "サティア・ナデラがMicrosoft CEO就任直後から重視した「チームワーク」の教科書",
+    whyRead:
+      "1936年ベルリン五輪、労働者階級の若者たちで構成されたワシントン大学ボート部が東部の名門校を打ち破り金メダルを獲得するまでを描いた実話ノンフィクション。個人の才能ではなく、互いを信頼し一つの艇として漕ぐ集団の力を描き出す。",
+    recommenderStory:
+      "Microsoft CEOのサティア・ナデラは、Fast Companyのインタビューで本書を「チームワークの重要性を示す素晴らしい実例」と評し、CEO就任当初から自分が最も注力してきたことの核心を体現する一冊として紹介している。",
+    detailedStory:
+      "サティア・ナデラが2014年にMicrosoft CEOに就任した際、最優先課題の一つに掲げたのが社内の分断された文化をチームとして機能する組織へ立て直すことだった。Fast Companyのインタビューで本書について問われたナデラは「チームワークの重要性を示す素晴らしい実例であり、それはCEOとして最初から自分が最も注力してきたことの核心部分だった」と語っている。本書は大恐慌時代、労働者階級出身の若者たちがワシントン大学のボート部に集められ、互いの信頼と息の合った漕艇によって東部エリート校の強豪を次々と破り、ナチス政権下のベルリン五輪で金メダルを獲得するまでを描いたノンフィクションだ。個々の才能よりも「艇全体がひとつのリズムで動くこと」に物語の核心が置かれており、組織文化の立て直しに取り組んでいたナデラにとって、チームの一体感がもたらす力を象徴する一冊として響いたことがうかがえる。",
+    recommenderName: "Satya Nadella（Microsoft CEO、米国／インド出身）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "Fast Company「The 7 Books Microsoft CEO Satya Nadella Says You Need To Lead Smarter」での発言",
+    sourceUrl:
+      "https://www.fastcompany.com/40457479/the-7-books-microsoft-ceo-satya-nadella-says-you-need-to-lead-smarter",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "golf-is-not-a-game-of-perfect-mcilroy",
+    title: "Golf is Not a Game of Perfect",
+    author: "Dr. Bob Rotella",
+    asin: "B000SEJ2GG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/406544-L.jpg",
+    hook: "2024年の挫折から2025年マスターズ制覇へ——ロリー・マキロイの復活を支えたメンタルゴルフの古典",
+    whyRead:
+      "「正しいスイングより正しい心構えが結果を決める」と説くスポーツ心理学者ボブ・ロテラの代表作。ミスへの向き合い方、自信の作り方など、プロゴルファーたちが実践してきたメンタル面の知恵を豊富な逸話とともに紹介する。",
+    recommenderStory:
+      "ロリー・マキロイは2017年、全英オープン（ロイヤル・バークデール）への移動中に本書を初めて聴き、以降繰り返し立ち返ってきたという。2024年の悔しい敗退を経て2025年マスターズでキャリアグランドスラムを達成した復活劇を支えた一冊として、golf.com等複数のゴルフメディアが報じている。",
+    detailedStory:
+      "ロリー・マキロイが本書と出会ったのは2017年、全英オープンの会場であるロイヤル・バークデールへ向かう車中でオーディオブックを聴いたことがきっかけだったという。2024年、あと一歩のところでメジャータイトルを逃す悔しい結果が続いた時期、マキロイは本書が説く「結果ではなくプロセスに集中する」という考え方に改めて立ち返ったとされる。そうして迎えた2025年のマスターズでは、長年手にできずにいたグリーンジャケットを獲得し、キャリアグランドスラムを達成した。golf.comやgolfmagic.comは、この復活劇の背景に本書との継続的な向き合いがあったと報じている。技術的なスイング理論ではなく「ミスをどう受け止め、次のショットにどう向き合うか」という心の持ち方を説く本書は、数々の挫折を乗り越えてきたマキロイにとって、技術以上に重要な支えだったのだろう。",
+    recommenderName: "Rory McIlroy（ゴルファー、北アイルランド）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "golf.com「Masters 2019: Rory McIlroy says these 5 books have helped him play better golf」ほか複数メディアで報道",
+    sourceUrl:
+      "https://www.golfmagic.com/tips/game-management/ps9-golf-book-helped-rory-mcilroy-win-masters",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "philosophers-in-water-hanyu",
+    title: "水中の哲学者たち",
+    author: "永井玲衣",
+    asin: "B09GKHFM8S",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "エッセイ",
+    hook: "羽生結弦がアイスショー「Echoes of Life」の物語を紡ぐ過程で出会い、著者本人との哲学対話まで実現した一冊",
+    whyRead:
+      "「もっと普遍的で、美しくて、圧倒的な何か」を求め、人々と車座になって一つの問いを深く潜るように考え続ける「哲学対話」の実践を綴ったエッセイ集。当たり前だと思っていた世界が、問い直すことで違って見えてくる瞬間を丁寧にすくいあげる。",
+    recommenderStory:
+      "羽生結弦は、自ら物語を手がけたアイスショー「Echoes of Life」の構想段階で本書に影響を受けたと明かしている。その縁から著者の永井玲衣氏と初めての「哲学対話」を行う機会も実現し、新潟日報など複数メディアが特集した。",
+    detailedStory:
+      "羽生結弦が制作総指揮を務めたアイスショー「Echoes of Life」は、「正義」や「存在」といった哲学的な主題を軸に据えたSF風の物語作品だった。その構想を練る過程で羽生が影響を受けた一冊として挙げたのが、哲学研究者・永井玲衣による本書だったという。本書は、特定の答えを急がずに一つの問いをめぐって何人もで深く潜るように考え続ける「哲学対話」という営みを、水中に潜る比喩とともに描いたエッセイ集だ。この出会いをきっかけに、羽生自身が著者の永井氏と初めての哲学対話に臨む企画が実現し、新潟日報の特別企画「プロスケーター羽生結弦さんが初めての『哲学対話』」として報じられている。表現者として一つの物語を作り上げる過程で、答えのない問いにじっくり向き合う哲学のあり方に惹かれていった羽生の姿がうかがえるエピソードだ。",
+    recommenderName: "羽生結弦（フィギュアスケート選手）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "アイスショー「Echoes of Life」での言及、著者・永井玲衣氏との哲学対話を新潟日報など複数メディアが報道",
+    sourceUrl: "https://www.niigata-nippo.co.jp/articles/-/635505",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "four-agreements-hamilton",
+    title: "The Four Agreements",
+    author: "Don Miguel Ruiz",
+    asin: "B005BRS8Z6",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/924521-L.jpg",
+    hook: "「何を言われても、それは自分のことではない」——F1界で浴び続けた批判への向き合い方をルイス・ハミルトンに教えた一冊",
+    whyRead:
+      "「言葉に誠実であること」「思い込まないこと」「推測しないこと」「常にベストを尽くすこと」。古代メキシコのトルテック族の智慧に基づく4つの実践を説く自己啓発の古典。",
+    recommenderStory:
+      "ルイス・ハミルトンは2019年ハンガリーGP時のインタビューで、本書が教えてくれた「何を言われても、それは自分自身のことではなく、相手が自分についてどう感じているかの表れに過ぎない」という考え方が、キャリアを通じて浴びてきた批判と向き合ううえでの支えになったと語っている。",
+    detailedStory:
+      "F1ドライバーの中でも数少ない読書家として知られるルイス・ハミルトンが、2019年のハンガリーGP時のインタビューで触れたのが本書だった。彼は本書の核となる教えの一つを「誰かが自分について何かを言ったとしても、それは実際には自分自身のことではなく、相手が自分自身についてどう感じているかの表れに過ぎない」と説明し、批判を個人的に受け止めすぎないための指針にしてきたと明かしている。世界選手権7度という実績を積み重ねながらも、常に厳しい視線にさらされ続けてきたハミルトンにとって、「結果が物事を物語る」という自信と、他者の評価に振り回されない精神的な軸を保つことは不可分だったのだろう。古代メキシコのトルテック族の智慧に基づく本書の教えは、アメリカンフットボールのトム・ブレイディが毎年読み返す一冊として公言していることでも知られ、競技は違えどトップアスリートたちが共通して支えにしてきた一冊であることがうかがえる。",
+    recommenderName: "Lewis Hamilton（F1ドライバー、英国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel:
+      "2019年ハンガリーGP時のインタビューでの発言。Sportskeeda等が報道",
+    sourceUrl:
+      "https://www.sportskeeda.com/f1/news-when-lewis-hamilton-described-bestseller-four-agreements-helped-tackle-criticism-f1",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "nexus-harari-soule",
+    title: "NEXUS　情報の人類史　上下合本版",
+    author: "ユヴァル・ノア・ハラリ（柴田裕之 訳）",
+    asin: "B0DYT1795Z",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "スタンフォード経営大学院教授が「協力と権力の歴史」を読み解く一冊として推薦するハラリ最新作",
+    whyRead:
+      "石器時代の神話から現代のAIまで、人類が「情報ネットワーク」をどう築き、それにどう振り回されてきたかを問い直す大著。『サピエンス全史』の著者が、組織と権力の普遍的な構造を描き出す。",
+    recommenderStory:
+      "スタンフォード経営大学院のサラ・A・スール教授（組織行動論）は、同校公式の教員推薦書リストで本書を取り上げ、「情報ネットワークが協力の構築・権力の形成・社会秩序の規定にいかに中心的な役割を果たしてきたかを描いている」と評している。",
+    detailedStory:
+      "スタンフォード経営大学院が毎年教員にお薦めの一冊を募る企画「Stanford GSB Faculty Recommend Some Favorite Reads」で、組織行動論を専門とするサラ・A・スール教授が選んだのが、歴史学者ユヴァル・ノア・ハラリの最新作『NEXUS』だった。スール教授は本書について「情報ネットワークが、協力の構築・権力の形成・社会秩序の規定にいかに中心的な役割を果たしてきたかを描いている」と評し、情報をどう管理し、流通させ、解釈するかが企業の競争優位の源泉になりうるという点で、ビジネスパーソンにとっても示唆に富む一冊だと位置づけている。組織における権力や協力の構造を研究してきた同教授にとって、石器時代の神話から現代のAIに至るまでの「情報ネットワークの通史」を描く本書は、自身の専門領域を人類史という最大のスケールで捉え直す一冊として映ったのだろう。",
+    recommenderName: "Sarah A. Soule（スタンフォード経営大学院教授・組織行動論、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel:
+      "Stanford GSB公式「Stanford GSB Faculty Recommend Some Favorite Reads」（2025年12月）での推薦コメント",
+    sourceUrl:
+      "https://www.gsb.stanford.edu/insights/stanford-gsb-faculty-recommend-some-favorite-reads",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "four-thousand-weeks-mcnichols",
+    title: "限りある時間の使い方",
+    author: "オリバー・バークマン（高橋璃子 訳）",
+    asin: "B0B3MJNC7N",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    hook: "スタンフォード経営大学院教授が「パートナーとして、親として、友人として、市民としての時間の使い方が変わる」と薦める一冊",
+    whyRead:
+      "人の一生はたった4000週間しかない——。生産性を追い求めるライフハックの限界を指摘し、有限な時間とどう折り合いをつけて生きるかを説く全米ベストセラー。",
+    recommenderStory:
+      "スタンフォード経営大学院のモーリーン・マクニコルズ教授（会計学）は、同校公式の教員推薦書リストで本書を取り上げ、「仕事において、パートナーとして、親として、友人として、そして市民として、自分の『ただ一度きりの人生』をどう使うかという考え方を一変させる、洞察に満ちた、しかも楽しく読める本だ」と評している。",
+    detailedStory:
+      "スタンフォード経営大学院の企画「Stanford GSB Faculty Recommend Some Favorite Reads」で、会計学を専門とするモーリーン・マクニコルズ教授が選んだのが、ジャーナリストのオリバー・バークマンによる本書だった。マクニコルズ教授は推薦コメントで「この洞察に満ちた、しかも楽しく読める本は、仕事において、パートナーとして、親として、友人として、そして市民として、自分の『ただ一度きりの人生』をどう使うかという考え方をきっと一変させるだろう」と評している。本書は、人の平均寿命を週単位で数えればわずか4000週間に過ぎないという前提から出発し、効率化や生産性向上を追い求めるライフハックの発想そのものが、むしろ人を焦らせ、本当に大切なことから遠ざけてしまうと説く。会計学という「数字で物事を測る」専門領域に身を置く教授が、時間という最も有限な資源の使い方を根本から問い直す本書に共感したという推薦の背景には、数字を扱う専門家だからこそ気づく「測れないものの大切さ」への眼差しがあったのかもしれない。",
+    recommenderName: "Maureen McNichols（スタンフォード経営大学院教授・会計学、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel:
+      "Stanford GSB公式「Stanford GSB Faculty Recommend Some Favorite Reads」（2025年12月）での推薦コメント",
+    sourceUrl:
+      "https://www.gsb.stanford.edu/insights/stanford-gsb-faculty-recommend-some-favorite-reads",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
+  {
+    slug: "helsinki-seikatsu-no-renshu-suzuki",
+    title: "ヘルシンキ　生活の練習（ちくま文庫）",
+    author: "朴沙羅",
+    asin: "B0DMVK3ZCG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "エッセイ",
+    hook: "女優・鈴木保奈美が「北欧文化への軽い関心」から手に取り、国民性の違いを知る深い読書体験になった一冊",
+    whyRead:
+      "二人の子どもを連れてフィンランドへ渡った社会学者による、現地の子育て・教育をめぐるフィールドレポート。「母親は人間でいられるし、人間であるべきだ」という視点から、日本社会の当たり前を静かに問い直す。",
+    recommenderStory:
+      "女優の鈴木保奈美はPrecious「鈴木保奈美さんの愛読書8冊」で本書を紹介し、北欧文化への軽い関心から何気なく手に取ったところ、「フィンランドと日本の国民性の違い」を学べる、想像以上に深い内容だったと語っている。",
+    detailedStory:
+      "鈴木保奈美が本書と出会ったきっかけは、北欧のインテリアやライフスタイルへの漠然とした憧れだったという。Preciousのインタビュー「鈴木保奈美さんの愛読書8冊」の中で、彼女は装丁や北欧文化への軽い興味から手に取った一冊として本書を挙げ、実際に読み進めるうちに、著者である社会学者の朴沙羅が二人の子どもを連れてヘルシンキへ移住し、現地の保育・教育現場を見つめた記録から「フィンランドと日本の国民性の違い」という、当初想定していなかった深いテーマを学べたと振り返っている。軽い気持ちで選んだ一冊が、思いがけず異文化と自国を比較する視点をもたらした――という読書体験は、知らない世界への好奇心から思索が広がっていく、鈴木保奈美の読書スタイルを物語っている。",
+    recommenderName: "鈴木保奈美（女優）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "Precious「鈴木保奈美さんの愛読書8冊を公開！」で本人コメントとして紹介",
+    sourceUrl: "https://precious.jp/articles/-/39621",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-07",
+  },
 ];
