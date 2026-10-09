@@ -81,14 +81,14 @@ export function EntryCard({
             {entry.title}
           </a>
         </TitleTag>
-        <p className="mt-0.5 text-sm text-[#000000]/50">{entry.author}</p>
+        <p className="mt-0.5 text-sm text-[#000000]/60">{entry.author}</p>
         <p className="mt-3 text-sm leading-7 text-[#000000]/70">
           {entry.whyRead}
         </p>
         <p className="mt-3 border-l-2 border-[#000000]/15 pl-3 text-sm leading-7 text-[#000000]/70">
           {entry.recommenderStory}
         </p>
-        <p className="mt-3 text-xs text-[#000000]/50">
+        <p className="mt-3 text-xs text-[#000000]/60">
           推薦：
           {splitRecommenderNames(entry.recommenderName).map((name, i) => (
             <span key={name}>

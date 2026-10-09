@@ -40,7 +40,7 @@ export function EntryList({
         ))}
       </div>
       {filtered.length === 0 ? (
-        <p className="text-sm text-[#000000]/50">
+        <p className="text-sm text-[#000000]/60">
           このプラットフォームの掲載はまだありません。
         </p>
       ) : (
