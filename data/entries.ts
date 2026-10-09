@@ -6446,4 +6446,146 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-10-07",
   },
+  {
+    slug: "measure-what-matters-doerr",
+    title: "Measure What Matters（メジャー・ホワット・マターズ） 伝説のベンチャー投資家がGoogleに教えた成功手法 OKR",
+    author: "ジョン・ドーア（土方奈美 訳）",
+    asin: "B07JCZVFZ9",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "GoogleのOKR文化を支えた一冊に、創業者ラリー・ペイジ自身が序文を書いた",
+    whyRead:
+      "OKR（目標と主要な結果）という、Google・Amazon・Intel・Twitterなどで採用された目標管理フレームワークを、数々の実例とともに解説する経営書の定番。壮大な目標をどう具体的な行動に変換するかを学べる一冊。",
+    recommenderStory:
+      "ラリー・ペイジは本書に自ら序文（Foreword）を書き、「この本があと19年早く――Googleを創業した時、いや自分一人をマネジメントしていた頃にあれば良かった」と語っている。OKR（目標と主要な結果）という手法が、Googleの急成長を支えた土台になったことを創業者自身が公式に認めている一冊である。",
+    detailedStory:
+      "ジョン・ドーアはベンチャーキャピタル、クライナー・パーキンスの会長としてGoogle創業期から投資家・取締役として深く関わり、OKR（Objectives and Key Results）という目標設定の手法を社内に伝えた人物である。ペイジは本書の序文で、その手法との出会いを「この本があと19年早く――Googleを創業した時、いや自分一人をマネジメントしていた頃にあれば良かった」と率直に振り返っている。さらに「良いアイデアと優れた実行力こそが魔法を生む」とも述べ、OKRが野心的な目標を具体的な行動へと変換し、会社が最も重要な局面で軌道を外れないよう支えてくれたと説明する。一人のベンチャー投資家が持ち込んだ経営手法を、創業者自身が序文という形で公式に保証した――という点で、単なる「愛読書」紹介を超えたエピソードである。",
+    recommenderName: "Larry Page（Google共同創業者・Alphabet元CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "著書『Measure What Matters』に掲載された本人による序文（Foreword）。複数の書籍紹介サイトで引用",
+    sourceUrl: "https://www.readthistwice.com/person/larry-page",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
+  {
+    slug: "dracula-bram-stoker-eggers",
+    title: "ドラキュラ（光文社古典新訳文庫）",
+    author: "ブラム・ストーカー（唐戸信嘉 訳）",
+    asin: "B0CL8ZH9N8",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "9歳で『吸血鬼ノスフェラトゥ』に魅せられた少年が、自ら『ノスフェラトゥ』を監督するまで手放さなかった一冊",
+    whyRead:
+      "トランシルヴァニアの城から英国ロンドンへ獲物を求めるドラキュラ伯爵を描く、吸血鬼文学の不朽の名作。怪奇小説の古典でありながら、現代の読者をも惹きつける恐怖と欲望の物語。",
+    recommenderStory:
+      "映画監督ロバート・エガースは9歳の時にF.W.ムルナウ監督の『吸血鬼ノスフェラトゥ』に出会って以来、ヴァンパイア伝説に執着するようになった。8歳から15歳までの間に4回もハロウィンでドラキュラの仮装をし、『ドラキュラ』を少なくとも5回読んだと語っている。",
+    detailedStory:
+      "エガースのヴァンパイア好きは、9歳の時に観た1922年のサイレント映画『吸血鬼ノスフェラトゥ』が出発点だった。その熱狂は読書にも向かい、原作であるブラム・ストーカーの『ドラキュラ』を少なくとも5回読んだと本人は明かす。あまりの執着から、8歳から15歳までの間に4回もハロウィンでドラキュラの仮装をしたという。さらに興味深いのは、自分が子供の頃に慣れ親しんだヴァンパイア映像のイメージの一部が、実は原作小説にはないオリジナルの演出だったと、大人になって読み返す中で気づいたことだ。この少年時代からの執着が、2024年に自身が監督した映画『ノスフェラトゥ』の制作へと結実している。原作小説への長年の愛読が、自らの映像作品を作る原動力になった――という稀有な「本から映画へ」の循環を物語るエピソードである。",
+    recommenderName: "Robert Eggers（映画監督、米国／『ノスフェラトゥ』『ウィッチ』）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel: "Hollywood Reporterに掲載された書籍抜粋で本人の証言として紹介",
+    sourceUrl:
+      "https://www.hollywoodreporter.com/lifestyle/arts/robert-eggers-dracula-nosferatu-bram-stoker-book-1236403060/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
+  {
+    slug: "in-search-of-lost-time-proust-cowen",
+    title: "失われた時を求めて　１～第一篇「スワン家のほうへＩ」～（光文社古典新訳文庫）",
+    author: "マルセル・プルースト（高遠弘美 訳）",
+    asin: "B00H6XBHR4",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "英語訳の質に満足できず、わざわざドイツ語を学んで読み通した経済学者の「人生最高の読書体験」",
+    whyRead:
+      "色彩感あふれる自然描写と緻密な人物造型で20世紀最高の文学と評される大作。語り手の幼年時代の記憶を起点に、時間と記憶、社会風俗を描き出す、読み通す価値のある古典。",
+    recommenderStory:
+      "経済学者タイラー・コーエンはポッドキャスト「EconTalk」のインタビューで、1980年代に2年間かけてプルーストの『失われた時を求めて』をドイツ語訳で読んだと明かしている。英語の旧訳（モンクリエフ訳）の質が低かったためだと説明し、「自分にとって最高の読書体験だったかもしれない」と評している。",
+    detailedStory:
+      "タイラー・コーエンがプルーストに挑んだのは1980年代のことだった。当時主流だった英語訳（C・K・スコット・モンクリエフ訳）の質に満足できず、彼はドイツ語を学んでドイツ語訳で読むという、異例の方法を選んだという。2年という時間をかけて全巻を読み通した末、コーエンは「fantastic（素晴らしかった）。おそらく自分にとって最高の読書体験だった」と振り返っている。また本作を単なる難解な文学ではなく「偉大な“喜劇”小説であり、社会風俗の研究でもある」と評し、人間観察の鋭さを称賛している。経済学の専門家が、言語の壁を越えてまで一つの文学作品に向き合った姿勢は、プルーストという作品そのものが持つ牽引力を物語っている。",
+    recommenderName: "Tyler Cowen（ジョージ・メイソン大学教授・経済学者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "ポッドキャスト「EconTalk」のインタビュー「Tyler Cowen on Reading」で本人が発言",
+    sourceUrl: "https://www.econtalk.org/tyler-cowen-on-reading/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
+  {
+    slug: "moneyball-michael-lewis-decosta",
+    title: "マネー・ボール〔完全版〕",
+    author: "マイケル・ルイス（中山宥 訳）",
+    asin: "B00CPW2Z9U",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "妻の出産の立ち会いで病院の待合室にいた時間を、この一冊に費やしたNFLゼネラルマネジャー",
+    whyRead:
+      "資金不足に苦しむオークランド・アスレチックスが、統計データを武器に野球界の常識を覆していく実話。スポーツの世界に「データで考える」発想を根付かせた金字塔的ノンフィクション。",
+    recommenderStory:
+      "NFLボルチモア・レイブンズのGM、エリック・デコスタは軍事史やバリュー投資（グレアム、バフェット、マンガー）を好む読書家として知られる。2003年、妻の出産に立ち会う病院の待機時間に読んでいたのが本書だったという逸話がUPIで報じられている。",
+    detailedStory:
+      "エリック・デコスタは、NFLのGMという職業には珍しく、軍事史書やウォーレン・バフェット、チャーリー・マンガーといったバリュー投資家の著作を好んで読む人物として知られている。そんな彼が『マネー・ボール』と出会ったのは2003年、妻が出産する病院の待合室で過ごした待機時間だった。資金力に劣るオークランド・アスレチックスのGM、ビリー・ビーンが統計データを武器に球団を強豪へ変えていく物語は、「データで意思決定する」というデコスタ自身の思考法と重なる一冊だったのだろう。人生の大きな節目となる瞬間に、偶然この本を手にしていたという巡り合わせが、彼の読書家としての逸話に深みを与えている。",
+    recommenderName: "Eric DeCosta（NFLボルチモア・レイブンズGM、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "UPI「Engineers of NFL winning teams fueled by reading books full of ideas」で紹介",
+    sourceUrl:
+      "https://www.upi.com/Sports_News/NFL/2024/02/29/Engineers-of-NFL-winning-teams-fueled-by-reading-books-full-of-ideas/4571709134487/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
+  {
+    slug: "tao-te-ching-laozi-dorsey",
+    title: "老子（岩波文庫）",
+    author: "老子（蜂屋邦夫 訳注）",
+    asin: "B01BD3DLOE",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "Twitter共同創業者が「自分が最も大切にしている所有物」と語る、友人からもらった一冊の古典",
+    whyRead:
+      "熾烈な戦国時代を生き抜く処世の知恵として書かれた中国古代の書。素朴さ、謙虚さ、自足した生き方を説く思想は、時代を超えて現代の読者の心に直接訴えかける。",
+    recommenderStory:
+      "Twitter/Square共同創業者のジャック・ドーシーは、Product HuntでのAMA（Ask Me Anything）で「自分が最も大切にしている所有物」として、友人からもらった一冊の『老子道徳経』を挙げている。日常的な愛読書というより、人生で手放せない一冊として位置づけている点がユニークだ。",
+    detailedStory:
+      "ジャック・ドーシーが『老子道徳経』を特別な一冊として語るのは、それが単に内容に感銘を受けた本というだけでなく、友人から贈られたものだからだという。瞑想や東洋思想への関心を公言してきたドーシーにとって、この古代中国の書は「所有物」という言葉がふさわしいほど、物としての思い入れも含めて大切にされている。素朴さ、謙虚さ、足るを知るという老子の思想は、シリコンバレーの喧騒の中で成功を追い求める起業家にとって、むしろ対極にある価値観を示している。だからこそドーシーがこの一冊を手放さず、繰り返し名前を挙げるのだろう。",
+    recommenderName: "Jack Dorsey（Twitter/Square共同創業者、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "Product HuntでのAMA（Ask Me Anything）での発言として複数の書籍紹介サイトで引用",
+    sourceUrl: "https://easyreads.ai/people/jack-dorsey/books/tao-te-ching",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
+  {
+    slug: "talent-is-overrated-colvin-lafleur",
+    title: "究極の鍛錬",
+    author: "ジョフ・コルヴァン（米田隆 訳）",
+    asin: "B00SUN0NQ0",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "グリーンベイ・パッカーズを率いるヘッドコーチが「お気に入りの一冊」に挙げる才能論",
+    whyRead:
+      "モーツァルト、タイガー・ウッズ、ビル・ゲイツら「天才」と呼ばれる人々に共通する鍛錬の法則を解き明かすノンフィクション。才能よりも「意図的な練習」の重要性を説く、能力開発の定番書。",
+    recommenderStory:
+      "NFLグリーンベイ・パッカーズのヘッドコーチ、マット・ラフルーアはUPIの取材に「お気に入りの一冊」として本書（原題：Talent is Overrated）を挙げている。才能よりも意図的な練習の重要性を説く同書は、マイアミ・ドルフィンズのマイク・マクダニエル監督も愛読しているという。",
+    detailedStory:
+      "マット・ラフルーアは2019年からグリーンベイ・パッカーズのヘッドコーチを務める人物だ。彼が「お気に入りの一冊」として挙げる本書は、ジャーナリストのジョフ・コルヴァンが、モーツァルトやタイガー・ウッズ、ビル・ゲイツ、ウォーレン・バフェットといった「世界的な業績」を上げた人々を徹底調査し、彼らに共通するのは生まれつきの才能ではなく「意図的な鍛錬」だったという結論を導き出すノンフィクションである。UPIの記事によれば、ラフルーアと以前から交流のあるマイアミ・ドルフィンズのマイク・マクダニエル監督も同じ本を愛読しているという。チームの才能を見極め、選手を育成し続けるヘッドコーチという職業にとって、「才能は作られる」という本書のメッセージは、日々の指導方針そのものと重なる部分が大きいのだろう。",
+    recommenderName: "Matt LaFleur（NFLグリーンベイ・パッカーズ ヘッドコーチ、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "UPI「Engineers of NFL winning teams fueled by reading books full of ideas」で紹介",
+    sourceUrl:
+      "https://www.upi.com/Sports_News/NFL/2024/02/29/Engineers-of-NFL-winning-teams-fueled-by-reading-books-full-of-ideas/4571709134487/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-09",
+  },
 ];
