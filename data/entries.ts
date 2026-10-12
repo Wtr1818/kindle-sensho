@@ -6805,4 +6805,209 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-10-10",
   },
+  {
+    slug: "gandhi-autobiography-cook",
+    title: "The Story of My Experiments with Truth: Mahatma Gandhi, an Autobiography",
+    author: "Mahatma Gandhi（マハトマ・ガンディー）",
+    asin: "B0B3Y7924J",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "伝記",
+    coverUrl: "https://covers.openlibrary.org/b/id/108086-L.jpg",
+    hook: "Apple CEOティム・クックが、インド出張中のガンディー博物館訪問をきっかけに手に取った自伝",
+    whyRead:
+      "非暴力・不服従によってインドを独立へ導いたマハトマ・ガンディー自身が綴る自伝。少年期の過ちから「真実の実験」としての生き方の確立まで、一人の人間の内面の変遷を赤裸々に記す一冊。",
+    recommenderStory:
+      "Apple CEOティム・クックは、The CEO Magazineの特集「Jeff Bezos, Tim Cook, Bill Gates: Favourite books of 20 business leaders」で、本書を自身の愛読書の一つとして紹介している。ワシントン・ポスト紙のインタビューでは、伝記やノンフィクションを好み、「人がどう生き、何に動機づけられ、どんな哲学を持っていたか」を読むのが好きだと語っている。",
+    detailedStory:
+      "クックが本書に関心を持つようになったきっかけは、インド出張中にガンディー博物館を訪れたことだったという。普段からガンディーやボビー・ケネディの伝記、ジョン・ルイスのグラフィックノベルなど公民権運動に関わる書籍を好んで読むクックにとって、現地で歴史の現場に触れた経験が、本書を手に取る直接の動機になったようだ。ワシントン・ポスト紙のインタビューで明かしているように、クックは小説よりもノンフィクション、とりわけ実在の人物がどのように生き、何に突き動かされ、いかなる哲学を持っていたかを読み解くことに関心が強いという。非暴力という思想を掲げ、巨大な権力に単身立ち向かったガンディーの歩みは、世界最大級の企業を率いる経営者としてのクック自身の価値観とも重なる部分があったのかもしれない。",
+    recommenderName: "Tim Cook（Apple CEO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel:
+      "The CEO Magazine「Jeff Bezos, Tim Cook, Bill Gates: Favourite books of 20 business leaders」",
+    sourceUrl:
+      "https://www.theceomagazine.com/business/health-wellbeing/favourite-books-business-minds/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "my-struggle-strong",
+    title: "My Struggle: Book 1",
+    author: "Karl Ove Knausgaard（カール・オーヴェ・クナウスゴール）",
+    asin: "B00BCFZLJ2",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/7738032-L.jpg",
+    hook: "『サクセッション』ケンダル役の俳優ジェレミー・ストロングが「これまで読んだ中で最も誠実な人生の表現」と評した問題作",
+    whyRead:
+      "ノルウェーの作家クナウスゴールが、自らの実人生を赤裸々かつ徹底的に描き出した全6巻の自伝的長編小説、その第1巻。父の死をめぐる記憶と向き合う筆致が、世界中で大きな論争と熱狂を呼んだ。",
+    recommenderStory:
+      "HBOドラマ『サクセッション』でケンダル・ロイ役を演じたジェレミー・ストロングは、GQの企画「10 Things I Can't Live Without」でカメラの前に自身にとって大切な10冊を並べ、本書を「これまでどこで読んだ本の中でも、最も誠実な人生の表現だ」と評した。",
+    detailedStory:
+      "ストロングはGQの取材で、自身の俳優人生を彩ってきた小道具の数々とともに、本当に大切な本を10冊紹介した。「これだけで5時間は語れる、どれも自分にとって本当に重要な本ばかりだ」と前置きしたうえで積み上げられた本の山の中に、クナウスゴールの『My Struggle』第1巻があった。ハロルド・ピンターの戯曲やドストエフスキー『罪と罰』と並んで選ばれたこの一冊について、ストロングは「これまでどこで読んだ本の中でも、最も誠実な人生の表現だ」と語っている。役に深く没入する「メソッド演技」で知られるストロング自身の人物像を考えると、虚飾を排して自らの人生をそのまま文章に刻みつけたクナウスゴールの徹底した自己開示のスタイルに、強く共鳴するものがあったのだろう。",
+    recommenderName: "Jeremy Strong（俳優、米国／『サクセション』）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "NME「'Succession' star Jeremy Strong reveals his 10 favourite books」（2023年3月8日、GQ「10 Things I Can't Live Without」を元に報道）",
+    sourceUrl:
+      "https://www.nme.com/news/tv/succession-star-jeremy-strong-reveals-his-10-favourite-books-3410187",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "on-beauty-parks",
+    title: "On Beauty: A Novel",
+    author: "Zadie Smith（ゼイディー・スミス）",
+    asin: "B000PC0SKU",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/400923-L.jpg",
+    hook: "英国の音楽アーティスト、アーロ・パークスのデビューアルバム『Collapsed in Sunbeams』のタイトルは、この小説の一節から生まれた",
+    whyRead:
+      "大西洋を挟んだ二つのアカデミックな家族の対立と結びつきを描く、ゼイディー・スミスの代表作の一つ。人種・階級・美をめぐる鋭い観察眼と、ユーモアを湛えた筆致が高く評価されている長編小説。",
+    recommenderStory:
+      "マーキュリー賞を受賞したシンガーソングライター、アーロ・パークスは、2021年のデビューアルバム『Collapsed in Sunbeams』のタイトルを本書の一節から取った。「それはすぐに、ほろ苦くも感じられる何かとして自分の心を打った。憂鬱にせよ高揚にせよ、感情に飲み込まれる感覚を的確に捉えている」と、そのフレーズへの思い入れを語っている。",
+    detailedStory:
+      "パークスがタイトルの着想源として選んだ「collapsed in sunbeams」というフレーズは、ゼイディー・スミスが本書の中で用いた一節だ。パークス自身、音楽と並行して詩や文章を書き続けてきた作家気質のアーティストとして知られており、読んだ小説の言葉が自分の制作に直接流れ込んでくるタイプの書き手だという。彼女はこのフレーズについて「それはすぐに、ほろ苦くも感じられる何かとして自分の心を打った」と述べ、感情に不意に飲み込まれる瞬間を的確に言い当てている点に強く惹かれたと説明している。アルバム全体が10代から20代にかけての鋭敏な感受性と孤独を描いたものであることを踏まえると、スミスの小説の持つ繊細な観察眼と美意識が、パークスの音楽的世界観そのものに静かに溶け込んでいることがうかがえる。",
+    recommenderName: "Arlo Parks（音楽アーティスト、英国）",
+    recommenderTag: "音楽アーティスト",
+    sourceLabel:
+      "Dork「Arlo Parks' literary influences: a guide to 'Collapsed in Sunbeams' and 'The Magic Border'」",
+    sourceUrl:
+      "https://readdork.com/features/arlo-parks-literature-collapsed-in-sunbeams-magic-border-guide-10eab5d42f",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "atlas-shrugged-saunders",
+    title: "Atlas Shrugged",
+    author: "Ayn Rand（アイン・ランド）",
+    asin: "B003V8B5XO",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/362277-L.jpg",
+    hook: "『ニューヨーカー』の鬼才作家ジョージ・ソーンダーズが大学進学を決意する引き金になった、スキー旅行帰りの車中での読書体験",
+    whyRead:
+      "資本主義・個人主義を極限まで突き詰めた思想小説として、賛否を呼び続けてきたアイン・ランドの代表作。巨大な物語世界と強烈なイデオロギーが、多くの読者の人生観を揺さぶってきた一冊。",
+    recommenderStory:
+      "ブッカー賞作家ジョージ・ソーンダーズは、高校時代の恩師から本書を手渡され、その世界に取り込まれた経験を振り返っている。「大学のキャンパスでセーターを着て知的な議論をしている自分」という具体的なイメージが浮かび、それが大学に進学したいという強い動機になったと語る。",
+    detailedStory:
+      "ソーンダーズが本書と出会ったのは高校生の頃、一人の教師から手渡されたことがきっかけだった。印象的なのは、彼がその読書体験を「スキー旅行からの帰り道、車の後部座席で読んでいた」という具体的な情景とともに記憶している点だ。ページをめくるうちに、ソーンダーズの頭の中には「セーターを着てキャンパスを歩き、知的な議論を交わしている自分」という将来像が鮮明に浮かび上がったという。それは漠然とした憧れではなく、「大学に進学したい」という具体的な決意を後押しする、想像力を伴ったビジョンだったとソーンダーズ自身が述懐している。後にシラキュース大学で創作を教える作家へと歩みを進めた彼の原点に、10代で読んだこの思想小説があったというのは興味深い事実である。",
+    recommenderName: "George Saunders（小説家、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "EdWeek（Tom Vander Ark）「George Saunders On Learning to Write--and Writing to Learn」",
+    sourceUrl:
+      "https://blogs.edweek.org/edweek/on_innovation/2018/02/george_saunders_on_learning_to_write--and_writing_to_learn.html",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "zen-martial-arts-dressel",
+    title: "Zen in the Martial Arts",
+    author: "Joe Hyams（ジョー・ハイアムズ）",
+    asin: "B003IS764O",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    coverUrl: "https://covers.openlibrary.org/b/id/5059010-L.jpg",
+    hook: "五輪金メダリストの競泳選手キャレブ・ドレセルが、世界選手権前に何度も読み返す一冊――ページは全面ハイライトだらけ",
+    whyRead:
+      "ハリウッドのジャーナリストであり空手有段者でもある著者が、武道の師から学んだ精神修養の教えをエピソードとして綴った古典的名著。恐怖・忍耐・集中といったテーマを、スポーツや日常にも応用できる形で説く。",
+    recommenderStory:
+      "東京五輪で複数の金メダルを獲得した競泳選手キャレブ・ドレセルは、10代の頃にこの本を手にして以来、ジュニア世界選手権や世界選手権の前に何度も読み返してきたという。あまりに読み込んだため、本のページはほぼ全面がハイライトで埋まっていると伝えられている。",
+    detailedStory:
+      "ドレセルが本書を初めて手にしたのは高校生の頃だった。空手の有段者でもあった著者ジョー・ハイアムズが、恐怖心との向き合い方や集中力の高め方について武道の師から学んだ教訓を綴ったこの一冊に、ドレセルは強く引き込まれたという。以来、ジュニア世界選手権を控えた高校時代はもちろん、2017年・2019年の世界選手権前にも繰り返し本書を開いてきたと伝えられている。何度も読み返した結果、ドレセルの手元の一冊はほとんどすべてのページにハイライトが引かれている状態になっているという逸話が、AP通信のインタビュー記事で紹介されている。プレッシャーのかかる大一番を前に、同じ本に立ち返り続けるというルーティンそのものが、ドレセルのメンタル面での強さを支えてきたことがうかがえる。",
+    recommenderName: "Caeleb Dressel（競泳選手、米国）",
+    recommenderTag: "スポーツ選手",
+    sourceLabel: "AP通信「Dressel a reluctant superstar heading to 2020」",
+    sourceUrl:
+      "https://www.foxnews.com/sports/dressel-a-reluctant-superstar-heading-to-2020",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "secret-history-french",
+    title: "The Secret History: A Novel (Vintage Contemporaries)",
+    author: "Donna Tartt（ドナ・タート）",
+    asin: "B005PRJT9Q",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    coverUrl: "https://covers.openlibrary.org/b/id/744854-L.jpg",
+    hook: "ミステリー作家タナ・フレンチが、自作に直接的な影響を与えたと認める「文学とミステリーが交差する偉大な一冊」",
+    whyRead:
+      "閉鎖的な大学のギリシャ古典研究サークルで起きた殺人を描き、「ダークアカデミア」というジャンルを決定づけたドナ・タートのデビュー長編。犯人が冒頭で明かされる異色の構成でありながら、読者を離さない緊張感を保ち続ける。",
+    recommenderStory:
+      "アイルランドのミステリー作家タナ・フレンチは、英ガーディアン紙の企画「型を破る傑作スリラー10選」で本書を選出。自作『The Likeness』を書く際、ドナ・タートが本書で開いた「友情という領域が、殺人を引き起こすほどの強度を持ちうる」という視点から直接的な影響を受けたと語っている。",
+    detailedStory:
+      "フレンチが本書から受けた影響は、単なる愛読書としての言及にとどまらない。自身のダブリン殺人捜査班シリーズ第2作『The Likeness』を執筆するにあたり、フレンチは本書が切り開いた地平――すなわち「友情」という人間関係のテーマが探求するに値するだけでなく、時に殺人さえ引き起こしうるほどの強度を持つという視点――を直接的な着想源として挙げている。少人数の閉じたコミュニティの中で育まれる親密さと、その内側に潜む暴力性という構図は、フレンチ自身の作品世界に通底するモチーフでもある。英ガーディアン紙の企画で「型を破る傑作スリラー」の一つとして本書を選んだ背景には、単なる謎解きを超えて人間関係の深層に踏み込むミステリーのあり方そのものへの、フレンチの作家としての共感があるといえる。",
+    recommenderName: "Tana French（文学・小説家、アイルランド）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "Wikipedia「Tana French」記事が引用するThe Guardian（Stephanie Merritt、2014年8月24日）インタビュー",
+    sourceUrl: "https://en.wikipedia.org/wiki/Tana_French",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "junie-b-jones-tomlinson",
+    title: "Junie B. Jones #1: Junie B. Jones and the Stupid Smelly Bus",
+    author: "Barbara Park（バーバラ・パーク）",
+    asin: "B003F3PLCQ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "絵本",
+    coverUrl: "https://covers.openlibrary.org/b/id/231593-L.jpg",
+    hook: "コメディアン、テイラー・トムリンソンが「自分に“面白さ”を教えてくれた」と語る、やんちゃな女の子の児童書シリーズ第1作",
+    whyRead:
+      "幼稚園児ジュニー・B・ジョーンズの歯に衣着せぬ本音と失敗だらけの日常を、ユーモラスな一人称語りで綴るベストセラー児童書シリーズ。子どもらしい率直さとコメディのセンスが詰まった一冊。",
+    recommenderStory:
+      "自身のエッセイ集『Actually, Nevermind』の中で、コメディアンのテイラー・トムリンソンは何を書けばいいか迷ったとき子供時代の本に立ち返ると明かしており、CBCラジオの特集「The Next Chapter」では本シリーズこそが自分に「面白さ」を教えてくれた存在だと語っている。",
+    detailedStory:
+      "テイラー・トムリンソンは、4本のNetflixスペシャルと深夜トーク番組の司会を務めるまでになった現在も、創作に行き詰まったときには子供時代に読んだ本に立ち返るという。その代表格が、やんちゃで正直すぎる幼稚園児を主人公にした「ジュニー・B・ジョーンズ」シリーズだった。CBCラジオ「The Next Chapter」の特集でトムリンソンは、このシリーズとの出会いが自分に「面白さ」そのものを教えてくれたと明かしている。大人の目を気にせず、思ったことをそのまま口に出してしまうジュニー・Bの一人称語りのスタイルは、台本に頼らず自分の本音をストレートに客席にぶつけるスタンダップコメディの語り口と、どこか響き合うものがある。幼少期に繰り返し読んだこのシリーズの笑いの感覚が、後年のコメディアンとしてのトムリンソンの原型を形づくったとみることができる。",
+    recommenderName: "Taylor Tomlinson（コメディアン、米国）",
+    recommenderTag: "芸人・コメディアン",
+    sourceLabel:
+      "CBC Books「How a beloved children's book series turned Taylor Tomlinson into a comedian」",
+    sourceUrl:
+      "https://www.cbc.ca/books/thenextchapter/how-a-children-s-book-series-turned-taylor-tomlinson-into-a-comedian-9.7362896",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
+  {
+    slug: "art-of-loving-song",
+    title: "愛するということ",
+    author: "エーリッヒ・フロム（鈴木晶 訳）",
+    asin: "B08JSL89JX",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "自己啓発",
+    hook: "映画『Materialists』の監督セリーヌ・ソンが「誰かに贈る本」として選ぶ、愛についての心理学的名著",
+    whyRead:
+      "「愛は与えられるものではなく、能動的に“行う”技術である」と説く、精神分析家エーリッヒ・フロムの不朽の名著。恋愛・結婚・人間関係の本質を問い直す一冊として、刊行から60年以上読み継がれている。",
+    recommenderStory:
+      "『Past Lives』『Materialists』の監督セリーヌ・ソンは、Bustleのインタビュー企画で本書を自身のお気に入りの一冊として紹介し、「人に愛について何かおすすめしてほしいと言われたとき、贈る本」と語っている。",
+    detailedStory:
+      "マッチメイカーとしての実体験を基に「愛と結婚の市場価値」を描いた映画『Materialists』を手がけたソンにとって、本書はまさに作品の核心と直結する一冊だ。Bustleのインタビューで彼女は、本書が提示する理論について「愛は“与える”ものではない」という視点が興味深いと語っている。誰かから「恋愛について何か本を勧めてほしい」と言われたとき、ソンが実際に贈る本として本書を選んでいるという事実は、単なる知的好奇心を超えて、フロムの思想が彼女自身の人間関係や創作活動における実践的な指針になっていることをうかがわせる。「愛とは感情ではなく、能動的に取り組む技術である」というフロムの中心的な主張は、『Materialists』が描く、愛を損得勘定や市場原理から切り離そうとする眼差しとも深く響き合っている。",
+    recommenderName: "Celine Song（映画監督・脚本家、韓国系カナダ人／米国）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "Bustle「Celine Song Chats 'Materialists' & Reveals Her 4 Favorite Books」",
+    sourceUrl:
+      "https://www.bustle.com/entertainment/celine-song-materialists-favorite-books-pride-prejudice",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-12",
+  },
 ];
