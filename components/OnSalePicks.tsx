@@ -16,17 +16,17 @@ function buildHeadline(picks: Entry[]): string {
   if (picks.length === 1) {
     const { title } = picks[0];
     if (title.length <= HEADLINE_TITLE_MAX_LENGTH) {
-      return `${names[0]}が薦める『${title}』、価格が下がっています`;
+      return `${names[0]}が薦める『${title}』`;
     }
-    return `${names[0]}が薦める本、価格が下がっています`;
+    return `${names[0]}が薦める本`;
   }
   if (names.length === 1) {
-    return `${names[0]}も薦める本、価格が下がっています`;
+    return `${names[0]}が薦める本`;
   }
   if (names.length === 2) {
-    return `${names[0]}、${names[1]}も薦める本、価格が下がっています`;
+    return `${names[0]}・${names[1]}が薦める本`;
   }
-  return `${names[0]}、${names[1]}ほかが薦める本、価格が下がっています`;
+  return `${names[0]}・${names[1]}ほかが薦める本`;
 }
 
 export function OnSalePicks({ entries }: { entries: Entry[] }) {
