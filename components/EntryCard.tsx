@@ -68,6 +68,20 @@ export function EntryCard({
             <span className="text-xs text-[#000000]/60">セール対象外</span>
           )}
         </div>
+        <p className="mb-1.5 text-sm font-bold text-[#000000]">
+          推薦：
+          {splitRecommenderNames(entry.recommenderName).map((name, i) => (
+            <span key={name}>
+              {i > 0 && " ／ "}
+              <Link
+                href={`/recommender/${encodeURIComponent(name)}`}
+                className="underline-offset-2 hover:underline"
+              >
+                {name}
+              </Link>
+            </span>
+          ))}
+        </p>
         <p className="font-serif text-lg italic text-[#000000]/80">
           {entry.hook}
         </p>
@@ -89,25 +103,14 @@ export function EntryCard({
           {entry.recommenderStory}
         </p>
         <p className="mt-3 text-xs text-[#000000]/60">
-          推薦：
-          {splitRecommenderNames(entry.recommenderName).map((name, i) => (
-            <span key={name}>
-              {i > 0 && " ／ "}
-              <Link
-                href={`/recommender/${encodeURIComponent(name)}`}
-                className="underline-offset-2 hover:underline"
-              >
-                {name}
-              </Link>
-            </span>
-          ))}
+          出典：
           <a
             href={entry.sourceUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="ml-1 underline underline-offset-2 hover:text-[#000000]"
+            className="underline underline-offset-2 hover:text-[#000000]"
           >
-            （{entry.sourceLabel}）
+            {entry.sourceLabel}
           </a>
         </p>
         {showDetailLink && (
