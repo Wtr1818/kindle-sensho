@@ -1,5 +1,33 @@
 import { Entry } from "@/data/entries";
+import { splitRecommenderNames } from "@/data/recommenders";
 import { EntryCard } from "./EntryCard";
+
+function primaryName(recommenderName: string): string {
+  const [first] = splitRecommenderNames(recommenderName);
+  return first.replace(/[（(].*$/, "").trim();
+}
+
+const HEADLINE_TITLE_MAX_LENGTH = 30;
+
+function buildHeadline(picks: Entry[]): string {
+  const names = Array.from(
+    new Set(picks.map((entry) => primaryName(entry.recommenderName))),
+  );
+  if (picks.length === 1) {
+    const { title } = picks[0];
+    if (title.length <= HEADLINE_TITLE_MAX_LENGTH) {
+      return `${names[0]}が薦める『${title}』、価格が下がっています`;
+    }
+    return `${names[0]}が薦める本、価格が下がっています`;
+  }
+  if (names.length === 1) {
+    return `${names[0]}も薦める本、価格が下がっています`;
+  }
+  if (names.length === 2) {
+    return `${names[0]}、${names[1]}も薦める本、価格が下がっています`;
+  }
+  return `${names[0]}、${names[1]}ほかが薦める本、価格が下がっています`;
+}
 
 export function OnSalePicks({ entries }: { entries: Entry[] }) {
   const picks = entries.filter((entry) => entry.onSale);
@@ -11,7 +39,7 @@ export function OnSalePicks({ entries }: { entries: Entry[] }) {
         今、セール中の推薦本
       </p>
       <h2 className="mt-2 font-serif text-2xl font-bold leading-tight text-[#000000]">
-        価格が下がっていて、なおかつ著名人が薦めている本
+        {buildHeadline(picks)}
       </h2>
       <div className="mt-6 divide-y divide-[#000000]/10">
         {picks.map((entry) => (
