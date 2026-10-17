@@ -48,7 +48,9 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
     <div>
       <div className="mb-6 flex flex-wrap items-center gap-2">
         <button
+          type="button"
           onClick={() => setActiveGenre(null)}
+          aria-pressed={activeGenre === null}
           className={
             activeGenre === null
               ? "border border-[#000000] bg-[#000000] px-3 py-1.5 text-xs font-medium text-[#ffffff]"
@@ -59,8 +61,10 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
         </button>
         {genres.map((genre) => (
           <button
+            type="button"
             key={genre}
             onClick={() => setActiveGenre(genre)}
+            aria-pressed={activeGenre === genre}
             className={
               activeGenre === genre
                 ? "border border-[#000000] bg-[#000000] px-3 py-1.5 text-xs font-medium text-[#ffffff]"
@@ -75,7 +79,9 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
       <div className="mb-6 flex items-center justify-between">
         <span className="text-xs text-[#000000]/60">{filtered.length}件</span>
         <button
+          type="button"
           onClick={() => setSortByEnding((v) => !v)}
+          aria-pressed={sortByEnding}
           className={
             sortByEnding
               ? "border border-[#b5402b] bg-[#b5402b] px-3 py-1.5 text-xs font-medium text-white"
@@ -104,7 +110,7 @@ export function SaleListView({ items }: { items: SaleListItem[] }) {
                   {item.title}
                 </a>
                 {item.author && (
-                  <span className="ml-2 text-xs text-[#000000]/50">
+                  <span className="ml-2 text-xs text-[#000000]/60">
                     {item.author}
                   </span>
                 )}
