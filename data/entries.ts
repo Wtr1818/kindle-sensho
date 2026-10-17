@@ -7201,4 +7201,145 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-10-13",
   },
+  {
+    slug: "jane-eyre-del-toro",
+    title: "ジェーン・エア　完全版",
+    author: "シャーロット・ブロンテ（十一谷義三郎 訳）",
+    asin: "B0BPXQT2SJ",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "古典",
+    hook: "映画監督ギレルモ・デル・トロが「文学史上最も好きな場面」をそのまま自作に引用したゴシック文学の原点",
+    whyRead:
+      "孤児として育った主人公ジェーンが、苦難を乗り越えながら自らの意志と尊厳を貫いていく姿を描く英文学の金字塔。抑圧と孤独のなかで育まれる強い自我という、ゴシックロマンスの深層を見せる一冊。",
+    recommenderStory:
+      "映画監督ギレルモ・デル・トロは、Rookie誌のゴシックロマンス特集エッセイで、本作に「文学史上最も好きな場面の一つ」が含まれていると明かし、その台詞を自作映画『クリムゾン・ピーク』でほぼそのまま引用したと告白している。",
+    detailedStory:
+      "デル・トロが挙げたのは、ロチェスターがジェーンに語りかける「絆の言葉（a cord of communion）」の場面だという。少年時代にこの世界に恋をしたと振り返る彼は、怪奇と幻想を主題にする作家として、ゴシック文学の古典にあたる本作から強い影響を受けてきた。実際、2015年の自作映画『クリムゾン・ピーク』では、この印象的な台詞をほぼそのまま脚本に取り込んでおり、19世紀の英文学の一節が、21世紀のゴシックホラー映画の核心的な台詞として生き続けていることになる。孤児として育ち、抑圧のなかで自らの意志を貫くジェーンという人物像は、怪物や異形の存在を通じて孤独や疎外を描き続けてきたデル・トロの作風とも深く響き合っている。",
+    recommenderName: "ギレルモ・デル・トロ（映画監督、メキシコ）",
+    recommenderTag: "映画監督・俳優",
+    sourceLabel:
+      "Rookie誌「Guillermo del Toro's Guide to Gothic Romance」で本人執筆",
+    sourceUrl:
+      "https://www.rookiemag.com/2015/10/guillermo-del-toros-guide-gothic-romance/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
+  {
+    slug: "psychology-of-money-gayner",
+    title: "サイコロジー・オブ・マネー　一生お金に困らない「富」のマインドセット",
+    author: "モーガン・ハウセル（児島修 訳）",
+    asin: "B09HQNXPT3",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "伝説の価値投資家が著者を「知る中で最も年を取った38歳」と評し、自社の取締役会に招いた一冊",
+    whyRead:
+      "お金にまつわる判断を誤らせるのは知識不足ではなく心理の癖であると、19の逸話を通じて説くベストセラー。資産形成のテクニックではなく、お金と長く付き合うための考え方そのものを変える一冊。",
+    recommenderStory:
+      "Markel Group共同CEO・CIOのトム・ガイナーは、著者モーガン・ハウセルと出会った際の洞察に感銘を受け、「自分が知る中で最も年を取った38歳」と評した。その後ハウセルをMarkelの取締役会に招くまでに至っている。",
+    detailedStory:
+      "ガイナーがハウセルと知り合ったのは本書の刊行前後の時期で、投資やお金についての会話を重ねるうち、その年齢に見合わないほど成熟した洞察に驚かされたという。「自分が知る中で最も年を取った38歳だ」というガイナーの評は、本書が投資テクニックではなく人間心理という普遍的なテーマを扱っていることとも重なる。ガイナー自身、ポッドキャスト「Masters in Business」の書き起こしで、本書について「10歳以上なら誰でもその意味がわかる」と語り、専門知識の有無にかかわらず誰の人生にも関わる射程の広さを評価した。この評価に留まらず、ガイナーは後にハウセルをMarkelの取締役会のメンバーとして招聘するに至り、一冊の本をめぐる出会いが実際の経営の意思決定にまでつながった、稀有な例となっている。",
+    recommenderName: "トム・ガイナー（Markel Group共同CEO・CIO、米国）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "Ritholtz Wealth Management Podcast「Transcript: Thomas Gayner」で発言",
+    sourceUrl: "https://ritholtz.com/2021/11/transcript-thomas-gayner/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
+  {
+    slug: "one-hundred-years-of-solitude-whitehead",
+    title: "One Hundred Years of Solitude（英語版）",
+    author: "Gabriel García Márquez（Gregory Rabassa 訳）",
+    asin: "B00HVPSXNS",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "ピュリッツァー賞作家コルソン・ホワイトヘッドが「25年ぶりの再読」で見出した、自作のヒントになった魔術的リアリズムの頂点",
+    whyRead:
+      "ブエンディア一族七世代の歴史と、彼らが築いた町マコンドの興亡を描くマジックリアリズムの代表作。現実と幻想が溶け合う語りは、ノーベル文学賞作家ガブリエル・ガルシア＝マルケスの代表作として世界中で読み継がれている。",
+    recommenderStory:
+      "小説家コルソン・ホワイトヘッドは、CBCの読書リストの企画で本作を「おそらく自分の一番好きな小説」と評し、「25年ぶりに読み返して、その輝くような力に驚かされた」と語った。",
+    detailedStory:
+      "ホワイトヘッドが本作に最初に触れたのは学生時代だったとみられるが、四半世紀を経て読み返した体験が、彼にとって特別な意味を持つものになったという。「25年ぶりに読み返して、その輝くような力に驚かされた」というこの再読体験は、単なる懐かしさにとどまらず、自作『地下鉄道』でファンタジー的な要素をどのように用いるかを再考するきっかけになったとホワイトヘッド自身が語っている。奴隷制という重いテーマを寓話的な想像力で描いた『地下鉄道』でピュリッツァー賞を受賞した作家が、同じく現実と幻想を溶け合わせる手法で一族の興亡を描いた本作から、技法上のヒントを得ていたという事実は、マジックリアリズムという手法が世代を超えて作家たちに影響を与え続けていることを物語っている。",
+    recommenderName: "コルソン・ホワイトヘッド（小説家・ピューリッツァー賞受賞、米国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel: "CBC Books読書リスト企画で発言（RadicalReads経由で確認）",
+    sourceUrl: "https://radicalreads.com/colson-whitehead-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
+  {
+    slug: "fear-and-loathing-in-las-vegas-bourdain",
+    title: "Fear and Loathing in Las Vegas（英語版）",
+    author: "Hunter S. Thompson",
+    asin: "B00NKY0TNG",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "シェフ・作家アンソニー・ボーデインが「おそらく他のどの本よりも自分に影響を与えた」と語る、ゴンゾー・ジャーナリズムの原点",
+    whyRead:
+      "ラスベガスを舞台に、薬物と幻覚に満ちた取材旅行を通してアメリカン・ドリームの崩壊を活写する、ニュー・ジャーナリズムの代表作。事実と創作の境界を揺るがす「ゴンゾー・ジャーナリズム」という手法を確立した一冊。",
+    recommenderStory:
+      "シェフであり作家でもあったアンソニー・ボーデインは、自分の文体に最も影響を与えた一冊として本作を挙げ、「おそらく他のどの本よりも自分に影響を与えた本だ」と明言した。著者ハンター・S・トンプソンを比類ない「プロゼ・スタイリスト」と評している。",
+    detailedStory:
+      "料理人としての名声を確立する前、ボーデインは放浪と薬物に彩られたキッチンでの日々を送っていた時期があり、その生々しい自己開示の文体は、本作をはじめとするトンプソンのゴンゾー・ジャーナリズムと響き合うものがある。ボーデイン自身、トンプソンを「比類ないプロゼ・スタイリスト」と呼び、「おそらく他のどの本よりも自分に影響を与えた本だ」と率直に認めている。事実をそのまま報じるのではなく、取材者自身の感覚や幻覚までも文章に織り込んでいくトンプソンの手法は、後にボーデインが『キッチン・コンフィデンシャル』などの著作で確立した、一人称の生々しい語り口の下地になったと考えられる。料理業界の裏側を赤裸々に描いたボーデインの筆致のルーツを、ラスベガスの薬物まみれの取材旅行を描いた本作に見出すことができる。",
+    recommenderName: "アンソニー・ボーデイン（シェフ・作家、米国）",
+    recommenderTag: "料理人",
+    sourceLabel: "The New York Timesインタビューで発言（RadicalReads経由で確認）",
+    sourceUrl: "https://radicalreads.com/anthony-bourdain-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
+  {
+    slug: "pnin-zadie-smith",
+    title: "Pnin（Vintage International、英語版）",
+    author: "Vladimir Nabokov",
+    asin: "B004KABEQU",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "小説家ゼイディー・スミスが「これが自分の一番好きな小説だと思う」と明言したナボコフの隠れた傑作",
+    whyRead:
+      "ロシアから米国の大学に渡った中年教授プニンの、滑稽で哀しい日常を描く長編小説。笑いから始まり、いつしか読者自身の心情を揺さぶる構成の巧みさで知られる、ナボコフ作品の中でも屈指の人間描写が光る一冊。",
+    recommenderStory:
+      "小説家ゼイディー・スミスは、2016年のThe New York Times「By the Book」インタビューで、「これが自分の一番好きな小説だと思う」と本作を名指しした。",
+    detailedStory:
+      "スミスが本作を評価する理由は、その語りの構造の巧みさにある。読者はまず主人公プニンの滑稽な失敗や奇妙な振る舞いに笑わされるが、物語が進むにつれて、彼の孤独や尊厳の深さに気づかされ、最終的には自分がその人物を笑っていたことそのものを恥じ入るような感覚に導かれていく。スミス自身、この構成を「読者に主人公を笑わせてから彼の人間性に気づかせ、読者自身を恥じ入らせる」巧みさとして絶賛している。移民としてのアイデンティティや、言語の壁を越えて人と向き合うことの難しさを題材にした作家であるスミス自身の作風とも、プニンという「異邦人」を描くナボコフの筆致は深く通じ合うものがある。",
+    recommenderName: "ゼイディー・スミス（小説家、英国）",
+    recommenderTag: "文学・小説家",
+    sourceLabel:
+      "The New York Times「By the Book」インタビュー（2016年、RadicalReads経由で確認）",
+    sourceUrl: "https://radicalreads.com/zadie-smith-favorite-books/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
+  {
+    slug: "security-analysis-watsa",
+    title: "証券分析",
+    author: "ベンジャミン・グレアム, デビッド・L・ドッド",
+    asin: "B00FRZ6RM8",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ビジネス・経済",
+    hook: "「カナダのウォーレン・バフェット」が、上司に手渡された一冊との出会いを「回心の瞬間」と呼んだ、バリュー投資の原典",
+    whyRead:
+      "1934年の初版刊行以来90年以上読み継がれ、今も投資家たちの「バイブル」と呼ばれるバリュー投資の原典。割安な株式・債券を見抜く分析手法を体系化し、ウォーレン・バフェットをはじめ数世代の投資家に影響を与えてきた不朽の名著。",
+    recommenderStory:
+      "Fairfax Financial Holdings創業者・CEOのプレム・ワトサは、1974年に最初の職場で上司から本書を手渡された経験を「ダマスカスへの道（回心の瞬間）」と呼び、バリュー投資家としての自身の原点になったと語っている。",
+    detailedStory:
+      "インドからカナダに渡ったばかりだったワトサが、保険会社Confederation Lifeの調査部門で働き始めたのは1974年のことだった。そこで上司のジョン・ワトソンから本書を手渡されたことを、ワトサは後年「ダマスカスへの道」という言葉で振り返っている。これは新約聖書でパウロが回心した逸話にちなんだ表現で、それまでの投資観が一冊の本によって根本から覆されたことを物語る比喩だ。本書が説く「企業の内在的価値に対して割安な価格で株式・債券を買う」という原則は、その後ワトサが築き上げたFairfaxの投資哲学の土台となり、彼はやがて「カナダのウォーレン・バフェット」と呼ばれるまでの存在になった。1934年の初版刊行から90年以上を経てなお、一人の移民青年の人生を変えるだけの力を持ち続けている一冊だということがうかがえる。",
+    recommenderName: "Prem Watsa（Fairfax Financial Holdings創業者・CEO、カナダ／インド出身）",
+    recommenderTag: "経営者・起業家",
+    sourceLabel: "GuruFocus記事で紹介",
+    sourceUrl: "https://www.gurufocus.com/news/146832/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-17",
+  },
 ];
