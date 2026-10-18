@@ -15,8 +15,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { genre: rawGenre } = await params;
   const genre = decodeURIComponent(rawGenre);
-  const title = `${genre}のおすすめ本まとめ`;
-  const description = `著名人が薦めた${genre}のジャンルの本を、出典付きでまとめました。`;
+  const title =
+    genre === "伝記"
+      ? "伝記・自伝のおすすめ本まとめ｜著名人が選んだ人生を変えた一冊"
+      : `${genre}のおすすめ本まとめ`;
+  const description =
+    genre === "伝記"
+      ? "著名人が薦めた伝記・自伝のジャンルの本を、出典付きでまとめました。"
+      : `著名人が薦めた${genre}のジャンルの本を、出典付きでまとめました。`;
   return {
     title,
     description,
