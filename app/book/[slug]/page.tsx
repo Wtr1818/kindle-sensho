@@ -69,6 +69,18 @@ export default async function BookPage({
     (e) => e.slug !== entry.slug && !sameRecommender.includes(e),
   );
 
+  const recommenderDisplay = shortName(recommenderNames[0]);
+  const faqItems = [
+    {
+      question: `『${entry.title}』を推薦しているのは誰？`,
+      answer: `${entry.recommenderName}が推薦しています。${entry.hook}`,
+    },
+    {
+      question: `${recommenderDisplay}はなぜ『${entry.title}』を薦めているのですか？`,
+      answer: entry.recommenderStory,
+    },
+  ];
+
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -101,6 +113,15 @@ export default async function BookPage({
         },
       ],
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer },
+      })),
+    },
   ];
 
   return (
@@ -127,6 +148,23 @@ export default async function BookPage({
             </p>
           </section>
         )}
+        <section className="mt-8 border-t border-[#000000]/10 pt-8">
+          <h2 className="font-serif text-xl font-bold text-[#000000]">
+            よくある質問
+          </h2>
+          <dl className="mt-4 space-y-6">
+            {faqItems.map((item) => (
+              <div key={item.question}>
+                <dt className="text-sm font-bold text-[#000000]">
+                  Q. {item.question}
+                </dt>
+                <dd className="mt-2 text-sm leading-7 text-[#000000]/80">
+                  A. {item.answer}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
         <div className="mt-8 border-t border-[#000000]/10 pt-8">
           <ShareButtons
             url={`${BASE_URL}/book/${entry.slug}`}
