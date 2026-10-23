@@ -7459,4 +7459,50 @@ export const entries: Entry[] = [
     onSale: false,
     dateAdded: "2026-10-23",
   },
+  {
+    slug: "catalonia-sanka-chomsky",
+    title: "カタロニア讃歌（ちくま学芸文庫）",
+    author: "ジョージ・オーウェル（橋口稔 訳）",
+    asin: "B01N1PZQPT",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "ノンフィクション",
+    hook: "10代のチョムスキーのアナキズム的信念を「確信」させた、スペイン内戦の実録",
+    whyRead:
+      "スペイン内戦下のバルセロナで、オーウェル自身が義勇兵として参加した市民革命と、その後の弾圧を描いた実録文学。理想と幻滅の両方を正面から見つめた、ルポルタージュ文学の金字塔。",
+    recommenderStory:
+      "ノーム・チョムスキーは公認伝記『Noam Chomsky: A Life of Dissent』収録のインタビューで、10代後半に本書を読み「素晴らしい」と感じたと振り返っている。スペイン内戦について既に抱いていた信念を本書が「確信させた」とし、後年の政治的方向性を決定づけたと証言した。",
+    detailedStory:
+      "チョムスキーが本書に出会ったのは10代後半のことだった。オーウェルが実際に義勇兵としてスペイン内戦に参加し、バルセロナでの労働者による自発的な革命とその後の弾圧を自らの目で見た記録である本書を読み、「outstanding（素晴らしい）」と強く心を動かされたという。当時すでに抱いていたスペイン内戦に関する信念を、本書が「確信させた」とチョムスキーは振り返る。この読書体験は、後年チョムスキーが知られることになるアナキズム的左派リバタリアニズムという政治的立場への方向性を決定づけた一冊として、公認伝記『Noam Chomsky: A Life of Dissent』に収録されたインタビューで詳しく語られている。",
+    recommenderName: "ノーム・チョムスキー（マサチューセッツ工科大学名誉教授・言語学者、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel: "公認伝記『Noam Chomsky: A Life of Dissent』収録インタビュー（MIT Press Reader記事で引用紹介）",
+    sourceUrl: "https://thereader.mitpress.mit.edu/how-george-orwell-paved-noam-chomskys-path-to-anarchism/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-23",
+  },
+  {
+    slug: "wakakusa-monogatari-chua",
+    title: "若草物語（角川文庫）",
+    author: "L・M・オルコット（吉田勝江 訳）",
+    asin: "B009GPM940",
+    platform: "Kindle",
+    contentType: "本",
+    genre: "小説",
+    hook: "娘と同じ名前の主人公に、自分の子育てを重ねたイェール教授",
+    whyRead:
+      "南北戦争下のアメリカを舞台に、マーチ家の四姉妹の成長を描く不朽の名作。家族の絆と、それぞれが自分らしく生きる道を探す姿が時代を超えて愛されている。",
+    recommenderStory:
+      "イェール・ロースクール教授のエイミー・チュアはFive Booksのインタビューで、本書の母親役「マーミー」に「本当に共感する」と語っている。家庭内での創造的な遊びを重視する描写が「まさに自分の家庭の様子そのもの」だとし、実際に娘ルイーザ（著者と同名）に自身の若い頃の欠点を語るなど、子育てに直接反映してきたと明かした。",
+    detailedStory:
+      "チュアが本書について語ったのは、Five Books「The Best Being a Mother Books」のインタビューでのことだった。彼女は主人公マーチ家の母親「マーミー」というキャラクターに「本当に共感する」と述べ、家庭内で創造的な遊びや物語づくりを重視する描写について「まさに自分の家庭の様子そのもの」だと語っている。興味深いのは、チュア自身の娘の一人が著者ルイーザ・メイ・オルコットと同じ「ルイーザ」という名前を持つことだ。チュアはこの偶然の一致にも触れながら、娘に自分自身の若い頃の欠点を率直に語り聞かせるなど、本書に描かれた家族の在り方を自らの子育てのスタイルに重ね合わせてきたと明かしている。",
+    recommenderName: "エイミー・チュア（イェール・ロースクール教授、米国）",
+    recommenderTag: "著名教授・研究者",
+    sourceLabel: "Five Books「The Best Being a Mother Books」インタビューで本人が発言",
+    sourceUrl: "https://fivebooks.com/best-books/amy-chua-on-being-a-mother/",
+    status: "active",
+    onSale: false,
+    dateAdded: "2026-10-23",
+  },
 ];
