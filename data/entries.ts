@@ -7150,8 +7150,7 @@ export const entries: Entry[] = [
     sourceLabel: "The Hollywood Reporter「White Noise Director Noah Baumbach on Returning to a Favorite Book From His Youth」",
     sourceUrl: "https://www.hollywoodreporter.com/movies/movie-features/white-noise-noah-baumbach-interview-don-delillo-1235297480/",
     status: "active",
-    onSale: true,
-    saleName: "Kindle期間限定セール（Deal表示、55%オフ）",
+    onSale: false,
     dateAdded: "2026-10-13",
   },
   {
