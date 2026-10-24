@@ -62,7 +62,7 @@ export function LibraryView({ entries }: { entries: Entry[] }) {
       </div>
 
       <div className="mb-6 flex items-center justify-between border-t border-[#000000]/10 pt-6">
-        <p className="text-xs font-medium tracking-[0.2em] text-[#000000]/60">
+        <p className="text-xs font-medium text-[#000000]/60">
           {filtered.length}件
         </p>
         <button

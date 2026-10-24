@@ -94,7 +94,7 @@ export default async function RecommenderPage({
             ← 読み窓91のライブラリへ
           </Link>
           <h1 className="mt-4 font-serif text-4xl font-bold tracking-tight text-[#000000]">
-            {name}のおすすめ本・推薦本
+            {display}のおすすめ本・推薦本
           </h1>
           <p className="mt-3 font-serif text-[15px] leading-8 text-[#000000]/70">
             {name}が実際に推薦・おすすめした本を、出典付きでまとめています。
