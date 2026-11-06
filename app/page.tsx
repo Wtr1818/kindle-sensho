@@ -26,31 +26,31 @@ export default function Home() {
             <nav className="flex flex-wrap gap-4 text-sm text-[#000000]/60">
               <Link
                 href="/today-sale"
-                className="underline-offset-4 hover:text-[#000000] hover:underline"
+                className="-mx-1 -my-1.5 px-1 py-1.5 underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 本日のセール
               </Link>
               <Link
                 href="/genre"
-                className="underline-offset-4 hover:text-[#000000] hover:underline"
+                className="-mx-1 -my-1.5 px-1 py-1.5 underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 ジャンル一覧
               </Link>
               <Link
                 href="/recommender"
-                className="underline-offset-4 hover:text-[#000000] hover:underline"
+                className="-mx-1 -my-1.5 px-1 py-1.5 underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 推薦者一覧
               </Link>
               <Link
                 href="/archive"
-                className="underline-offset-4 hover:text-[#000000] hover:underline"
+                className="-mx-1 -my-1.5 px-1 py-1.5 underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 アーカイブ
               </Link>
               <Link
                 href="/favorites"
-                className="underline-offset-4 hover:text-[#000000] hover:underline"
+                className="-mx-1 -my-1.5 px-1 py-1.5 underline-offset-4 hover:text-[#000000] hover:underline"
               >
                 お気に入り
               </Link>

@@ -5,6 +5,7 @@ import {
   getRecommenderNames,
   shortName,
 } from "@/data/recommenders";
+import { RecommenderListView } from "@/components/RecommenderListView";
 
 const BASE_URL = "https://yomimado91.com";
 
@@ -46,23 +47,7 @@ export default function RecommenderIndexPage() {
         </div>
       </header>
       <main className="mx-auto max-w-3xl px-6 py-14">
-        <ul className="divide-y divide-[#000000]/10">
-          {recommenders.map((recommender) => (
-            <li key={recommender.name}>
-              <Link
-                href={`/recommender/${encodeURIComponent(recommender.name)}`}
-                className="flex items-center justify-between py-4 text-[#000000] hover:underline"
-              >
-                <span className="font-serif text-lg">
-                  {shortName(recommender.name)}
-                </span>
-                <span className="text-xs text-[#000000]/60">
-                  {recommender.count}件
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <RecommenderListView recommenders={recommenders} />
       </main>
     </div>
   );
